@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "markets": "Markets",
+    "quality": "Quality",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get Quote"
+  }
+}

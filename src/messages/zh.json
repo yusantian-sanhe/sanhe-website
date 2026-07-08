@@ -1,0 +1,158 @@
+{
+  "navigation": {
+    "home": "首页",
+    "products": "产品",
+    "markets": "市场",
+    "quality": "质量",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "quote": "获取报价"
+  },
+  "hero": {
+    "badge": "值得信赖的农产品出口伙伴",
+    "titleLine1": "稳定可靠的农产品供应",
+    "titleLine2": "服务全球市场",
+    "description": "我们为进口商、批发商和食品加工企业提供精选农产品、出口包装和可靠的国际物流支持。",
+    "viewProducts": "查看产品",
+    "contactSales": "联系我们"
+  },
+  "featuredProducts": {
+    "eyebrow": "我们的产品",
+    "title": "适合出口的优质农产品",
+    "description": "我们为全球进口商、批发商、食品加工企业和经销商供应精选农产品。",
+    "learnMore": "了解更多",
+    "items": {
+      "beans": {
+        "name": "豆类",
+        "description": "为全球食品加工商和经销商精选的优质豆类产品。"
+      },
+      "seeds": {
+        "name": "种子",
+        "description": "品质稳定、包装适合出口的可靠种子产品。"
+      },
+      "spices": {
+        "name": "香辛料",
+        "description": "适用于批发、零售和餐饮市场的天然香辛料。"
+      }
+    }
+  },
+  "whyChooseUs": {
+    "eyebrow": "为什么选择我们",
+    "title": "为可靠的国际贸易而建立",
+    "description": "我们整合产品采购、质量控制、出口包装和物流协调，帮助采购商降低风险并建立长期稳定的供应关系。",
+    "items": {
+      "quality": {
+        "title": "严格质量控制",
+        "description": "产品按照采购规格和出口要求进行筛选、检验和准备。"
+      },
+      "supply": {
+        "title": "稳定供应网络",
+        "description": "我们与可靠的生产和加工伙伴合作，支持季节性和常规稳定供应。"
+      },
+      "logistics": {
+        "title": "出口物流支持",
+        "description": "从包装、单证到运输协调，我们帮助客户更顺利地完成国际贸易。"
+      }
+    }
+  },
+  "exportMarkets": {
+    "eyebrow": "出口市场",
+    "title": "向全球采购商供应农产品",
+    "description": "我们为主要进口市场客户提供灵活供应、出口单证和物流协调服务，支持国际农产品贸易。",
+    "regions": {
+      "middleEast": {
+        "title": "中东市场",
+        "countries": "阿联酋、沙特阿拉伯、卡塔尔、科威特及周边市场"
+      },
+      "europe": {
+        "title": "欧洲市场",
+        "countries": "德国、法国、西班牙、意大利及其他欧洲进口市场"
+      },
+      "asia": {
+        "title": "亚洲市场",
+        "countries": "中国、东南亚、日本、韩国及区域经销商"
+      },
+      "africa": {
+        "title": "非洲市场",
+        "countries": "北非、西非及重点食品进口市场"
+      },
+      "americas": {
+        "title": "美洲市场",
+        "countries": "美国、加拿大、拉丁美洲及批发渠道"
+      }
+    }
+  },
+  "certificates": {
+    "eyebrow": "质量与合规",
+    "title": "认证与出口标准",
+    "description": "我们通过重视质量的采购、出口单证和合规导向的生产伙伴，为国际采购商提供支持。",
+    "items": {
+      "iso": "ISO 标准",
+      "haccp": "HACCP 体系",
+      "halal": "可提供清真认证",
+      "organic": "可提供有机选项"
+    }
+  },
+  "statistics": {
+    "items": {
+      "years": {
+        "value": "10+",
+        "label": "出口经验"
+      },
+      "markets": {
+        "value": "30+",
+        "label": "服务进口市场"
+      },
+      "shipments": {
+        "value": "1,000+",
+        "label": "出口批次"
+      },
+      "partners": {
+        "value": "200+",
+        "label": "合作伙伴"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "客户反馈",
+    "title": "受到进口商和经销商信赖",
+    "description": "我们重视长期合作、稳定品质和高效的出口服务。",
+    "items": {
+      "importer": {
+        "name": "食品进口商",
+        "company": "中东市场",
+        "content": "团队沟通稳定，单证可靠，产品质量一致，对我们的进口业务很有帮助。"
+      },
+      "distributor": {
+        "name": "批发经销商",
+        "company": "欧洲市场",
+        "content": "他们的包装和出口协调能力，让我们的重复采购和渠道分销更加顺畅。"
+      },
+      "processor": {
+        "name": "食品加工企业",
+        "company": "亚洲市场",
+        "content": "我们很认可他们的产品筛选和质量控制支持，这有助于我们保持稳定生产。"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "开始合作",
+    "title": "准备采购农产品了吗？",
+    "description": "无论您是进口商、批发商还是食品加工企业，我们都可以为您的业务提供可靠产品和专业出口服务。",
+    "contact": "联系我们",
+    "products": "查看产品"
+  },
+  "productDetail": {
+    "back": "返回产品列表",
+    "overview": "产品概览",
+    "exportInfo": "出口信息",
+    "specifications": "产品规格",
+    "packaging": "包装",
+    "moq": "最小起订量",
+    "supplyAbility": "供应能力",
+    "loadingCapacity": "装柜量",
+    "interested": "对该产品感兴趣？",
+    "contact": "联系我们的出口团队，24 小时内获取报价。",
+    "quote": "申请报价"
+  }
+}

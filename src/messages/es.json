@@ -1,0 +1,138 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "products": "Productos",
+    "markets": "Mercados",
+    "quality": "Calidad",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "Solicitar Cotización"
+  },
+  "hero": {
+    "badge": "Socio confiable de exportación agrícola",
+    "titleLine1": "Suministro agrícola confiable",
+    "titleLine2": "Para mercados globales",
+    "description": "Apoyamos a importadores, mayoristas y fabricantes de alimentos con productos agrícolas seleccionados, empaque listo para exportación y logística confiable.",
+    "viewProducts": "Ver Productos",
+    "contactSales": "Contactar"
+  },
+  "featuredProducts": {
+    "eyebrow": "Nuestros Productos",
+    "title": "Productos Agrícolas Listos para Exportar",
+    "description": "Suministramos productos agrícolas seleccionados para importadores, mayoristas, procesadores de alimentos y distribuidores en todo el mundo.",
+    "learnMore": "Más Información",
+    "items": {
+      "beans": {
+        "name": "Frijoles",
+        "description": "Frijoles premium seleccionados para procesadores de alimentos y distribuidores globales."
+      },
+      "seeds": {
+        "name": "Semillas",
+        "description": "Productos de semillas confiables con calidad estable y empaque listo para exportación."
+      },
+      "spices": {
+        "name": "Especias",
+        "description": "Especias naturales preparadas para mercados mayoristas, minoristas y de servicios alimentarios."
+      }
+    }
+  },
+  "whyChooseUs": {
+    "eyebrow": "Por qué elegirnos",
+    "title": "Diseñado para un comercio internacional confiable",
+    "description": "Combinamos abastecimiento de productos, control de calidad, empaque de exportación y coordinación logística para ayudar a los compradores a reducir riesgos y construir relaciones de suministro a largo plazo.",
+    "items": {
+      "quality": {
+        "title": "Control de calidad estricto",
+        "description": "Los productos se seleccionan, revisan y preparan según las especificaciones del comprador y los requisitos de exportación."
+      },
+      "supply": {
+        "title": "Red de suministro estable",
+        "description": "Trabajamos con socios confiables de producción y procesamiento para apoyar un suministro constante, estacional y regular."
+      },
+      "logistics": {
+        "title": "Soporte logístico de exportación",
+        "description": "Desde el empaque hasta la documentación y la coordinación del envío, ayudamos a que el comercio internacional sea más fluido."
+      }
+    }
+  },
+  "exportMarkets": {
+    "eyebrow": "Mercados de Exportación",
+    "title": "Suministrando productos agrícolas a compradores globales",
+    "description": "Apoyamos a clientes en mercados clave de importación con suministro flexible, documentación de exportación y coordinación logística.",
+    "regions": {
+      "middleEast": {
+        "title": "Medio Oriente",
+        "countries": "EAU, Arabia Saudita, Catar, Kuwait y mercados cercanos"
+      },
+      "europe": {
+        "title": "Europa",
+        "countries": "Alemania, Francia, España, Italia y otros mercados europeos de importación"
+      },
+      "asia": {
+        "title": "Asia",
+        "countries": "China, Sudeste Asiático, Japón, Corea y distribuidores regionales"
+      },
+      "africa": {
+        "title": "África",
+        "countries": "Norte de África, África Occidental y mercados seleccionados de importación de alimentos"
+      },
+      "americas": {
+        "title": "Américas",
+        "countries": "Estados Unidos, Canadá, América Latina y canales mayoristas"
+      }
+    }
+  },
+  "certificates": {
+    "eyebrow": "Calidad y Cumplimiento",
+    "title": "Certificados y Estándares de Exportación",
+    "description": "Apoyamos a compradores internacionales con abastecimiento enfocado en calidad, documentación de exportación y socios de producción orientados al cumplimiento.",
+    "items": {
+      "iso": "Normas ISO",
+      "haccp": "Sistema HACCP",
+      "halal": "Halal Disponible",
+      "organic": "Opciones Orgánicas"
+    }
+  },
+  "statistics": {
+    "items": {
+      "years": {
+        "value": "10+",
+        "label": "Años de experiencia exportadora"
+      },
+      "markets": {
+        "value": "30+",
+        "label": "Mercados atendidos"
+      },
+      "shipments": {
+        "value": "1,000+",
+        "label": "Envíos de exportación"
+      },
+      "partners": {
+        "value": "200+",
+        "label": "Socios comerciales"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Opiniones de compradores",
+    "title": "Confiado por importadores y distribuidores",
+    "description": "Nos enfocamos en cooperación a largo plazo, calidad estable y servicio de exportación ágil.",
+    "items": {
+      "importer": {
+        "name": "Importador de alimentos",
+        "company": "Mercado de Medio Oriente",
+        "content": "El equipo ofrece comunicación estable, documentos confiables y calidad constante para nuestro negocio de importación."
+      },
+      "distributor": {
+        "name": "Distribuidor mayorista",
+        "company": "Mercado europeo",
+        "content": "Su empaque y coordinación de exportación facilitan los envíos repetidos para nuestros canales de distribución."
+      },
+      "processor": {
+        "name": "Procesador de alimentos",
+        "company": "Mercado asiático",
+        "content": "Valoramos su selección de productos y soporte de control de calidad. Nos ayuda a mantener una producción estable."
+      }
+    }
+  }
+}
