@@ -15,7 +15,7 @@ export function ProductAdvantages({ advantages }: ProductAdvantagesProps) {
           align="center"
           eyebrow="Product Advantages"
           title="Why This Product Works for Global Buyers"
-          description="Each product is supported by Harvest's controlled supply chain, export experience and customer-focused service."
+          description="Each product is supported by SanHe's controlled supply chain, export experience and customer-focused service."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

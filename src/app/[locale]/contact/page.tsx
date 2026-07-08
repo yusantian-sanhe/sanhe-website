@@ -44,7 +44,7 @@ export default function ContactPage() {
 
               <Card className="bg-green-50">
   <h3 className="text-2xl font-bold">
-    Why Global Buyers Choose Harvest
+    Why Global Buyers Choose SanHe
   </h3>
 
   <ul className="mt-6 space-y-4 text-gray-700">

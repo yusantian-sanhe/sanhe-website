@@ -35,7 +35,7 @@ export function Certificates() {
           align="center"
           eyebrow="Quality & Certifications"
           title="Building Trust Through Quality Control"
-          description="Harvest supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection."
+          description="SanHe supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

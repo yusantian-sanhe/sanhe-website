@@ -9,13 +9,13 @@ export const COMPANY = {
 
   whatsapp: "+86 1800 536 5696",
 
-  linkedin: "https://linkedin.com/company/harvest",
+  linkedin: "https://linkedin.com/company/sanhefood",
 
-  website: "https://harvest.com",
+  website: "https://sanhefood.com.cn",
 
   address: "Anqiu, Shandong, China",
 
-  copyright: "© 2026 Harvest. All rights reserved.",
+  copyright: "© 2026 SanHe. All rights reserved.",
 
   responseTime: "Within 24 Business Hours",
 } as const;

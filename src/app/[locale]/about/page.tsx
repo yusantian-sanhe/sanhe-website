@@ -18,7 +18,7 @@ export default function AboutPage() {
         <Container>
           <Heading
             align="center"
-            eyebrow="About Harvest"
+            eyebrow="About SanHe"
             title="Trusted Agricultural Export Partner"
             description="We support global buyers with selected agricultural products, stable supply chains and professional export service."
             className="text-white"
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <Heading
                 eyebrow="Who We Are"
                 title="Building Reliable Global Supply Relationships"
-                description="Harvest works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide."
+                description="SanHe works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide."
               />
 
               <p className="mt-6 leading-8 text-gray-600">

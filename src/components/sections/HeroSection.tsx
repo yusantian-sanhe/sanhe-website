@@ -46,7 +46,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-600">
-              Harvest is a China-based supplier of fresh vegetables, fresh
+              SanHe is a China-based supplier of fresh vegetables, fresh
               fruits, frozen foods and prepared food solutions. Backed by
               self-owned planting bases, factory-direct processing, self-owned
               cold chain warehousing and full product traceability, we provide

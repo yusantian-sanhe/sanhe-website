@@ -18,7 +18,7 @@ export function ProductSupplyCapability({
           align="center"
           eyebrow="Supply Capability"
           title="Reliable Supply for Global Buyers"
-          description="Harvest integrates planting, processing, cold chain warehousing and export service to support stable international supply."
+          description="SanHe integrates planting, processing, cold chain warehousing and export service to support stable international supply."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

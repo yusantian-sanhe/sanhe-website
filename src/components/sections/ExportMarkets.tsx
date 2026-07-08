@@ -51,7 +51,7 @@ export function ExportMarkets() {
           align="center"
           eyebrow="Global Markets"
           title="Serving Customers Across Global Markets"
-          description="Harvest supplies fresh vegetables, fresh fruits, frozen foods and prepared food solutions to importers, wholesalers, supermarkets and food manufacturers around the world."
+          description="SanHe supplies fresh vegetables, fresh fruits, frozen foods and prepared food solutions to importers, wholesalers, supermarkets and food manufacturers around the world."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -69,7 +69,7 @@ export function ExportMarkets() {
         </div>
 
         <p className="mx-auto mt-12 max-w-4xl text-center text-lg leading-8 text-gray-600">
-          With years of export experience, Harvest understands different market
+          With years of export experience, SanHe understands different market
           requirements, food safety standards, packaging specifications and
           logistics expectations, helping customers build long-term and reliable
           supply partnerships.

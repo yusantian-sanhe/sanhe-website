@@ -57,7 +57,7 @@ export function SupplyChainProcess() {
 
         <p className="mx-auto mt-12 max-w-3xl text-center text-lg leading-8 text-gray-600">
           By integrating planting, processing, cold storage and export
-          logistics, Harvest helps customers reduce supply risks and build
+          logistics, SanHe helps customers reduce supply risks and build
           long-term partnerships.
         </p>
       </Container>

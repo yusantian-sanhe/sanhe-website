@@ -39,9 +39,9 @@ export function WhyChooseUs() {
       <Container>
         <Heading
           align="center"
-          eyebrow="Why Harvest"
-          title="Why Global Buyers Choose Harvest"
-          description="Harvest combines planting, processing, cold chain management and international export experience to provide reliable agricultural supply chain solutions for customers worldwide."
+          eyebrow="Why SanHe"
+title="Why Global Buyers Choose SanHe"
+          description="SanHe combines planting, processing, cold chain management and international export experience to provide reliable agricultural supply chain solutions for customers worldwide."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

@@ -49,7 +49,7 @@ export function generatePageMetadata({
 export function generateProductMetadata(product: Product): Metadata {
   return generatePageMetadata({
     title: `${product.name} Supplier`,
-    description: `${product.description} Harvest Food Group supports global buyers with own planting bases, factory processing, cold chain warehousing, OEM and private label services.`,
+   description: `${product.description} SanHe supports global buyers with own planting bases, factory processing, cold chain warehousing, OEM and private label services.`,
     path: `/products/${product.categorySlug}/${product.slug}`,
     image: product.image,
   });

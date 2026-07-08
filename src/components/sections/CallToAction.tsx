@@ -16,7 +16,7 @@ export function CallToAction() {
             align="center"
             eyebrow="START COOPERATION"
             title="Ready to Build a Reliable Supply Chain?"
-            description="Harvest works with importers, wholesalers, supermarkets and food manufacturers worldwide. Contact our export team to discuss products, customized packaging, OEM production or long-term cooperation."
+            description="SanHe works with importers, wholesalers, supermarkets and food manufacturers worldwide. Contact our export team to discuss products, customized packaging, OEM production or long-term cooperation."
             className="text-white"
           />
 
