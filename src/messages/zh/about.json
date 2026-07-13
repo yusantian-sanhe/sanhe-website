@@ -1,0 +1,44 @@
+{
+  "about": {
+    "hero": {
+      "eyebrow": "关于 SanHe",
+      "title": "值得信赖的农产品出口伙伴",
+      "description": "我们为全球采购商提供精选农产品、稳定供应链和专业出口服务。"
+    },
+    "intro": {
+      "eyebrow": "我们是谁",
+      "title": "建立可靠的全球供应合作关系",
+      "description": "SanHe 与种植、生产和加工伙伴合作，为全球进口商、批发商、经销商和食品制造企业供应农产品。",
+      "content": "从产品筛选、质量检查，到出口包装和发货协调，我们专注于帮助采购商降低风险，建立长期稳定的采购合作关系。"
+    },
+    "strengths": {
+      "eyebrow": "我们的优势",
+      "title": "为什么采购商选择我们",
+      "description": "我们结合产品经验、供应商协调能力和出口服务，支持国际农产品贸易。",
+      "items": {
+        "sourcing": "可靠产品采购",
+        "packing": "出口级包装",
+        "quality": "质量控制支持",
+        "cooperation": "长期合作关系"
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "10+",
+        "label": "行业经验"
+      },
+      "markets": {
+        "value": "30+",
+        "label": "服务市场"
+      },
+      "shipments": {
+        "value": "1,000+",
+        "label": "出口批次"
+      },
+      "partners": {
+        "value": "200+",
+        "label": "合作伙伴"
+      }
+    }
+  }
+}

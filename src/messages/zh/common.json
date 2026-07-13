@@ -1,0 +1,202 @@
+{
+  "navigation": {
+    "home": "首页",
+    "products": "产品",
+    "markets": "市场",
+    "quality": "质量",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "quote": "获取报价"
+  },
+
+  "hero": {
+    "badge": "值得信赖的农产品出口伙伴",
+    "titleLine1": "稳定可靠的农产品供应",
+    "titleLine2": "服务全球市场",
+    "description": "我们为进口商、批发商和食品加工企业提供精选农产品、出口包装以及可靠的国际物流支持。",
+    "viewProducts": "查看产品",
+    "contactSales": "联系我们",
+    "supplyChainTitle": "一体化供应链",
+    "process": {
+      "planting": "种植基地",
+      "processing": "工厂加工",
+      "coldChain": "冷链仓储",
+      "export": "全球出口"
+    },
+    "trustItems": {
+      "planting": {
+        "title": "自有种植基地",
+        "description": "从源头管理可靠品质。"
+      },
+      "processing": {
+        "title": "工厂直接加工",
+        "description": "专业分级、加工和包装。"
+      },
+      "coldChain": {
+        "title": "自有冷链仓储",
+        "description": "保持产品新鲜度并支持高效出口物流。"
+      },
+      "traceability": {
+        "title": "完整产品追溯",
+        "description": "每批货物均可从种植到出口全程追溯。"
+      }
+    }
+  },
+
+
+  "supplyChain": {
+    "eyebrow": "供应链",
+    "title": "从种植基地到全球市场",
+    "description": "通过一体化供应链管理，实现稳定品质、可靠供应和全球交付。",
+    "steps": {
+      "planting": {
+        "title": "自有种植基地",
+        "description": "源头管理，保障稳定品质。"
+      },
+      "processing": {
+        "title": "工厂加工",
+        "description": "专业清洗、分级、加工和包装。"
+      },
+      "coldChain": {
+        "title": "冷链仓储",
+        "description": "温控储存保持产品新鲜。"
+      },
+      "inspection": {
+        "title": "质量检验与包装",
+        "description": "按照客户要求进行检验和包装。"
+      },
+      "export": {
+        "title": "全球出口",
+        "description": "可靠交付至全球市场。"
+      }
+    },
+    "closing": "通过整合种植、加工、冷链仓储和出口物流，SanHe帮助客户降低供应风险，建立长期合作关系。"
+  },
+
+  "whyChooseUs": {
+    "eyebrow": "为什么选择我们",
+    "title": "打造可靠的国际贸易合作",
+    "description": "我们结合产品采购、质量控制、出口包装和物流协调，为全球采购商提供稳定可靠的供应链服务。",
+    "items": {
+      "planting": {
+        "title": "自有种植基地",
+        "description": "核心产品来自管理型种植基地，保障稳定品质和可靠供应。"
+      },
+      "processing": {
+        "title": "工厂直接加工",
+        "description": "清洗、分级、加工和包装由生产设施统一管理。"
+      },
+      "coldChain": {
+        "title": "自有冷链仓储",
+        "description": "专业冷库保持产品新鲜，并支持出口物流。"
+      },
+      "traceability": {
+        "title": "完整产品追溯",
+        "description": "每批产品均可从种植、加工到出口追踪。"
+      },
+      "customPackaging": {
+        "title": "定制包装与OEM",
+        "description": "提供灵活包装、私人标签和OEM生产方案。"
+      },
+      "stableSupply": {
+        "title": "全年稳定供应",
+        "description": "一体化供应链帮助保持全年稳定供货。"
+      }
+    }
+  },
+
+  "exportMarkets": {
+    "eyebrow": "出口市场",
+    "title": "向全球采购商供应农产品",
+    "description": "我们为主要进口市场提供灵活供应、出口文件和物流协调服务。",
+    "regions": {
+      "middleEast": {
+        "title": "中东市场",
+        "countries": "阿联酋、沙特、卡塔尔、科威特及周边市场"
+      },
+      "europe": {
+        "title": "欧洲市场",
+        "countries": "德国、法国、西班牙、意大利及其他欧洲市场"
+      },
+      "asia": {
+        "title": "亚洲市场",
+        "countries": "中国、东南亚、日本、韩国及区域经销商"
+      },
+      "africa": {
+        "title": "非洲市场",
+        "countries": "北非、西非及重点食品进口市场"
+      },
+      "americas": {
+        "title": "美洲市场",
+        "countries": "美国、加拿大、拉丁美洲及批发渠道"
+      }
+    }
+  },
+
+  "certificates": {
+    "eyebrow": "质量与认证",
+    "title": "通过质量控制建立信任",
+    "description": "SanHe通过认证标准、可追溯供应链、冷链仓储和出口质量检验，为全球客户提供支持。",
+    "items": {
+      "sgs": {
+        "title": "SGS",
+        "description": "为国际采购商提供第三方检验支持。"
+      },
+      "haccp": {
+        "title": "HACCP",
+        "description": "用于食品加工和出口管理的安全体系。"
+      },
+      "brc": {
+        "title": "BRC",
+        "description": "符合国际食品供应链标准要求。"
+      },
+      "traceability": {
+        "title": "完整追溯",
+        "description": "产品可从种植追溯到最终出货。"
+      },
+      "coldChain": {
+        "title": "冷链管理",
+        "description": "温控储存保持产品品质。"
+      },
+      "inspection": {
+        "title": "质量检验",
+        "description": "出口前进行检验和包装控制。"
+      }
+    }
+  },
+
+  "statistics": {
+    "items": {
+      "years": {
+        "value": "10+",
+        "label": "出口经验"
+      },
+      "markets": {
+        "value": "30+",
+        "label": "服务进口市场"
+      },
+      "shipments": {
+        "value": "1000+",
+        "label": "出口批次"
+      },
+      "partners": {
+        "value": "200+",
+        "label": "合作伙伴"
+      }
+    }
+  },
+
+  "testimonials": {
+    "eyebrow": "客户反馈",
+    "title": "获得进口商和经销商信任",
+    "description": "我们专注长期合作、稳定品质和高效出口服务。"
+  },
+
+  "cta": {
+    "eyebrow": "开始合作",
+    "title": "准备采购农产品了吗？",
+    "description": "无论您是进口商、批发商还是食品制造企业，我们都可以提供可靠产品和专业出口服务。",
+    "contact": "联系销售",
+    "products": "查看产品"
+  }
+}

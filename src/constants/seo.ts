@@ -1,31 +1,54 @@
-export const SEO = {
-  siteName: "SanHe Food Group",
+const fallbackSiteUrl =
+  "https://www.sanhefood.com";
 
-  siteUrl: "https://www.SanHefoodgroup.com",
+function normalizeSiteUrl(
+  value: string
+) {
+  return value
+    .trim()
+    .replace(/\/+$/, "");
+}
+
+export const SEO = {
+  siteName: "SanHe",
+
+  siteUrl: normalizeSiteUrl(
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      fallbackSiteUrl
+  ),
 
   defaultTitle:
-    "SanHe Food Group | Global Fresh & Frozen Food Supplier",
+    "SanHe | Global Agricultural Food Supplier",
 
-  titleTemplate: "%s | SanHe Food Group",
+  titleTemplate:
+    "%s | SanHe",
 
   defaultDescription:
-    "SanHe Food Group supplies fresh vegetables, fresh fruits, frozen foods and prepared foods worldwide. Own planting bases, factory processing, cold chain warehousing, OEM and private label services.",
+    "SanHe supplies fresh vegetables, fresh fruits, frozen foods and prepared food solutions to global importers, wholesalers and food manufacturers.",
 
   keywords: [
-    "Fresh Ginger Supplier",
-    "Fresh Garlic Exporter",
-    "Fresh Onion Supplier",
-    "Fresh Vegetables",
-    "Fresh Fruits",
-    "Frozen Foods",
-    "Prepared Foods",
-    "Food Manufacturer",
-    "OEM Food Supplier",
-    "Private Label Food",
-    "China Food Exporter",
+    "agricultural products supplier",
+    "fresh vegetables supplier",
+    "fresh fruits supplier",
+    "frozen food supplier",
+    "prepared food supplier",
+    "fresh ginger supplier",
+    "fresh garlic exporter",
+    "fresh onion supplier",
+    "OEM food supplier",
+    "private label food supplier",
+    "China agricultural exporter",
   ],
 
-  ogImage: "/images/og-image.jpg",
+  ogImage:
+    "/opengraph-image",
 
-  twitter: "@sanheFoodGroup",
+  localeMap: {
+    en: "en_US",
+    zh: "zh_CN",
+    ru: "ru_RU",
+    ar: "ar_SA",
+    es: "es_ES",
+    fr: "fr_FR",
+  },
 } as const;

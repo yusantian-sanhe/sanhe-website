@@ -1,7 +1,7 @@
 export const COMPANY = {
   name: "SanHe",
 
-  slogan: "rusted Agricultural Export Partne",
+ slogan: "Trusted Agricultural Export Partner",
 
   email: "sales@qingchi.net",
 

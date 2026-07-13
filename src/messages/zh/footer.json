@@ -1,17 +1,24 @@
 {
-  "description": "值得信赖的农产品出口合作伙伴，为全球采购商提供稳定的产品、出口包装及专业服务。",
-  "sections": {
-    "company": "公司",
-    "products": "产品",
-    "contact": "联系我们"
-  },
-  "links": {
+  "footer": {
+    "description": "值得信赖的农产品出口合作伙伴，为全球采购商提供可靠产品、出口包装和专业服务。",
+
+    "homeLabel": "返回 SanHe 首页",
+
+    "company": "公司信息",
+    "products": "产品分类",
+    "contact": "联系我们",
+
     "about": "关于我们",
-    "quality": "质量保障",
+    "quality": "质量控制",
     "markets": "出口市场",
-    "beans": "豆类",
-    "seeds": "种子",
-    "spices": "香料",
-    "linkedin": "领英"
+
+    "email": "发送邮件",
+    "phone": "联系电话",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+
+    "quoteTitle": "正在寻找可靠的供应商？",
+    "quoteDescription": "告诉我们产品、数量、包装和目的地市场需求。",
+    "quoteButton": "获取报价"
   }
 }

@@ -1,0 +1,89 @@
+{
+  "quality": {
+    "hero": {
+      "eyebrow": "质量控制",
+      "title": "面向出口贸易的可靠标准",
+      "description": "我们为采购商提供以质量为核心的产品采购、检验协调、出口包装和文件支持。"
+    },
+
+    "overview": {
+      "imageLabel": "食品质量检验",
+
+      "stats": {
+        "inspection": {
+          "value": "100%",
+          "label": "质量导向检验"
+        },
+        "stages": {
+          "value": "4",
+          "label": "质量控制阶段"
+        },
+        "support": {
+          "value": "B2B",
+          "label": "出口质量支持"
+        }
+      }
+    },
+
+    "process": {
+      "eyebrow": "我们的流程",
+      "title": "我们如何控制产品质量",
+      "description": "每个订单都会关注产品一致性、包装要求和出口合规需求。",
+
+      "steps": {
+        "supplierSelection": {
+          "title": "供应商与产地选择",
+          "description": "根据产品和采购要求，选择符合条件的种植基地及可靠供应商。"
+        },
+        "productInspection": {
+          "title": "产品质量检验",
+          "description": "按照约定规格检查产品外观、状态、一致性及相关质量要求。"
+        },
+        "packingControl": {
+          "title": "包装与装载控制",
+          "description": "根据出口交付要求协调包装材料、标签及装载准备。"
+        },
+        "exportDocumentation": {
+          "title": "出口文件核验",
+          "description": "出货前核对商业文件、装箱单及相关检验和出口要求。"
+        }
+      }
+    },
+
+    "commitments": {
+      "eyebrow": "质量承诺",
+      "title": "贯穿供应链的可靠质量控制",
+      "description": "我们的质量管理结合采购协调、产品检验、冷链支持和持续流程改进。",
+
+      "items": {
+        "inspection": {
+          "title": "出货前质量检查",
+          "description": "出货前检查产品状态、规格以及包装准备情况。"
+        },
+        "traceability": {
+          "title": "可追溯供应链",
+          "description": "对关键供应和操作环节进行清晰的信息管理。"
+        },
+        "coldChain": {
+          "title": "冷链管理",
+          "description": "通过温控仓储支持产品新鲜度和出口操作。"
+        },
+        "improvement": {
+          "title": "持续改进",
+          "description": "根据采购商要求和出货经验不断优化质量流程。"
+        }
+      }
+    },
+
+    "cards": {
+      "packing": {
+        "title": "出口包装",
+        "description": "我们会根据采购商要求、产品特性和目的地市场需求协调包装。"
+      },
+      "documentation": {
+        "title": "文件支持",
+        "description": "我们支持商业文件、装箱单、检验协调及其他出口相关要求。"
+      }
+    }
+  }
+}

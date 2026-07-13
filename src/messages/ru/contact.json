@@ -1,0 +1,132 @@
+{
+  "contact": {
+    "hero": {
+      "eyebrow": "Request a Quote",
+      "title": "Tell Us Your Sourcing Requirements",
+      "description": "Share your product, packaging, quantity and destination market requirements. Our export team will help you prepare a suitable supply solution."
+    },
+
+    "form": {
+      "title": "Inquiry Form",
+      "selectedProduct": "Selected Product",
+      "privacyNote": "Your information is kept confidential and used only for communication regarding your inquiry.",
+
+      "fields": {
+        "name": {
+          "label": "Your Name",
+          "placeholder": "Your Name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "name@company.com"
+        },
+        "company": {
+          "label": "Company Name",
+          "placeholder": "Company Name"
+        },
+        "destinationMarket": {
+          "label": "Destination Country / Market",
+          "placeholder": "Germany / UAE / Saudi Arabia"
+        },
+        "category": {
+          "label": "Product Category",
+          "placeholder": "Select Product Category"
+        },
+        "product": {
+          "label": "Product",
+          "placeholder": "Select Product",
+          "selectCategoryFirst": "Select category first"
+        },
+        "quantity": {
+          "label": "Estimated Quantity",
+          "placeholder": "1 x 40HQ / Long-term cooperation"
+        },
+        "packaging": {
+          "label": "Packaging Preference",
+          "placeholder": "10kg Carton / Mesh Bag / Private Label"
+        },
+        "message": {
+          "label": "Detailed Requirements",
+          "placeholder": "Tell us your product, quantity, packaging and delivery requirements.",
+          "productTemplate": "I would like to request a quote for {product}."
+        }
+      },
+
+      "services": {
+        "title": "Additional Services",
+        "items": {
+          "oem": "OEM Production",
+          "privateLabel": "Private Label",
+          "customizedPackaging": "Customized Packaging",
+          "mixedContainer": "Mixed Container"
+        }
+      },
+
+      "submit": "Submit Inquiry",
+      "submitting": "Submitting...",
+
+      "status": {
+        "validationError": "Please review the required fields and make sure the information is complete.",
+        "sendError": "We could not send your inquiry at this time. Please try again or contact our export team directly."
+      }
+    },
+
+    "team": {
+      "title": "Export Team",
+      "items": {
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "address": "Address",
+        "responseTime": "Response Time"
+      }
+    },
+
+    "reasons": {
+      "title": "Why Global Buyers Choose SanHe",
+      "items": {
+        "planting": "Own planting bases for key products",
+        "processing": "Factory processing and export packing",
+        "coldChain": "Self-owned cold chain warehousing",
+        "traceability": "Full quality traceability",
+        "oem": "OEM, private label and mixed containers",
+        "certification": "SGS / HACCP / BRC certification support"
+      }
+    },
+
+    "success": {
+      "eyebrow": "Inquiry Received",
+      "title": "Thank You for Your Inquiry",
+      "description": "Your request has been received. Our export team will review the information and contact you as soon as possible during business hours.",
+      "browseProducts": "Browse More Products",
+      "backHome": "Back to Homepage",
+
+      "next": {
+        "eyebrow": "What Happens Next",
+        "title": "Our Team Will Review Your Requirements",
+        "description": "We will use the information you provided to prepare the next steps for product sourcing and quotation.",
+
+        "items": {
+          "review": {
+            "title": "Requirement Review",
+            "description": "We review the selected product, estimated quantity, packaging and destination market."
+          },
+          "contact": {
+            "title": "Export Team Contact",
+            "description": "A team member will contact you if additional product or shipment information is required."
+          },
+          "solution": {
+            "title": "Supply Solution",
+            "description": "We prepare a suitable product, packing and export supply proposal for further discussion."
+          }
+        }
+      },
+
+      "support": {
+        "title": "Need to add more information?",
+        "description": "You can return to the inquiry page and submit additional product or sourcing requirements.",
+        "button": "Submit Another Inquiry"
+      }
+    }
+  }
+}

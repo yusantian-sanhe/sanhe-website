@@ -1,0 +1,40 @@
+{
+  "products": {
+    "fresh-ginger": {
+      "name": "新鲜生姜",
+      "description": "来自中国的优质生姜，支持出口包装、稳定供应和冷链服务。"
+    },
+    "fresh-garlic": {
+      "name": "新鲜大蒜",
+      "description": "面向国际进口商、批发商和食品经销商的新鲜大蒜。"
+    },
+    "fresh-onion": {
+      "name": "新鲜洋葱",
+      "description": "适用于批发、零售和餐饮市场的新鲜洋葱。"
+    },
+    "fresh-potato": {
+      "name": "新鲜土豆",
+      "description": "提供分选、包装和出口服务的新鲜土豆。"
+    },
+    "apple": {
+      "name": "苹果",
+      "description": "为全球水果进口商和经销商精选的新鲜苹果。"
+    },
+    "pear": {
+      "name": "梨",
+      "description": "面向超市、进口商和批发市场供应的新鲜梨。"
+    },
+    "frozen-ginger-products": {
+      "name": "冷冻姜制品",
+      "description": "面向食品制造商、经销商和餐饮客户的冷冻姜制品。"
+    },
+    "frozen-vegetables": {
+      "name": "冷冻蔬菜",
+      "description": "为食品制造商、超市和经销商准备的冷冻蔬菜。"
+    },
+    "prepared-vegetable-products": {
+      "name": "预制蔬菜产品",
+      "description": "预制蔬菜产品及定制即烹食品解决方案。"
+    }
+  }
+}

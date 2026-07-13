@@ -1,0 +1,40 @@
+{
+  "products": {
+    "fresh-ginger": {
+      "name": "Fresh Ginger",
+      "description": "Fresh ginger supplied from China with stable quality, export packing and cold chain support."
+    },
+    "fresh-garlic": {
+      "name": "Fresh Garlic",
+      "description": "Fresh garlic for international importers, wholesalers and food distributors."
+    },
+    "fresh-onion": {
+      "name": "Fresh Onion",
+      "description": "Fresh onions prepared for wholesale, retail and food service markets."
+    },
+    "fresh-potato": {
+      "name": "Fresh Potato",
+      "description": "Fresh potatoes supplied with sorting, packing and export service."
+    },
+    "apple": {
+      "name": "Apple",
+      "description": "Fresh apples selected for global fruit importers and distributors."
+    },
+    "pear": {
+      "name": "Pear",
+      "description": "Fresh pears supplied for supermarkets, importers and wholesale markets."
+    },
+    "frozen-ginger-products": {
+      "name": "Frozen Ginger Products",
+      "description": "Frozen ginger products for food manufacturers, distributors and food service buyers."
+    },
+    "frozen-vegetables": {
+      "name": "Frozen Vegetables",
+      "description": "Frozen vegetables prepared for food manufacturers, supermarkets and distributors."
+    },
+    "prepared-vegetable-products": {
+      "name": "Prepared Vegetable Products",
+      "description": "Prepared vegetable products and customized ready-to-cook solutions."
+    }
+  }
+}

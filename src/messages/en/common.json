@@ -7,5 +7,13 @@
     "about": "About",
     "contact": "Contact",
     "quote": "Get Quote"
-  }
+  },
+  "learnMore": "Learn More",
+  "viewDetails": "View Details",
+  "viewProducts": "View Products",
+  "contactSales": "Contact Sales",
+  "backHome": "Back to Home",
+  "loading": "Loading...",
+  "noResults": "No results found",
+  "readMore": "Read More"
 }

@@ -1,17 +1,24 @@
 {
-  "description": "Trusted agricultural export partner supporting global buyers with reliable products, export-ready packing and professional service.",
-  "sections": {
+  "footer": {
+    "description": "Trusted agricultural export partner supporting global buyers with reliable products, export-ready packing and professional service.",
+
+    "homeLabel": "Go to SanHe homepage",
+
     "company": "Company",
     "products": "Products",
-    "contact": "Contact"
-  },
-  "links": {
+    "contact": "Contact",
+
     "about": "About",
     "quality": "Quality",
     "markets": "Markets",
-    "beans": "Beans",
-    "seeds": "Seeds",
-    "spices": "Spices",
-    "linkedin": "LinkedIn"
+
+    "email": "Email Us",
+    "phone": "Call Us",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+
+    "quoteTitle": "Looking for a reliable supplier?",
+    "quoteDescription": "Tell us your product, quantity, packaging and destination market requirements.",
+    "quoteButton": "Request a Quote"
   }
 }

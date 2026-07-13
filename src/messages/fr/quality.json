@@ -1,0 +1,89 @@
+{
+  "quality": {
+    "hero": {
+      "eyebrow": "Quality Control",
+      "title": "Reliable Standards for Export Trade",
+      "description": "We support buyers with quality-focused sourcing, inspection coordination, export packing and documentation support."
+    },
+
+    "overview": {
+      "imageLabel": "Food Quality Inspection",
+
+      "stats": {
+        "inspection": {
+          "value": "100%",
+          "label": "Quality-focused Inspection"
+        },
+        "stages": {
+          "value": "4",
+          "label": "Quality Control Stages"
+        },
+        "support": {
+          "value": "B2B",
+          "label": "Export Quality Support"
+        }
+      }
+    },
+
+    "process": {
+      "eyebrow": "Our Process",
+      "title": "How We Control Product Quality",
+      "description": "Every order is handled with attention to product consistency, packing requirements and export compliance.",
+
+      "steps": {
+        "supplierSelection": {
+          "title": "Supplier Selection",
+          "description": "We work with qualified farms and reliable suppliers according to product and buyer requirements."
+        },
+        "productInspection": {
+          "title": "Product Inspection",
+          "description": "Products are checked for appearance, condition, consistency and agreed specifications."
+        },
+        "packingControl": {
+          "title": "Packing Control",
+          "description": "Packing materials, labels and loading preparation are coordinated for export delivery."
+        },
+        "exportDocumentation": {
+          "title": "Export Documentation",
+          "description": "Commercial documents, packing lists and inspection requirements are reviewed before shipment."
+        }
+      }
+    },
+
+    "commitments": {
+      "eyebrow": "Quality Commitment",
+      "title": "Reliable Control Across the Supply Chain",
+      "description": "Our quality approach combines sourcing coordination, product inspection, cold chain support and continuous process improvement.",
+
+      "items": {
+        "inspection": {
+          "title": "Pre-shipment Inspection",
+          "description": "Product condition, specifications and packing are reviewed before shipment."
+        },
+        "traceability": {
+          "title": "Traceable Supply Chain",
+          "description": "Key supply and handling stages are managed with clear product information."
+        },
+        "coldChain": {
+          "title": "Cold Chain Management",
+          "description": "Temperature-controlled storage supports product freshness and export handling."
+        },
+        "improvement": {
+          "title": "Continuous Improvement",
+          "description": "We refine quality processes based on buyer requirements and shipment experience."
+        }
+      }
+    },
+
+    "cards": {
+      "packing": {
+        "title": "Export Packing",
+        "description": "We coordinate packing according to buyer requirements, product characteristics and destination market needs."
+      },
+      "documentation": {
+        "title": "Documentation Support",
+        "description": "We support commercial documents, packing lists, inspection coordination and other export-related requirements."
+      }
+    }
+  }
+}

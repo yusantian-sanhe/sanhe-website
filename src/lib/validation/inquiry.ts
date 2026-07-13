@@ -1,26 +1,62 @@
 import { z } from "zod";
 
+const optionalText = z
+  .string()
+  .trim()
+  .max(500)
+  .optional()
+  .transform((value) => value || undefined);
+
 export const inquirySchema = z.object({
-  name: z.string().min(1, "Name is required."),
+  name: z
+    .string()
+    .trim()
+    .min(1, "Name is required.")
+    .max(120, "Name is too long."),
 
   email: z
     .string()
+    .trim()
     .min(1, "Email is required.")
-    .email("Please enter a valid email address."),
+    .email("Please enter a valid email address.")
+    .max(254, "Email address is too long."),
 
-  company: z.string().optional(),
+  company: optionalText,
 
-  product: z.string().min(1, "Product is required."),
+  category: z
+    .string()
+    .trim()
+    .min(1, "Product category is required.")
+    .max(120),
 
-  destinationMarket: z.string().min(1, "Destination market is required."),
+  product: z
+    .string()
+    .trim()
+    .min(1, "Product is required.")
+    .max(200),
 
-  quantity: z.string().optional(),
+  destinationMarket: z
+    .string()
+    .trim()
+    .min(1, "Destination market is required.")
+    .max(200),
 
-  packaging: z.string().optional(),
+  quantity: optionalText,
 
-  services: z.array(z.string()).default([]),
+  packaging: optionalText,
 
-  message: z.string().min(1, "Message is required."),
+  services: z
+    .array(z.string().trim().min(1).max(100))
+    .max(10)
+    .default([]),
+
+  message: z
+    .string()
+    .trim()
+    .min(1, "Message is required.")
+    .max(5000, "Message is too long."),
 });
 
-export type InquirySchema = z.infer<typeof inquirySchema>;
+export type InquirySchema = z.infer<
+  typeof inquirySchema
+>;

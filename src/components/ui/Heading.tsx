@@ -1,4 +1,6 @@
-import { ReactNode } from "react";
+import type {
+  ReactNode,
+} from "react";
 
 interface HeadingProps {
   eyebrow?: string;
@@ -15,13 +17,23 @@ export function Heading({
   align = "left",
   className = "",
 }: HeadingProps) {
-  const alignment =
-    align === "center"
+  const isCentered =
+    align === "center";
+
+  const alignmentClassName =
+    isCentered
       ? "text-center"
-      : "text-left";
+      : "text-start";
+
+  const descriptionClassName =
+    isCentered
+      ? "mx-auto"
+      : "me-auto";
 
   return (
-    <div className={`${alignment} ${className}`}>
+    <div
+      className={`${alignmentClassName} ${className}`}
+    >
       {eyebrow && (
         <span className="text-sm font-semibold uppercase tracking-widest text-green-700">
           {eyebrow}
@@ -33,7 +45,9 @@ export function Heading({
       </h2>
 
       {description && (
-        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+        <p
+          className={`${descriptionClassName} mt-6 max-w-2xl text-lg leading-8 text-gray-600`}
+        >
           {description}
         </p>
       )}

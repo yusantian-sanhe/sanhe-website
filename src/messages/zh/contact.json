@@ -1,0 +1,132 @@
+{
+  "contact": {
+    "hero": {
+      "eyebrow": "获取报价",
+      "title": "告诉我们您的采购需求",
+      "description": "请告诉我们产品、包装、数量和目的地市场需求。我们的出口团队将协助您准备合适的供应方案。"
+    },
+
+    "form": {
+      "title": "询盘表单",
+      "selectedProduct": "已选择产品",
+      "privacyNote": "您的信息将被严格保密，仅用于与本次询盘相关的沟通。",
+
+      "fields": {
+        "name": {
+          "label": "您的姓名",
+          "placeholder": "请输入您的姓名"
+        },
+        "email": {
+          "label": "电子邮箱",
+          "placeholder": "name@company.com"
+        },
+        "company": {
+          "label": "公司名称",
+          "placeholder": "请输入公司名称"
+        },
+        "destinationMarket": {
+          "label": "目的国家或市场",
+          "placeholder": "例如：德国、阿联酋、沙特阿拉伯"
+        },
+        "category": {
+          "label": "产品分类",
+          "placeholder": "请选择产品分类"
+        },
+        "product": {
+          "label": "产品",
+          "placeholder": "请选择产品",
+          "selectCategoryFirst": "请先选择产品分类"
+        },
+        "quantity": {
+          "label": "预计采购数量",
+          "placeholder": "例如：1个40HQ集装箱 / 长期合作"
+        },
+        "packaging": {
+          "label": "包装偏好",
+          "placeholder": "例如：10公斤纸箱、网袋、私人标签"
+        },
+        "message": {
+          "label": "详细需求",
+          "placeholder": "请说明产品、数量、包装和交付要求。",
+          "productTemplate": "我希望获取{product}的报价。"
+        }
+      },
+
+      "services": {
+        "title": "附加服务",
+        "items": {
+          "oem": "OEM生产",
+          "privateLabel": "私人标签",
+          "customizedPackaging": "定制包装",
+          "mixedContainer": "混柜服务"
+        }
+      },
+
+      "submit": "提交询盘",
+      "submitting": "正在提交……",
+
+      "status": {
+        "validationError": "请检查必填字段，并确认填写的信息完整有效。",
+        "sendError": "当前无法发送询盘，请稍后重试或直接联系我们的出口团队。"
+      }
+    },
+
+    "team": {
+      "title": "出口团队",
+      "items": {
+        "email": "邮箱",
+        "phone": "电话",
+        "whatsapp": "WhatsApp",
+        "address": "地址",
+        "responseTime": "响应时间"
+      }
+    },
+
+    "reasons": {
+      "title": "为什么全球采购商选择 SanHe",
+      "items": {
+        "planting": "重点产品拥有自有种植基地",
+        "processing": "工厂加工与出口包装",
+        "coldChain": "自有冷链仓储",
+        "traceability": "完整质量追溯",
+        "oem": "OEM、私人标签与混柜服务",
+        "certification": "SGS / HACCP / BRC 认证支持"
+      }
+    },
+
+    "success": {
+      "eyebrow": "询盘已收到",
+      "title": "感谢您提交询盘",
+      "description": "我们已经收到您的采购需求。出口团队将在工作时间内审核相关信息，并尽快与您取得联系。",
+      "browseProducts": "浏览更多产品",
+      "backHome": "返回首页",
+
+      "next": {
+        "eyebrow": "后续流程",
+        "title": "我们的团队将审核您的采购需求",
+        "description": "我们会根据您提交的信息，准备产品采购和报价沟通的下一步工作。",
+
+        "items": {
+          "review": {
+            "title": "需求审核",
+            "description": "我们会审核所选产品、预计数量、包装要求和目的地市场。"
+          },
+          "contact": {
+            "title": "出口团队联系",
+            "description": "如需补充产品或运输信息，团队成员将与您进一步沟通。"
+          },
+          "solution": {
+            "title": "供应方案",
+            "description": "我们会准备合适的产品、包装和出口供应建议，供双方进一步讨论。"
+          }
+        }
+      },
+
+      "support": {
+        "title": "需要补充更多信息？",
+        "description": "您可以返回询盘页面，继续提交其他产品或采购需求。",
+        "button": "再次提交询盘"
+      }
+    }
+  }
+}

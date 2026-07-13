@@ -1,7 +1,12 @@
 "use server";
-import { sendInquiryEmail } from "@/lib/mail";
+
 import { redirect } from "next/navigation";
+import { sendInquiryEmail } from "@/lib/mail";
 import { inquirySchema } from "@/lib/validation/inquiry";
+import {
+  defaultLocale,
+  isLocale,
+} from "@/i18n/locales";
 
 export interface InquiryActionState {
   success: boolean;
@@ -11,14 +16,24 @@ export interface InquiryActionState {
 export async function submitInquiry(
   _prevState: InquiryActionState,
   formData: FormData
-) {
+): Promise<InquiryActionState> {
+  const requestedLocale = formData.get("locale");
+
+  const locale =
+    typeof requestedLocale === "string" &&
+    isLocale(requestedLocale)
+      ? requestedLocale
+      : defaultLocale;
+
   const result = inquirySchema.safeParse({
     name: formData.get("name"),
     email: formData.get("email"),
     company: formData.get("company"),
 
     product: formData.get("product"),
-    destinationMarket: formData.get("destinationMarket"),
+    destinationMarket: formData.get(
+      "destinationMarket"
+    ),
 
     quantity: formData.get("quantity"),
     packaging: formData.get("packaging"),
@@ -28,21 +43,32 @@ export async function submitInquiry(
     message: formData.get("message"),
   });
 
- if (!result.success) {
-  const message = result.error.issues
-    .map((issue) => `• ${issue.message}`)
-    .join("\n");
+  if (!result.success) {
+    console.error(
+      "Inquiry validation failed:",
+      result.error.issues
+    );
 
-  return {
-    success: false,
-    message,
-  };
-}
-  const data = result.data;
+    return {
+      success: false,
+      message: "validationError",
+    };
+  }
 
-console.log("New inquiry received:", data);
+  try {
+    const data = result.data;
 
-await sendInquiryEmail(data);
+    console.log("New inquiry received:", data);
 
-redirect("/en/contact/success");
+    await sendInquiryEmail(data);
+  } catch (error) {
+    console.error("Failed to send inquiry:", error);
+
+    return {
+      success: false,
+      message: "sendError",
+    };
+  }
+
+  redirect(`/${locale}/contact/success`);
 }

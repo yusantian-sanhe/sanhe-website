@@ -1,0 +1,61 @@
+{
+  "markets": {
+    "hero": {
+      "eyebrow": "出口市场",
+      "title": "服务全球农产品进口市场",
+      "description": "我们为全球重点市场采购商提供稳定产品供应、出口文件支持及物流协调服务。"
+    },
+
+    "overview": {
+      "imageLabel": "全球出口与物流",
+
+      "stats": {
+        "markets": {
+          "value": "30+",
+          "label": "全球进口市场"
+        },
+        "regions": {
+          "value": "5",
+          "label": "主要市场区域"
+        },
+        "service": {
+          "value": "B2B",
+          "label": "出口供应服务"
+        }
+      }
+    },
+
+    "markets": {
+      "eyebrow": "全球布局",
+      "title": "我们的服务市场",
+      "description": "我们的出口服务覆盖全球进口商、批发商、经销商及食品制造企业。",
+
+      "items": {
+        "middleEast": {
+          "title": "中东",
+          "description": "服务阿联酋、沙特阿拉伯、卡塔尔、科威特及周边国家采购商。"
+        },
+
+        "europe": {
+          "title": "欧洲",
+          "description": "服务德国、法国、西班牙、意大利等欧洲进口商及经销商。"
+        },
+
+        "asia": {
+          "title": "亚洲",
+          "description": "与亚洲地区采购商、经销商及食品加工企业保持长期合作。"
+        },
+
+        "africa": {
+          "title": "非洲",
+          "description": "服务北非、西非等重点食品进口市场。"
+        },
+
+        "americas": {
+          "title": "美洲",
+          "description": "支持北美及拉丁美洲进口商、批发商和渠道客户。"
+        }
+      }
+    }
+  }
+}

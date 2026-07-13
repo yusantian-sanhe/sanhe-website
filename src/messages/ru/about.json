@@ -1,0 +1,44 @@
+{
+  "about": {
+    "hero": {
+      "eyebrow": "About SanHe",
+      "title": "Trusted Agricultural Export Partner",
+      "description": "We support global buyers with selected agricultural products, stable supply chains and professional export service."
+    },
+    "intro": {
+      "eyebrow": "Who We Are",
+      "title": "Building Reliable Global Supply Relationships",
+      "description": "SanHe works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide.",
+      "content": "From product selection and quality checking to export packing and shipment coordination, we focus on helping buyers reduce risk and build long-term sourcing partnerships."
+    },
+    "strengths": {
+      "eyebrow": "Our Strengths",
+      "title": "Why Buyers Work With Us",
+      "description": "We combine product knowledge, supplier coordination and export service to support international agricultural trade.",
+      "items": {
+        "sourcing": "Reliable Product Sourcing",
+        "packing": "Export-Ready Packing",
+        "quality": "Quality Control Support",
+        "cooperation": "Long-Term Cooperation"
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      "markets": {
+        "value": "30+",
+        "label": "Markets Served"
+      },
+      "shipments": {
+        "value": "1,000+",
+        "label": "Export Shipments"
+      },
+      "partners": {
+        "value": "200+",
+        "label": "Business Partners"
+      }
+    }
+  }
+}

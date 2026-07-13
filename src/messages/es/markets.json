@@ -1,0 +1,61 @@
+{
+  "markets": {
+    "hero": {
+      "eyebrow": "Export Markets",
+      "title": "Serving Global Agricultural Import Markets",
+      "description": "We support buyers across key international markets with reliable product supply, export documentation and logistics coordination."
+    },
+
+    "overview": {
+      "imageLabel": "Global Export & Logistics",
+
+      "stats": {
+        "markets": {
+          "value": "30+",
+          "label": "Global Import Markets"
+        },
+        "regions": {
+          "value": "5",
+          "label": "Major Market Regions"
+        },
+        "service": {
+          "value": "B2B",
+          "label": "Export Supply Service"
+        }
+      }
+    },
+
+    "markets": {
+      "eyebrow": "Global Reach",
+      "title": "Markets We Support",
+      "description": "Our export service is built for importers, wholesalers, distributors and food manufacturers worldwide.",
+
+      "items": {
+        "middleEast": {
+          "title": "Middle East",
+          "description": "Supplying buyers in UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets."
+        },
+
+        "europe": {
+          "title": "Europe",
+          "description": "Supporting importers and distributors across Germany, France, Spain, Italy and other European markets."
+        },
+
+        "asia": {
+          "title": "Asia",
+          "description": "Working with regional buyers, distributors and food processors across Asia."
+        },
+
+        "africa": {
+          "title": "Africa",
+          "description": "Serving selected food import markets across North Africa and West Africa."
+        },
+
+        "americas": {
+          "title": "Americas",
+          "description": "Supporting wholesale and import channels in North America and Latin America."
+        }
+      }
+    }
+  }
+}
