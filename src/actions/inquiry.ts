@@ -30,6 +30,7 @@ export async function submitInquiry(
     email: formData.get("email"),
     company: formData.get("company"),
 
+    category: formData.get("category"),
     product: formData.get("product"),
     destinationMarket: formData.get(
       "destinationMarket"
