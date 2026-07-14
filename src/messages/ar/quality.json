@@ -1,88 +1,81 @@
 {
   "quality": {
     "hero": {
-      "eyebrow": "Quality Control",
-      "title": "Reliable Standards for Export Trade",
-      "description": "We support buyers with quality-focused sourcing, inspection coordination, export packing and documentation support."
+      "eyebrow": "مراقبة الجودة",
+      "title": "معايير موثوقة للتجارة التصديرية",
+      "description": "ندعم المشترين من خلال توريد يركز على الجودة وتنسيق الفحص والتعبئة التصديرية ودعم الوثائق."
     },
-
     "overview": {
-      "imageLabel": "Food Quality Inspection",
-
+      "imageLabel": "فحص جودة الأغذية",
       "stats": {
         "inspection": {
           "value": "100%",
-          "label": "Quality-focused Inspection"
+          "label": "فحص يركز على الجودة"
         },
         "stages": {
           "value": "4",
-          "label": "Quality Control Stages"
+          "label": "مراحل مراقبة الجودة"
         },
         "support": {
           "value": "B2B",
-          "label": "Export Quality Support"
+          "label": "دعم جودة التصدير"
         }
       }
     },
-
     "process": {
-      "eyebrow": "Our Process",
-      "title": "How We Control Product Quality",
-      "description": "Every order is handled with attention to product consistency, packing requirements and export compliance.",
-
+      "eyebrow": "عمليتنا",
+      "title": "كيف نراقب جودة المنتج",
+      "description": "يتم التعامل مع كل طلب مع الاهتمام بتجانس المنتج ومتطلبات التعبئة والامتثال للتصدير.",
       "steps": {
         "supplierSelection": {
-          "title": "Supplier Selection",
-          "description": "We work with qualified farms and reliable suppliers according to product and buyer requirements."
+          "title": "اختيار الموردين",
+          "description": "نعمل مع مزارع مؤهلة وموردين موثوقين وفق متطلبات المنتج والمشتري."
         },
         "productInspection": {
-          "title": "Product Inspection",
-          "description": "Products are checked for appearance, condition, consistency and agreed specifications."
+          "title": "فحص المنتج",
+          "description": "يتم فحص المنتجات من حيث المظهر والحالة والتجانس والمواصفات المتفق عليها."
         },
         "packingControl": {
-          "title": "Packing Control",
-          "description": "Packing materials, labels and loading preparation are coordinated for export delivery."
+          "title": "مراقبة التعبئة",
+          "description": "يتم تنسيق مواد التعبئة والملصقات والتحضير للتحميل من أجل التسليم التصديري."
         },
         "exportDocumentation": {
-          "title": "Export Documentation",
-          "description": "Commercial documents, packing lists and inspection requirements are reviewed before shipment."
+          "title": "وثائق التصدير",
+          "description": "تتم مراجعة المستندات التجارية وقوائم التعبئة ومتطلبات الفحص قبل الشحن."
         }
       }
     },
-
     "commitments": {
-      "eyebrow": "Quality Commitment",
-      "title": "Reliable Control Across the Supply Chain",
-      "description": "Our quality approach combines sourcing coordination, product inspection, cold chain support and continuous process improvement.",
-
+      "eyebrow": "الالتزام بالجودة",
+      "title": "مراقبة موثوقة عبر سلسلة التوريد",
+      "description": "يجمع نهجنا للجودة بين تنسيق التوريد وفحص المنتج ودعم سلسلة التبريد والتحسين المستمر للعمليات.",
       "items": {
         "inspection": {
-          "title": "Pre-shipment Inspection",
-          "description": "Product condition, specifications and packing are reviewed before shipment."
+          "title": "فحص ما قبل الشحن",
+          "description": "تتم مراجعة حالة المنتج والمواصفات والتعبئة قبل الشحن."
         },
         "traceability": {
-          "title": "Traceable Supply Chain",
-          "description": "Key supply and handling stages are managed with clear product information."
+          "title": "سلسلة توريد قابلة للتتبع",
+          "description": "تتم إدارة مراحل التوريد والمناولة الرئيسية بمعلومات واضحة عن المنتج."
         },
         "coldChain": {
-          "title": "Cold Chain Management",
-          "description": "Temperature-controlled storage supports product freshness and export handling."
+          "title": "إدارة سلسلة التبريد",
+          "description": "يساعد التخزين المتحكم في درجة حرارته على الحفاظ على نضارة المنتج ودعم عمليات التصدير."
         },
         "improvement": {
-          "title": "Continuous Improvement",
-          "description": "We refine quality processes based on buyer requirements and shipment experience."
+          "title": "التحسين المستمر",
+          "description": "نطور عمليات الجودة بناءً على متطلبات المشترين وخبرة الشحن."
         }
       }
     },
-
     "cards": {
       "packing": {
-        "title": "Export Packing",
-        "description": "We coordinate packing according to buyer requirements, product characteristics and destination market needs."
+        "title": "تعبئة التصدير",
+        "description": "ننسق التعبئة وفق متطلبات المشتري وخصائص المنتج واحتياجات سوق الوجهة."
       },
       "documentation": {
-        "title": "Documentation Support",
-        "description": "We support commercial documents, packing lists, inspection coordination and other export-related requirements."
+        "title": "دعم الوثائق",
+        "description": "ندعم المستندات التجارية وقوائم التعبئة وتنسيق الفحص والمتطلبات الأخرى المتعلقة بالتصدير."
       }
     }
   }

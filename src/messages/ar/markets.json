@@ -1,59 +1,51 @@
 {
   "markets": {
     "hero": {
-      "eyebrow": "Export Markets",
-      "title": "Serving Global Agricultural Import Markets",
-      "description": "We support buyers across key international markets with reliable product supply, export documentation and logistics coordination."
+      "eyebrow": "أسواق التصدير",
+      "title": "خدمة أسواق الاستيراد الزراعي العالمية",
+      "description": "ندعم المشترين في الأسواق الدولية الرئيسية من خلال توريد موثوق للمنتجات ووثائق التصدير وتنسيق الخدمات اللوجستية."
     },
-
     "overview": {
-      "imageLabel": "Global Export & Logistics",
-
+      "imageLabel": "التصدير والخدمات اللوجستية العالمية",
       "stats": {
         "markets": {
           "value": "30+",
-          "label": "Global Import Markets"
+          "label": "سوق استيراد عالمي"
         },
         "regions": {
           "value": "5",
-          "label": "Major Market Regions"
+          "label": "مناطق سوق رئيسية"
         },
         "service": {
           "value": "B2B",
-          "label": "Export Supply Service"
+          "label": "خدمة توريد للتصدير"
         }
       }
     },
-
     "markets": {
-      "eyebrow": "Global Reach",
-      "title": "Markets We Support",
-      "description": "Our export service is built for importers, wholesalers, distributors and food manufacturers worldwide.",
-
+      "eyebrow": "انتشار عالمي",
+      "title": "الأسواق التي نخدمها",
+      "description": "خدمات التصدير لدينا مصممة للمستوردين وتجار الجملة والموزعين ومصنعي الأغذية حول العالم.",
       "items": {
         "middleEast": {
-          "title": "Middle East",
-          "description": "Supplying buyers in UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets."
+          "title": "الشرق الأوسط",
+          "description": "نورد المنتجات للمشترين في الإمارات العربية المتحدة والمملكة العربية السعودية وقطر والكويت والأسواق المحيطة."
         },
-
         "europe": {
-          "title": "Europe",
-          "description": "Supporting importers and distributors across Germany, France, Spain, Italy and other European markets."
+          "title": "أوروبا",
+          "description": "ندعم المستوردين والموزعين في ألمانيا وفرنسا وإسبانيا وإيطاليا وأسواق أوروبية أخرى."
         },
-
         "asia": {
-          "title": "Asia",
-          "description": "Working with regional buyers, distributors and food processors across Asia."
+          "title": "آسيا",
+          "description": "نعمل مع المشترين الإقليميين والموزعين ومصنعي الأغذية في مختلف أنحاء آسيا."
         },
-
         "africa": {
-          "title": "Africa",
-          "description": "Serving selected food import markets across North Africa and West Africa."
+          "title": "أفريقيا",
+          "description": "نخدم أسواقًا مختارة لاستيراد الأغذية في شمال أفريقيا وغرب أفريقيا."
         },
-
         "americas": {
-          "title": "Americas",
-          "description": "Supporting wholesale and import channels in North America and Latin America."
+          "title": "الأمريكيتان",
+          "description": "ندعم قنوات البيع بالجملة والاستيراد في أمريكا الشمالية وأمريكا اللاتينية."
         }
       }
     }

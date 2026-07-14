@@ -1,43 +1,43 @@
 {
   "about": {
     "hero": {
-      "eyebrow": "About SanHe",
-      "title": "Trusted Agricultural Export Partner",
-      "description": "We support global buyers with selected agricultural products, stable supply chains and professional export service."
+      "eyebrow": "О SanHe",
+      "title": "Надёжный партнёр по экспорту сельскохозяйственной продукции",
+      "description": "Мы поддерживаем международных покупателей отборной сельскохозяйственной продукцией, стабильными цепочками поставок и профессиональным экспортным обслуживанием."
     },
     "intro": {
-      "eyebrow": "Who We Are",
-      "title": "Building Reliable Global Supply Relationships",
-      "description": "SanHe works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide.",
-      "content": "From product selection and quality checking to export packing and shipment coordination, we focus on helping buyers reduce risk and build long-term sourcing partnerships."
+      "eyebrow": "Кто мы",
+      "title": "Создаём надёжные отношения в глобальных поставках",
+      "description": "SanHe сотрудничает с производственными и перерабатывающими партнёрами, поставляя сельскохозяйственную продукцию импортёрам, оптовикам, дистрибьюторам и производителям продуктов питания по всему миру.",
+      "content": "От подбора продукции и контроля качества до экспортной упаковки и координации отгрузок — мы помогаем покупателям снижать риски и выстраивать долгосрочные отношения с поставщиками."
     },
     "strengths": {
-      "eyebrow": "Our Strengths",
-      "title": "Why Buyers Work With Us",
-      "description": "We combine product knowledge, supplier coordination and export service to support international agricultural trade.",
+      "eyebrow": "Наши преимущества",
+      "title": "Почему покупатели работают с нами",
+      "description": "Мы объединяем знание продукции, координацию поставщиков и экспортное обслуживание для поддержки международной торговли сельскохозяйственной продукцией.",
       "items": {
-        "sourcing": "Reliable Product Sourcing",
-        "packing": "Export-Ready Packing",
-        "quality": "Quality Control Support",
-        "cooperation": "Long-Term Cooperation"
+        "sourcing": "Надёжный подбор продукции",
+        "packing": "Упаковка, готовая к экспорту",
+        "quality": "Поддержка контроля качества",
+        "cooperation": "Долгосрочное сотрудничество"
       }
     },
     "stats": {
       "years": {
         "value": "10+",
-        "label": "Years Experience"
+        "label": "Лет опыта"
       },
       "markets": {
         "value": "30+",
-        "label": "Markets Served"
+        "label": "Обслуживаемых рынков"
       },
       "shipments": {
         "value": "1,000+",
-        "label": "Export Shipments"
+        "label": "Экспортных поставок"
       },
       "partners": {
         "value": "200+",
-        "label": "Business Partners"
+        "label": "Деловых партнёров"
       }
     }
   }

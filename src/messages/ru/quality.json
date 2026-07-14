@@ -1,88 +1,81 @@
 {
   "quality": {
     "hero": {
-      "eyebrow": "Quality Control",
-      "title": "Reliable Standards for Export Trade",
-      "description": "We support buyers with quality-focused sourcing, inspection coordination, export packing and documentation support."
+      "eyebrow": "Контроль качества",
+      "title": "Надёжные стандарты для экспортной торговли",
+      "description": "Мы поддерживаем покупателей благодаря контролируемому подбору продукции, координации инспекций, экспортной упаковке и документальному сопровождению."
     },
-
     "overview": {
-      "imageLabel": "Food Quality Inspection",
-
+      "imageLabel": "Контроль качества пищевой продукции",
       "stats": {
         "inspection": {
           "value": "100%",
-          "label": "Quality-focused Inspection"
+          "label": "Инспекция с акцентом на качество"
         },
         "stages": {
           "value": "4",
-          "label": "Quality Control Stages"
+          "label": "Этапа контроля качества"
         },
         "support": {
           "value": "B2B",
-          "label": "Export Quality Support"
+          "label": "Поддержка экспортного качества"
         }
       }
     },
-
     "process": {
-      "eyebrow": "Our Process",
-      "title": "How We Control Product Quality",
-      "description": "Every order is handled with attention to product consistency, packing requirements and export compliance.",
-
+      "eyebrow": "Наш процесс",
+      "title": "Как мы контролируем качество продукции",
+      "description": "Каждый заказ обрабатывается с учётом стабильности продукции, требований к упаковке и экспортного соответствия.",
       "steps": {
         "supplierSelection": {
-          "title": "Supplier Selection",
-          "description": "We work with qualified farms and reliable suppliers according to product and buyer requirements."
+          "title": "Отбор поставщиков",
+          "description": "Мы работаем с проверенными хозяйствами и надёжными поставщиками с учётом требований к продукции и покупателя."
         },
         "productInspection": {
-          "title": "Product Inspection",
-          "description": "Products are checked for appearance, condition, consistency and agreed specifications."
+          "title": "Инспекция продукции",
+          "description": "Продукция проверяется по внешнему виду, состоянию, однородности и согласованным спецификациям."
         },
         "packingControl": {
-          "title": "Packing Control",
-          "description": "Packing materials, labels and loading preparation are coordinated for export delivery."
+          "title": "Контроль упаковки",
+          "description": "Упаковочные материалы, маркировка и подготовка к загрузке координируются для экспортной поставки."
         },
         "exportDocumentation": {
-          "title": "Export Documentation",
-          "description": "Commercial documents, packing lists and inspection requirements are reviewed before shipment."
+          "title": "Экспортная документация",
+          "description": "Коммерческие документы, упаковочные листы и требования к инспекции проверяются до отгрузки."
         }
       }
     },
-
     "commitments": {
-      "eyebrow": "Quality Commitment",
-      "title": "Reliable Control Across the Supply Chain",
-      "description": "Our quality approach combines sourcing coordination, product inspection, cold chain support and continuous process improvement.",
-
+      "eyebrow": "Обязательства по качеству",
+      "title": "Надёжный контроль по всей цепочке поставок",
+      "description": "Наш подход к качеству объединяет координацию закупок, инспекцию продукции, поддержку холодовой цепи и постоянное совершенствование процессов.",
       "items": {
         "inspection": {
-          "title": "Pre-shipment Inspection",
-          "description": "Product condition, specifications and packing are reviewed before shipment."
+          "title": "Предотгрузочная инспекция",
+          "description": "Состояние продукции, спецификации и упаковка проверяются до отгрузки."
         },
         "traceability": {
-          "title": "Traceable Supply Chain",
-          "description": "Key supply and handling stages are managed with clear product information."
+          "title": "Прослеживаемая цепочка поставок",
+          "description": "Ключевые этапы поставки и обработки управляются с использованием прозрачной информации о продукции."
         },
         "coldChain": {
-          "title": "Cold Chain Management",
-          "description": "Temperature-controlled storage supports product freshness and export handling."
+          "title": "Управление холодовой цепью",
+          "description": "Хранение с контролем температуры помогает сохранять свежесть продукции и поддерживает экспортную обработку."
         },
         "improvement": {
-          "title": "Continuous Improvement",
-          "description": "We refine quality processes based on buyer requirements and shipment experience."
+          "title": "Постоянное совершенствование",
+          "description": "Мы совершенствуем процессы контроля качества на основе требований покупателей и опыта поставок."
         }
       }
     },
-
     "cards": {
       "packing": {
-        "title": "Export Packing",
-        "description": "We coordinate packing according to buyer requirements, product characteristics and destination market needs."
+        "title": "Экспортная упаковка",
+        "description": "Мы координируем упаковку с учётом требований покупателя, характеристик продукции и потребностей рынка назначения."
       },
       "documentation": {
-        "title": "Documentation Support",
-        "description": "We support commercial documents, packing lists, inspection coordination and other export-related requirements."
+        "title": "Документальное сопровождение",
+        "description": "Мы поддерживаем подготовку коммерческих документов, упаковочных листов, координацию инспекций и другие экспортные требования."
       }
     }
   }

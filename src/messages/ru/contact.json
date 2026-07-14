@@ -1,131 +1,120 @@
 {
   "contact": {
     "hero": {
-      "eyebrow": "Request a Quote",
-      "title": "Tell Us Your Sourcing Requirements",
-      "description": "Share your product, packaging, quantity and destination market requirements. Our export team will help you prepare a suitable supply solution."
+      "eyebrow": "Запросить предложение",
+      "title": "Расскажите нам о ваших требованиях к закупке",
+      "description": "Укажите требования к продукции, упаковке, объёму и рынку назначения. Наша экспортная команда поможет подготовить подходящее решение по поставке."
     },
-
     "form": {
-      "title": "Inquiry Form",
-      "selectedProduct": "Selected Product",
-      "privacyNote": "Your information is kept confidential and used only for communication regarding your inquiry.",
-
+      "title": "Форма запроса",
+      "selectedProduct": "Выбранный продукт",
+      "privacyNote": "Ваша информация хранится конфиденциально и используется только для связи по вашему запросу.",
       "fields": {
         "name": {
-          "label": "Your Name",
-          "placeholder": "Your Name"
+          "label": "Ваше имя",
+          "placeholder": "Ваше имя"
         },
         "email": {
-          "label": "Email Address",
+          "label": "Адрес электронной почты",
           "placeholder": "name@company.com"
         },
         "company": {
-          "label": "Company Name",
-          "placeholder": "Company Name"
+          "label": "Название компании",
+          "placeholder": "Название компании"
         },
         "destinationMarket": {
-          "label": "Destination Country / Market",
-          "placeholder": "Germany / UAE / Saudi Arabia"
+          "label": "Страна / рынок назначения",
+          "placeholder": "Германия / ОАЭ / Саудовская Аравия"
         },
         "category": {
-          "label": "Product Category",
-          "placeholder": "Select Product Category"
+          "label": "Категория продукции",
+          "placeholder": "Выберите категорию продукции"
         },
         "product": {
-          "label": "Product",
-          "placeholder": "Select Product",
-          "selectCategoryFirst": "Select category first"
+          "label": "Продукт",
+          "placeholder": "Выберите продукт",
+          "selectCategoryFirst": "Сначала выберите категорию"
         },
         "quantity": {
-          "label": "Estimated Quantity",
-          "placeholder": "1 x 40HQ / Long-term cooperation"
+          "label": "Предполагаемый объём",
+          "placeholder": "1 × 40HQ / долгосрочное сотрудничество"
         },
         "packaging": {
-          "label": "Packaging Preference",
-          "placeholder": "10kg Carton / Mesh Bag / Private Label"
+          "label": "Предпочтительная упаковка",
+          "placeholder": "Картон 10 кг / сетчатый мешок / частная марка"
         },
         "message": {
-          "label": "Detailed Requirements",
-          "placeholder": "Tell us your product, quantity, packaging and delivery requirements.",
-          "productTemplate": "I would like to request a quote for {product}."
+          "label": "Подробные требования",
+          "placeholder": "Укажите продукт, объём, упаковку и требования к доставке.",
+          "productTemplate": "Я хотел(а) бы запросить предложение на {product}."
         }
       },
-
       "services": {
-        "title": "Additional Services",
+        "title": "Дополнительные услуги",
         "items": {
-          "oem": "OEM Production",
-          "privateLabel": "Private Label",
-          "customizedPackaging": "Customized Packaging",
-          "mixedContainer": "Mixed Container"
+          "oem": "OEM-производство",
+          "privateLabel": "Частная торговая марка",
+          "customizedPackaging": "Индивидуальная упаковка",
+          "mixedContainer": "Смешанная загрузка контейнера"
         }
       },
-
-      "submit": "Submit Inquiry",
-      "submitting": "Submitting...",
-
+      "submit": "Отправить запрос",
+      "submitting": "Отправка...",
       "status": {
-        "validationError": "Please review the required fields and make sure the information is complete.",
-        "sendError": "We could not send your inquiry at this time. Please try again or contact our export team directly."
+        "validationError": "Проверьте обязательные поля и убедитесь, что информация заполнена полностью.",
+        "sendError": "Сейчас не удалось отправить запрос. Повторите попытку или свяжитесь напрямую с нашей экспортной командой."
       }
     },
-
     "team": {
-      "title": "Export Team",
+      "title": "Экспортная команда",
       "items": {
-        "email": "Email",
-        "phone": "Phone",
+        "email": "Электронная почта",
+        "phone": "Телефон",
         "whatsapp": "WhatsApp",
-        "address": "Address",
-        "responseTime": "Response Time"
+        "address": "Адрес",
+        "responseTime": "Время ответа"
       }
     },
-
     "reasons": {
-      "title": "Why Global Buyers Choose SanHe",
+      "title": "Почему международные покупатели выбирают SanHe",
       "items": {
-        "planting": "Own planting bases for key products",
-        "processing": "Factory processing and export packing",
-        "coldChain": "Self-owned cold chain warehousing",
-        "traceability": "Full quality traceability",
-        "oem": "OEM, private label and mixed containers",
-        "certification": "SGS / HACCP / BRC certification support"
+        "planting": "Собственные базы выращивания ключевых продуктов",
+        "processing": "Заводская переработка и экспортная упаковка",
+        "coldChain": "Собственные склады холодовой цепи",
+        "traceability": "Полная прослеживаемость качества",
+        "oem": "OEM, частная марка и смешанные контейнеры",
+        "certification": "Поддержка сертификации SGS / HACCP / BRC"
       }
     },
-
     "success": {
-      "eyebrow": "Inquiry Received",
-      "title": "Thank You for Your Inquiry",
-      "description": "Your request has been received. Our export team will review the information and contact you as soon as possible during business hours.",
-      "browseProducts": "Browse More Products",
-      "backHome": "Back to Homepage",
-
+      "eyebrow": "Запрос получен",
+      "title": "Спасибо за ваш запрос",
+      "description": "Ваш запрос получен. Наша экспортная команда проверит информацию и свяжется с вами в ближайшее рабочее время.",
+      "browseProducts": "Посмотреть другие продукты",
+      "backHome": "Вернуться на главную",
       "next": {
-        "eyebrow": "What Happens Next",
-        "title": "Our Team Will Review Your Requirements",
-        "description": "We will use the information you provided to prepare the next steps for product sourcing and quotation.",
-
+        "eyebrow": "Что будет дальше",
+        "title": "Наша команда рассмотрит ваши требования",
+        "description": "Мы используем предоставленную информацию, чтобы подготовить следующие шаги по подбору продукции и расчёту предложения.",
         "items": {
           "review": {
-            "title": "Requirement Review",
-            "description": "We review the selected product, estimated quantity, packaging and destination market."
+            "title": "Проверка требований",
+            "description": "Мы проверим выбранный продукт, предполагаемый объём, упаковку и рынок назначения."
           },
           "contact": {
-            "title": "Export Team Contact",
-            "description": "A team member will contact you if additional product or shipment information is required."
+            "title": "Связь с экспортной командой",
+            "description": "Сотрудник команды свяжется с вами, если потребуется дополнительная информация о продукте или отправке."
           },
           "solution": {
-            "title": "Supply Solution",
-            "description": "We prepare a suitable product, packing and export supply proposal for further discussion."
+            "title": "Решение по поставке",
+            "description": "Мы подготовим подходящее предложение по продукту, упаковке и экспортной поставке для дальнейшего обсуждения."
           }
         }
       },
-
       "support": {
-        "title": "Need to add more information?",
-        "description": "You can return to the inquiry page and submit additional product or sourcing requirements.",
-        "button": "Submit Another Inquiry"
+        "title": "Нужно добавить информацию?",
+        "description": "Вы можете вернуться на страницу запроса и отправить дополнительные требования к продукции или закупке.",
+        "button": "Отправить ещё один запрос"
       }
     }
   }

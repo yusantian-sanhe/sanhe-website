@@ -1,237 +1,221 @@
 {
   "hero": {
-    "badge": "Trusted Agricultural Export Partner",
-    "titleLine1": "Reliable Agricultural Supply",
-    "titleLine2": "For Global Markets",
-    "description": "We support importers, wholesalers and food manufacturers with selected agricultural products, export-ready packing and dependable logistics.",
-    "viewProducts": "View Products",
-    "contactSales": "Contact Sales",
-    "supplyChainTitle": "Integrated Supply Chain",
-
+    "badge": "شريك موثوق لتصدير المنتجات الزراعية",
+    "titleLine1": "توريد زراعي موثوق",
+    "titleLine2": "للأسواق العالمية",
+    "description": "ندعم المستوردين وتجار الجملة ومصنعي الأغذية بمنتجات زراعية مختارة وتعبئة جاهزة للتصدير وخدمات لوجستية موثوقة.",
+    "viewProducts": "عرض المنتجات",
+    "contactSales": "اتصل بالمبيعات",
+    "supplyChainTitle": "سلسلة توريد متكاملة",
     "process": {
-      "planting": "Planting Bases",
-      "processing": "Factory Processing",
-      "coldChain": "Cold Chain Storage",
-      "export": "Global Export"
+      "planting": "قواعد الزراعة",
+      "processing": "المعالجة في المصنع",
+      "coldChain": "التخزين المبرد",
+      "export": "التصدير العالمي"
     },
-
     "trustItems": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Reliable quality managed from the source."
+        "title": "قواعد زراعة مملوكة",
+        "description": "جودة موثوقة تُدار من المصدر."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Professional grading, processing and packaging."
+        "title": "معالجة مباشرة في المصنع",
+        "description": "تدريج ومعالجة وتعبئة احترافية."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain",
-        "description": "Maintaining freshness during storage and export."
+        "title": "سلسلة تبريد مملوكة",
+        "description": "الحفاظ على النضارة أثناء التخزين والتصدير."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting to delivery."
+        "title": "تتبع كامل للمنتج",
+        "description": "يمكن تتبع كل شحنة من الزراعة حتى التسليم."
       }
     }
   },
-
   "featuredProducts": {
-    "eyebrow": "Featured Products",
-    "title": "Fresh Produce, Frozen Foods & Prepared Food Solutions",
-    "description": "Explore our main product categories for global buyers.",
-    "learnMore": "Learn More",
-
+    "eyebrow": "منتجات مميزة",
+    "title": "منتجات طازجة وأغذية مجمدة وحلول غذائية مُحضّرة",
+    "description": "استعرض فئات منتجاتنا الرئيسية للمشترين الدوليين.",
+    "learnMore": "اعرف المزيد",
     "items": {
       "freshVegetables": {
-        "name": "Fresh Vegetables",
-        "description": "Fresh vegetables supplied for global markets."
+        "name": "خضروات طازجة",
+        "description": "خضروات طازجة للأسواق العالمية."
       },
       "freshFruits": {
-        "name": "Fresh Fruits",
-        "description": "Fresh fruits selected for international buyers."
+        "name": "فواكه طازجة",
+        "description": "فواكه طازجة مختارة للمشترين الدوليين."
       },
       "frozenFoods": {
-        "name": "Frozen Foods",
-        "description": "Frozen food solutions with stable supply."
+        "name": "أغذية مجمدة",
+        "description": "حلول أغذية مجمدة مع توريد مستقر."
       },
       "preparedFoods": {
-        "name": "Prepared Foods",
-        "description": "Prepared food solutions for global customers."
+        "name": "أغذية مُحضّرة",
+        "description": "حلول غذائية مُحضّرة للعملاء الدوليين."
       }
     }
   },
-
   "supplyChain": {
-    "eyebrow": "Supply Chain Overview",
-    "title": "From Our Fields to Global Markets",
-    "description": "Every shipment is managed through our integrated supply chain, from self-owned planting bases to global delivery, ensuring freshness, quality and full traceability.",
-
+    "eyebrow": "نظرة عامة على سلسلة التوريد",
+    "title": "من حقولنا إلى الأسواق العالمية",
+    "description": "تُدار كل شحنة عبر سلسلة توريدنا المتكاملة، من قواعد الزراعة المملوكة إلى التسليم العالمي، لضمان النضارة والجودة والتتبع الكامل.",
     "steps": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Stable quality managed from the source."
+        "title": "قواعد زراعة مملوكة",
+        "description": "جودة مستقرة تُدار من المصدر."
       },
       "processing": {
-        "title": "Factory Processing",
-        "description": "Cleaning, grading and processing under controlled production."
+        "title": "المعالجة في المصنع",
+        "description": "تنظيف وتدريج ومعالجة ضمن إنتاج خاضع للرقابة."
       },
       "coldChain": {
-        "title": "Cold Chain Warehousing",
-        "description": "Professional storage helps preserve product freshness."
+        "title": "التخزين ضمن سلسلة التبريد",
+        "description": "يساعد التخزين الاحترافي في الحفاظ على نضارة المنتج."
       },
       "inspection": {
-        "title": "Quality Inspection & Packaging",
-        "description": "Products are checked and packed according to customer specifications."
+        "title": "فحص الجودة والتعبئة",
+        "description": "يتم فحص المنتجات وتعبئتها وفق مواصفات العميل."
       },
       "export": {
-        "title": "Global Export",
-        "description": "Reliable delivery to worldwide markets."
+        "title": "التصدير العالمي",
+        "description": "تسليم موثوق إلى الأسواق العالمية."
       }
     },
-
-    "closing": "By integrating planting, processing, cold storage and export logistics, SanHe helps customers reduce supply risks and build long-term partnerships."
+    "closing": "من خلال دمج الزراعة والمعالجة والتخزين المبرد ولوجستيات التصدير، تساعد SanHe العملاء على تقليل مخاطر التوريد وبناء شراكات طويلة الأجل."
   },
-
   "whyChooseUs": {
-    "eyebrow": "Why Choose Us",
-    "title": "Built for Reliable International Trade",
-    "description": "We combine product sourcing, quality control, export packing and logistics coordination to help buyers reduce risk and build long-term supply relationships.",
-
+    "eyebrow": "لماذا تختارنا",
+    "title": "مصمم للتجارة الدولية الموثوقة",
+    "description": "نجمع بين توريد المنتجات ومراقبة الجودة والتعبئة التصديرية وتنسيق الخدمات اللوجستية لمساعدة المشترين على تقليل المخاطر وبناء علاقات توريد طويلة الأجل.",
     "items": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Key products come from managed planting bases, ensuring stable quality and reliable supply."
+        "title": "قواعد زراعة مملوكة",
+        "description": "تأتي المنتجات الرئيسية من قواعد زراعة مُدارة لضمان جودة مستقرة وتوريد موثوق."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Cleaning, grading, processing and packaging are managed by production facilities to ensure consistent quality."
+        "title": "معالجة مباشرة في المصنع",
+        "description": "تُدار عمليات التنظيف والتدريج والمعالجة والتعبئة بواسطة منشآت الإنتاج لضمان جودة متسقة."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain Storage",
-        "description": "Professional cold storage helps maintain freshness and supports efficient export logistics."
+        "title": "تخزين مبرد مملوك",
+        "description": "يساعد التخزين المبرد الاحترافي في الحفاظ على النضارة ودعم لوجستيات التصدير."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting, processing and packing to export."
+        "title": "تتبع كامل للمنتج",
+        "description": "يمكن تتبع كل شحنة من الزراعة والمعالجة والتعبئة حتى التصدير."
       },
       "customPackaging": {
-        "title": "Custom Packaging & OEM",
-        "description": "Flexible packaging, private label and OEM production solutions are available for customers."
+        "title": "تعبئة مخصصة وOEM",
+        "description": "تتوفر حلول تعبئة مرنة وعلامة خاصة وإنتاج OEM."
       },
       "stableSupply": {
-        "title": "Stable Year-round Supply",
-        "description": "Integrated supply chain management helps maintain reliable supply throughout the year."
+        "title": "توريد مستقر على مدار العام",
+        "description": "تساعد إدارة سلسلة التوريد المتكاملة في الحفاظ على توريد موثوق طوال العام."
       }
     }
   },
-
   "exportMarkets": {
-    "eyebrow": "Export Markets",
-    "title": "Supplying Agricultural Products to Global Buyers",
-    "description": "We support customers across key import markets with flexible supply, export documentation and logistics coordination for international agricultural trade.",
-
+    "eyebrow": "أسواق التصدير",
+    "title": "توريد المنتجات الزراعية للمشترين الدوليين",
+    "description": "ندعم العملاء في أسواق الاستيراد الرئيسية بتوريد مرن ووثائق تصدير وتنسيق لوجستي.",
     "regions": {
       "middleEast": {
-        "title": "Middle East",
-        "countries": "UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets"
+        "title": "الشرق الأوسط",
+        "countries": "الإمارات والسعودية وقطر والكويت والأسواق المحيطة"
       },
       "europe": {
-        "title": "Europe",
-        "countries": "Germany, France, Spain, Italy and other European import markets"
+        "title": "أوروبا",
+        "countries": "ألمانيا وفرنسا وإسبانيا وإيطاليا وأسواق أوروبية أخرى"
       },
       "asia": {
-        "title": "Asia",
-        "countries": "China, Southeast Asia, Japan, Korea and regional distributors"
+        "title": "آسيا",
+        "countries": "الصين وجنوب شرق آسيا واليابان وكوريا والموزعون الإقليميون"
       },
       "africa": {
-        "title": "Africa",
-        "countries": "North Africa, West Africa and selected food import markets"
+        "title": "أفريقيا",
+        "countries": "شمال أفريقيا وغرب أفريقيا وأسواق مختارة لاستيراد الأغذية"
       },
       "americas": {
-        "title": "Americas",
-        "countries": "United States, Canada, Latin America and wholesale channels"
+        "title": "الأمريكيتان",
+        "countries": "الولايات المتحدة وكندا وأمريكا اللاتينية وقنوات الجملة"
       }
     }
   },
-
   "certificates": {
-    "eyebrow": "Quality & Certifications",
-    "title": "Building Trust Through Quality Control",
-    "description": "SanHe supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection.",
-"panel": {
-  "eyebrow": "SanHe Quality",
-  "supportValue": "B2B",
-  "supportLabel": "Export Quality Support",
-  "notice": "Quality claims should be supported by actual inspection records, certificates and shipment documents."
-},
+    "eyebrow": "الجودة والشهادات",
+    "title": "بناء الثقة من خلال مراقبة الجودة",
+    "description": "تدعم SanHe المشترين الدوليين بمعايير شهادات معترف بها وسلاسل توريد قابلة للتتبع وتخزين مبرد وفحص جودة موجه للتصدير.",
+    "panel": {
+      "eyebrow": "جودة SanHe",
+      "supportValue": "B2B",
+      "supportLabel": "دعم جودة التصدير",
+      "notice": "يجب دعم ادعاءات الجودة بسجلات فحص وشهادات ووثائق شحن فعلية."
+    },
     "items": {
       "sgs": {
         "title": "SGS",
-        "description": "Third-party inspection support for international buyers."
+        "description": "دعم فحص طرف ثالث للمشترين الدوليين."
       },
       "haccp": {
         "title": "HACCP",
-        "description": "Food safety management for processing and export control."
+        "description": "إدارة سلامة الغذاء للمعالجة والرقابة على التصدير."
       },
       "brc": {
         "title": "BRC",
-        "description": "International standard support for food supply chains."
+        "description": "دعم المعايير الدولية لسلاسل توريد الأغذية."
       },
       "traceability": {
-        "title": "Full Traceability",
-        "description": "Products can be traced from planting to final shipment."
+        "title": "تتبع كامل",
+        "description": "يمكن تتبع المنتجات من الزراعة حتى الشحنة النهائية."
       },
       "coldChain": {
-        "title": "Cold Chain Management",
-        "description": "Temperature-controlled storage helps preserve freshness."
+        "title": "إدارة سلسلة التبريد",
+        "description": "يساعد التخزين المتحكم في حرارته على الحفاظ على النضارة."
       },
       "inspection": {
-        "title": "Quality Inspection",
-        "description": "Inspection and packing control before export shipment."
+        "title": "فحص الجودة",
+        "description": "فحص ومراقبة التعبئة قبل شحنة التصدير."
       }
     }
   },
-
   "statistics": {
     "items": {
       "stages": {
         "value": "4",
-        "label": "Integrated Supply Chain Stages"
+        "label": "مراحل سلسلة التوريد المتكاملة"
       },
       "categories": {
         "value": "4",
-        "label": "Main Product Categories"
+        "label": "فئات المنتجات الرئيسية"
       },
       "languages": {
         "value": "6",
-        "label": "Supported Website Languages"
+        "label": "لغات الموقع المدعومة"
       },
       "service": {
         "value": "B2B",
-        "label": "International Export Supply Service"
+        "label": "خدمة توريد تصدير دولية"
       }
     }
   },
-
   "testimonials": {
-    "eyebrow": "Buyer Feedback",
-    "title": "Trusted by Importers and Distributors",
-    "description": "We focus on long-term cooperation, stable quality and responsive export service."
+    "eyebrow": "آراء المشترين",
+    "title": "موثوق لدى المستوردين والموزعين",
+    "description": "نركز على التعاون طويل الأجل والجودة المستقرة وخدمة التصدير السريعة."
   },
-
   "cta": {
-  "eyebrow": "Start Cooperation",
-  "title": "Ready to Source Agricultural Products?",
-  "description": "Whether you are an importer, wholesaler or food manufacturer, we are ready to support your business with reliable products and professional export service.",
-  "contact": "Contact Sales",
-  "products": "View Products",
-  "responseNote": "Share your sourcing requirements and our export team will follow up during business hours.",
-
-  "highlights": {
-    "oem": "OEM Production",
-    "privateLabel": "Private Label",
-    "mixedContainers": "Mixed Container Service",
-    "stableSupply": "Stable Year-round Supply"
+    "eyebrow": "ابدأ التعاون",
+    "title": "هل أنت مستعد لتوريد المنتجات الزراعية؟",
+    "description": "سواء كنت مستورداً أو تاجر جملة أو مصنع أغذية، فنحن مستعدون لدعم أعمالك بمنتجات موثوقة وخدمة تصدير احترافية.",
+    "contact": "اتصل بالمبيعات",
+    "products": "عرض المنتجات",
+    "responseNote": "شارك متطلبات التوريد وسيتابع فريق التصدير خلال ساعات العمل.",
+    "highlights": {
+      "oem": "إنتاج OEM",
+      "privateLabel": "علامة خاصة",
+      "mixedContainers": "خدمة الحاويات المختلطة",
+      "stableSupply": "توريد مستقر على مدار العام"
+    }
   }
-}
 }

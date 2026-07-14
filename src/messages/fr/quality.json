@@ -1,88 +1,81 @@
 {
   "quality": {
     "hero": {
-      "eyebrow": "Quality Control",
-      "title": "Reliable Standards for Export Trade",
-      "description": "We support buyers with quality-focused sourcing, inspection coordination, export packing and documentation support."
+      "eyebrow": "Contrôle qualité",
+      "title": "Des normes fiables pour le commerce d’exportation",
+      "description": "Nous accompagnons les acheteurs avec un approvisionnement axé sur la qualité, la coordination des inspections, l’emballage export et le support documentaire."
     },
-
     "overview": {
-      "imageLabel": "Food Quality Inspection",
-
+      "imageLabel": "Inspection de la qualité alimentaire",
       "stats": {
         "inspection": {
           "value": "100%",
-          "label": "Quality-focused Inspection"
+          "label": "Inspection axée sur la qualité"
         },
         "stages": {
           "value": "4",
-          "label": "Quality Control Stages"
+          "label": "Étapes du contrôle qualité"
         },
         "support": {
           "value": "B2B",
-          "label": "Export Quality Support"
+          "label": "Support qualité à l’exportation"
         }
       }
     },
-
     "process": {
-      "eyebrow": "Our Process",
-      "title": "How We Control Product Quality",
-      "description": "Every order is handled with attention to product consistency, packing requirements and export compliance.",
-
+      "eyebrow": "Notre processus",
+      "title": "Comment nous contrôlons la qualité des produits",
+      "description": "Chaque commande est gérée en tenant compte de la régularité du produit, des exigences d’emballage et de la conformité export.",
       "steps": {
         "supplierSelection": {
-          "title": "Supplier Selection",
-          "description": "We work with qualified farms and reliable suppliers according to product and buyer requirements."
+          "title": "Sélection des fournisseurs",
+          "description": "Nous travaillons avec des exploitations qualifiées et des fournisseurs fiables selon les exigences du produit et de l’acheteur."
         },
         "productInspection": {
-          "title": "Product Inspection",
-          "description": "Products are checked for appearance, condition, consistency and agreed specifications."
+          "title": "Inspection des produits",
+          "description": "Les produits sont contrôlés selon leur aspect, leur état, leur homogénéité et les spécifications convenues."
         },
         "packingControl": {
-          "title": "Packing Control",
-          "description": "Packing materials, labels and loading preparation are coordinated for export delivery."
+          "title": "Contrôle de l’emballage",
+          "description": "Les matériaux d’emballage, les étiquettes et la préparation du chargement sont coordonnés pour la livraison export."
         },
         "exportDocumentation": {
-          "title": "Export Documentation",
-          "description": "Commercial documents, packing lists and inspection requirements are reviewed before shipment."
+          "title": "Documentation d’exportation",
+          "description": "Les documents commerciaux, les listes de colisage et les exigences d’inspection sont vérifiés avant expédition."
         }
       }
     },
-
     "commitments": {
-      "eyebrow": "Quality Commitment",
-      "title": "Reliable Control Across the Supply Chain",
-      "description": "Our quality approach combines sourcing coordination, product inspection, cold chain support and continuous process improvement.",
-
+      "eyebrow": "Engagement qualité",
+      "title": "Un contrôle fiable sur toute la chaîne d’approvisionnement",
+      "description": "Notre approche qualité associe coordination de l’approvisionnement, inspection des produits, soutien de la chaîne du froid et amélioration continue des processus.",
       "items": {
         "inspection": {
-          "title": "Pre-shipment Inspection",
-          "description": "Product condition, specifications and packing are reviewed before shipment."
+          "title": "Inspection avant expédition",
+          "description": "L’état du produit, les spécifications et l’emballage sont vérifiés avant expédition."
         },
         "traceability": {
-          "title": "Traceable Supply Chain",
-          "description": "Key supply and handling stages are managed with clear product information."
+          "title": "Chaîne d’approvisionnement traçable",
+          "description": "Les principales étapes d’approvisionnement et de manutention sont gérées avec des informations produit claires."
         },
         "coldChain": {
-          "title": "Cold Chain Management",
-          "description": "Temperature-controlled storage supports product freshness and export handling."
+          "title": "Gestion de la chaîne du froid",
+          "description": "Le stockage à température contrôlée contribue à préserver la fraîcheur du produit et à faciliter les opérations export."
         },
         "improvement": {
-          "title": "Continuous Improvement",
-          "description": "We refine quality processes based on buyer requirements and shipment experience."
+          "title": "Amélioration continue",
+          "description": "Nous améliorons les processus qualité selon les exigences des acheteurs et l’expérience des expéditions."
         }
       }
     },
-
     "cards": {
       "packing": {
-        "title": "Export Packing",
-        "description": "We coordinate packing according to buyer requirements, product characteristics and destination market needs."
+        "title": "Emballage export",
+        "description": "Nous coordonnons l’emballage selon les exigences de l’acheteur, les caractéristiques du produit et les besoins du marché de destination."
       },
       "documentation": {
-        "title": "Documentation Support",
-        "description": "We support commercial documents, packing lists, inspection coordination and other export-related requirements."
+        "title": "Support documentaire",
+        "description": "Nous accompagnons les documents commerciaux, les listes de colisage, la coordination des inspections et les autres exigences liées à l’exportation."
       }
     }
   }

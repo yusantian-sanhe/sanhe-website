@@ -1,88 +1,81 @@
 {
   "quality": {
     "hero": {
-      "eyebrow": "Quality Control",
-      "title": "Reliable Standards for Export Trade",
-      "description": "We support buyers with quality-focused sourcing, inspection coordination, export packing and documentation support."
+      "eyebrow": "Control de calidad",
+      "title": "Estándares confiables para el comercio de exportación",
+      "description": "Apoyamos a los compradores con abastecimiento orientado a la calidad, coordinación de inspecciones, embalaje de exportación y apoyo documental."
     },
-
     "overview": {
-      "imageLabel": "Food Quality Inspection",
-
+      "imageLabel": "Inspección de calidad alimentaria",
       "stats": {
         "inspection": {
           "value": "100%",
-          "label": "Quality-focused Inspection"
+          "label": "Inspección centrada en la calidad"
         },
         "stages": {
           "value": "4",
-          "label": "Quality Control Stages"
+          "label": "Etapas de control de calidad"
         },
         "support": {
           "value": "B2B",
-          "label": "Export Quality Support"
+          "label": "Apoyo de calidad para exportación"
         }
       }
     },
-
     "process": {
-      "eyebrow": "Our Process",
-      "title": "How We Control Product Quality",
-      "description": "Every order is handled with attention to product consistency, packing requirements and export compliance.",
-
+      "eyebrow": "Nuestro proceso",
+      "title": "Cómo controlamos la calidad del producto",
+      "description": "Cada pedido se gestiona atendiendo a la uniformidad del producto, los requisitos de embalaje y el cumplimiento de exportación.",
       "steps": {
         "supplierSelection": {
-          "title": "Supplier Selection",
-          "description": "We work with qualified farms and reliable suppliers according to product and buyer requirements."
+          "title": "Selección de proveedores",
+          "description": "Trabajamos con explotaciones cualificadas y proveedores confiables según los requisitos del producto y del comprador."
         },
         "productInspection": {
-          "title": "Product Inspection",
-          "description": "Products are checked for appearance, condition, consistency and agreed specifications."
+          "title": "Inspección del producto",
+          "description": "Los productos se revisan por su aspecto, estado, uniformidad y especificaciones acordadas."
         },
         "packingControl": {
-          "title": "Packing Control",
-          "description": "Packing materials, labels and loading preparation are coordinated for export delivery."
+          "title": "Control del embalaje",
+          "description": "Los materiales de embalaje, las etiquetas y la preparación de la carga se coordinan para la entrega de exportación."
         },
         "exportDocumentation": {
-          "title": "Export Documentation",
-          "description": "Commercial documents, packing lists and inspection requirements are reviewed before shipment."
+          "title": "Documentación de exportación",
+          "description": "Los documentos comerciales, las listas de empaque y los requisitos de inspección se revisan antes del envío."
         }
       }
     },
-
     "commitments": {
-      "eyebrow": "Quality Commitment",
-      "title": "Reliable Control Across the Supply Chain",
-      "description": "Our quality approach combines sourcing coordination, product inspection, cold chain support and continuous process improvement.",
-
+      "eyebrow": "Compromiso con la calidad",
+      "title": "Control confiable en toda la cadena de suministro",
+      "description": "Nuestro enfoque de calidad combina coordinación de abastecimiento, inspección del producto, apoyo de cadena de frío y mejora continua de procesos.",
       "items": {
         "inspection": {
-          "title": "Pre-shipment Inspection",
-          "description": "Product condition, specifications and packing are reviewed before shipment."
+          "title": "Inspección previa al envío",
+          "description": "El estado del producto, las especificaciones y el embalaje se revisan antes del envío."
         },
         "traceability": {
-          "title": "Traceable Supply Chain",
-          "description": "Key supply and handling stages are managed with clear product information."
+          "title": "Cadena de suministro trazable",
+          "description": "Las etapas clave de suministro y manipulación se gestionan con información clara del producto."
         },
         "coldChain": {
-          "title": "Cold Chain Management",
-          "description": "Temperature-controlled storage supports product freshness and export handling."
+          "title": "Gestión de la cadena de frío",
+          "description": "El almacenamiento con temperatura controlada ayuda a mantener la frescura del producto y la gestión de exportación."
         },
         "improvement": {
-          "title": "Continuous Improvement",
-          "description": "We refine quality processes based on buyer requirements and shipment experience."
+          "title": "Mejora continua",
+          "description": "Mejoramos los procesos de calidad según los requisitos del comprador y la experiencia de los envíos."
         }
       }
     },
-
     "cards": {
       "packing": {
-        "title": "Export Packing",
-        "description": "We coordinate packing according to buyer requirements, product characteristics and destination market needs."
+        "title": "Embalaje de exportación",
+        "description": "Coordinamos el embalaje según los requisitos del comprador, las características del producto y las necesidades del mercado de destino."
       },
       "documentation": {
-        "title": "Documentation Support",
-        "description": "We support commercial documents, packing lists, inspection coordination and other export-related requirements."
+        "title": "Apoyo documental",
+        "description": "Apoyamos los documentos comerciales, las listas de empaque, la coordinación de inspecciones y otros requisitos relacionados con la exportación."
       }
     }
   }

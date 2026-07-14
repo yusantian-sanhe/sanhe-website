@@ -1,43 +1,43 @@
 {
   "about": {
     "hero": {
-      "eyebrow": "About SanHe",
-      "title": "Trusted Agricultural Export Partner",
-      "description": "We support global buyers with selected agricultural products, stable supply chains and professional export service."
+      "eyebrow": "Acerca de SanHe",
+      "title": "Socio confiable de exportación agrícola",
+      "description": "Apoyamos a compradores internacionales con productos agrícolas seleccionados, cadenas de suministro estables y servicios profesionales de exportación."
     },
     "intro": {
-      "eyebrow": "Who We Are",
-      "title": "Building Reliable Global Supply Relationships",
-      "description": "SanHe works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide.",
-      "content": "From product selection and quality checking to export packing and shipment coordination, we focus on helping buyers reduce risk and build long-term sourcing partnerships."
+      "eyebrow": "Quiénes somos",
+      "title": "Construimos relaciones de suministro globales confiables",
+      "description": "SanHe colabora con socios de producción y procesamiento para suministrar productos agrícolas a importadores, mayoristas, distribuidores y fabricantes de alimentos de todo el mundo.",
+      "content": "Desde la selección de productos y el control de calidad hasta el embalaje de exportación y la coordinación de envíos, ayudamos a los compradores a reducir riesgos y construir relaciones de abastecimiento a largo plazo."
     },
     "strengths": {
-      "eyebrow": "Our Strengths",
-      "title": "Why Buyers Work With Us",
-      "description": "We combine product knowledge, supplier coordination and export service to support international agricultural trade.",
+      "eyebrow": "Nuestras fortalezas",
+      "title": "Por qué los compradores trabajan con nosotros",
+      "description": "Combinamos conocimiento de productos, coordinación de proveedores y servicios de exportación para apoyar el comercio agrícola internacional.",
       "items": {
-        "sourcing": "Reliable Product Sourcing",
-        "packing": "Export-Ready Packing",
-        "quality": "Quality Control Support",
-        "cooperation": "Long-Term Cooperation"
+        "sourcing": "Abastecimiento confiable de productos",
+        "packing": "Embalaje listo para exportación",
+        "quality": "Apoyo en control de calidad",
+        "cooperation": "Cooperación a largo plazo"
       }
     },
     "stats": {
       "years": {
         "value": "10+",
-        "label": "Years Experience"
+        "label": "Años de experiencia"
       },
       "markets": {
         "value": "30+",
-        "label": "Markets Served"
+        "label": "Mercados atendidos"
       },
       "shipments": {
         "value": "1,000+",
-        "label": "Export Shipments"
+        "label": "Envíos de exportación"
       },
       "partners": {
         "value": "200+",
-        "label": "Business Partners"
+        "label": "Socios comerciales"
       }
     }
   }

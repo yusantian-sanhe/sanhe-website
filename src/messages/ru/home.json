@@ -1,237 +1,221 @@
 {
   "hero": {
-    "badge": "Trusted Agricultural Export Partner",
-    "titleLine1": "Reliable Agricultural Supply",
-    "titleLine2": "For Global Markets",
-    "description": "We support importers, wholesalers and food manufacturers with selected agricultural products, export-ready packing and dependable logistics.",
-    "viewProducts": "View Products",
-    "contactSales": "Contact Sales",
-    "supplyChainTitle": "Integrated Supply Chain",
-
+    "badge": "Надёжный партнёр по экспорту сельскохозяйственной продукции",
+    "titleLine1": "Надёжные поставки сельскохозяйственной продукции",
+    "titleLine2": "Для мировых рынков",
+    "description": "Мы поддерживаем импортёров, оптовиков и производителей продуктов питания отборной сельскохозяйственной продукцией, экспортной упаковкой и надёжной логистикой.",
+    "viewProducts": "Посмотреть продукцию",
+    "contactSales": "Связаться с отделом продаж",
+    "supplyChainTitle": "Интегрированная цепочка поставок",
     "process": {
-      "planting": "Planting Bases",
-      "processing": "Factory Processing",
-      "coldChain": "Cold Chain Storage",
-      "export": "Global Export"
+      "planting": "Базы выращивания",
+      "processing": "Заводская переработка",
+      "coldChain": "Холодное хранение",
+      "export": "Мировой экспорт"
     },
-
     "trustItems": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Reliable quality managed from the source."
+        "title": "Собственные базы выращивания",
+        "description": "Надёжное качество контролируется с самого источника."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Professional grading, processing and packaging."
+        "title": "Прямая заводская переработка",
+        "description": "Профессиональная калибровка, переработка и упаковка."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain",
-        "description": "Maintaining freshness during storage and export."
+        "title": "Собственная холодовая цепь",
+        "description": "Сохранение свежести при хранении и экспорте."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting to delivery."
+        "title": "Полная прослеживаемость продукции",
+        "description": "Каждую поставку можно отследить от выращивания до доставки."
       }
     }
   },
-
   "featuredProducts": {
-    "eyebrow": "Featured Products",
-    "title": "Fresh Produce, Frozen Foods & Prepared Food Solutions",
-    "description": "Explore our main product categories for global buyers.",
-    "learnMore": "Learn More",
-
+    "eyebrow": "Рекомендуемая продукция",
+    "title": "Свежая продукция, замороженные и готовые пищевые решения",
+    "description": "Изучите основные категории продукции для международных покупателей.",
+    "learnMore": "Подробнее",
     "items": {
       "freshVegetables": {
-        "name": "Fresh Vegetables",
-        "description": "Fresh vegetables supplied for global markets."
+        "name": "Свежие овощи",
+        "description": "Свежие овощи для мировых рынков."
       },
       "freshFruits": {
-        "name": "Fresh Fruits",
-        "description": "Fresh fruits selected for international buyers."
+        "name": "Свежие фрукты",
+        "description": "Свежие фрукты, отобранные для международных покупателей."
       },
       "frozenFoods": {
-        "name": "Frozen Foods",
-        "description": "Frozen food solutions with stable supply."
+        "name": "Замороженные продукты",
+        "description": "Замороженные пищевые решения со стабильными поставками."
       },
       "preparedFoods": {
-        "name": "Prepared Foods",
-        "description": "Prepared food solutions for global customers."
+        "name": "Готовые пищевые продукты",
+        "description": "Готовые пищевые решения для международных клиентов."
       }
     }
   },
-
   "supplyChain": {
-    "eyebrow": "Supply Chain Overview",
-    "title": "From Our Fields to Global Markets",
-    "description": "Every shipment is managed through our integrated supply chain, from self-owned planting bases to global delivery, ensuring freshness, quality and full traceability.",
-
+    "eyebrow": "Обзор цепочки поставок",
+    "title": "От наших полей к мировым рынкам",
+    "description": "Каждая поставка проходит через нашу интегрированную цепочку — от собственных баз выращивания до международной доставки, обеспечивая свежесть, качество и полную прослеживаемость.",
     "steps": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Stable quality managed from the source."
+        "title": "Собственные базы выращивания",
+        "description": "Стабильное качество контролируется с источника."
       },
       "processing": {
-        "title": "Factory Processing",
-        "description": "Cleaning, grading and processing under controlled production."
+        "title": "Заводская переработка",
+        "description": "Очистка, калибровка и переработка в контролируемых условиях."
       },
       "coldChain": {
-        "title": "Cold Chain Warehousing",
-        "description": "Professional storage helps preserve product freshness."
+        "title": "Холодное складирование",
+        "description": "Профессиональное хранение помогает сохранять свежесть продукции."
       },
       "inspection": {
-        "title": "Quality Inspection & Packaging",
-        "description": "Products are checked and packed according to customer specifications."
+        "title": "Контроль качества и упаковка",
+        "description": "Продукция проверяется и упаковывается по спецификациям заказчика."
       },
       "export": {
-        "title": "Global Export",
-        "description": "Reliable delivery to worldwide markets."
+        "title": "Мировой экспорт",
+        "description": "Надёжная доставка на мировые рынки."
       }
     },
-
-    "closing": "By integrating planting, processing, cold storage and export logistics, SanHe helps customers reduce supply risks and build long-term partnerships."
+    "closing": "Объединяя выращивание, переработку, холодное хранение и экспортную логистику, SanHe помогает снижать риски поставок и строить долгосрочные партнёрства."
   },
-
   "whyChooseUs": {
-    "eyebrow": "Why Choose Us",
-    "title": "Built for Reliable International Trade",
-    "description": "We combine product sourcing, quality control, export packing and logistics coordination to help buyers reduce risk and build long-term supply relationships.",
-
+    "eyebrow": "Почему выбирают нас",
+    "title": "Создано для надёжной международной торговли",
+    "description": "Мы объединяем подбор продукции, контроль качества, экспортную упаковку и координацию логистики, помогая покупателям снижать риски и выстраивать долгосрочные отношения.",
     "items": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Key products come from managed planting bases, ensuring stable quality and reliable supply."
+        "title": "Собственные базы выращивания",
+        "description": "Ключевые продукты поступают с управляемых баз выращивания, обеспечивая стабильное качество и поставки."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Cleaning, grading, processing and packaging are managed by production facilities to ensure consistent quality."
+        "title": "Прямая заводская переработка",
+        "description": "Очистка, калибровка, переработка и упаковка управляются производственными площадками для стабильного качества."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain Storage",
-        "description": "Professional cold storage helps maintain freshness and supports efficient export logistics."
+        "title": "Собственные холодильные склады",
+        "description": "Профессиональное холодное хранение поддерживает свежесть и эффективную экспортную логистику."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting, processing and packing to export."
+        "title": "Полная прослеживаемость продукции",
+        "description": "Каждую поставку можно отследить от выращивания и переработки до упаковки и экспорта."
       },
       "customPackaging": {
-        "title": "Custom Packaging & OEM",
-        "description": "Flexible packaging, private label and OEM production solutions are available for customers."
+        "title": "Индивидуальная упаковка и OEM",
+        "description": "Доступны гибкая упаковка, частная марка и OEM-производство."
       },
       "stableSupply": {
-        "title": "Stable Year-round Supply",
-        "description": "Integrated supply chain management helps maintain reliable supply throughout the year."
+        "title": "Стабильные круглогодичные поставки",
+        "description": "Интегрированное управление цепочкой поставок помогает обеспечивать надёжные поставки круглый год."
       }
     }
   },
-
   "exportMarkets": {
-    "eyebrow": "Export Markets",
-    "title": "Supplying Agricultural Products to Global Buyers",
-    "description": "We support customers across key import markets with flexible supply, export documentation and logistics coordination for international agricultural trade.",
-
+    "eyebrow": "Экспортные рынки",
+    "title": "Поставляем сельскохозяйственную продукцию международным покупателям",
+    "description": "Мы поддерживаем клиентов на ключевых импортных рынках гибкими поставками, экспортной документацией и логистической координацией.",
     "regions": {
       "middleEast": {
-        "title": "Middle East",
-        "countries": "UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets"
+        "title": "Ближний Восток",
+        "countries": "ОАЭ, Саудовская Аравия, Катар, Кувейт и соседние рынки"
       },
       "europe": {
-        "title": "Europe",
-        "countries": "Germany, France, Spain, Italy and other European import markets"
+        "title": "Европа",
+        "countries": "Германия, Франция, Испания, Италия и другие европейские импортные рынки"
       },
       "asia": {
-        "title": "Asia",
-        "countries": "China, Southeast Asia, Japan, Korea and regional distributors"
+        "title": "Азия",
+        "countries": "Китай, Юго-Восточная Азия, Япония, Корея и региональные дистрибьюторы"
       },
       "africa": {
-        "title": "Africa",
-        "countries": "North Africa, West Africa and selected food import markets"
+        "title": "Африка",
+        "countries": "Северная и Западная Африка и отдельные рынки импорта продуктов питания"
       },
       "americas": {
-        "title": "Americas",
-        "countries": "United States, Canada, Latin America and wholesale channels"
+        "title": "Америка",
+        "countries": "США, Канада, Латинская Америка и оптовые каналы"
       }
     }
   },
-
   "certificates": {
-    "eyebrow": "Quality & Certifications",
-    "title": "Building Trust Through Quality Control",
-    "description": "SanHe supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection.",
-"panel": {
-  "eyebrow": "SanHe Quality",
-  "supportValue": "B2B",
-  "supportLabel": "Export Quality Support",
-  "notice": "Quality claims should be supported by actual inspection records, certificates and shipment documents."
-},
+    "eyebrow": "Качество и сертификация",
+    "title": "Укрепляем доверие через контроль качества",
+    "description": "SanHe поддерживает международных покупателей признанными стандартами сертификации, прослеживаемыми цепочками, холодным хранением и экспортным контролем качества.",
+    "panel": {
+      "eyebrow": "Качество SanHe",
+      "supportValue": "B2B",
+      "supportLabel": "Поддержка экспортного качества",
+      "notice": "Заявления о качестве должны подтверждаться фактическими отчётами инспекций, сертификатами и отгрузочными документами."
+    },
     "items": {
       "sgs": {
         "title": "SGS",
-        "description": "Third-party inspection support for international buyers."
+        "description": "Поддержка сторонней инспекции для международных покупателей."
       },
       "haccp": {
         "title": "HACCP",
-        "description": "Food safety management for processing and export control."
+        "description": "Управление пищевой безопасностью при переработке и экспортном контроле."
       },
       "brc": {
         "title": "BRC",
-        "description": "International standard support for food supply chains."
+        "description": "Поддержка международных стандартов пищевых цепочек поставок."
       },
       "traceability": {
-        "title": "Full Traceability",
-        "description": "Products can be traced from planting to final shipment."
+        "title": "Полная прослеживаемость",
+        "description": "Продукцию можно отследить от выращивания до конечной отгрузки."
       },
       "coldChain": {
-        "title": "Cold Chain Management",
-        "description": "Temperature-controlled storage helps preserve freshness."
+        "title": "Управление холодовой цепью",
+        "description": "Хранение с контролем температуры помогает сохранять свежесть."
       },
       "inspection": {
-        "title": "Quality Inspection",
-        "description": "Inspection and packing control before export shipment."
+        "title": "Контроль качества",
+        "description": "Инспекция и контроль упаковки перед экспортной отгрузкой."
       }
     }
   },
-
   "statistics": {
     "items": {
       "stages": {
         "value": "4",
-        "label": "Integrated Supply Chain Stages"
+        "label": "Этапа интегрированной цепочки поставок"
       },
       "categories": {
         "value": "4",
-        "label": "Main Product Categories"
+        "label": "Основные категории продукции"
       },
       "languages": {
         "value": "6",
-        "label": "Supported Website Languages"
+        "label": "Поддерживаемых языков сайта"
       },
       "service": {
         "value": "B2B",
-        "label": "International Export Supply Service"
+        "label": "Международный сервис экспортных поставок"
       }
     }
   },
-
   "testimonials": {
-    "eyebrow": "Buyer Feedback",
-    "title": "Trusted by Importers and Distributors",
-    "description": "We focus on long-term cooperation, stable quality and responsive export service."
+    "eyebrow": "Отзывы покупателей",
+    "title": "Нам доверяют импортёры и дистрибьюторы",
+    "description": "Мы ориентированы на долгосрочное сотрудничество, стабильное качество и оперативный экспортный сервис."
   },
-
   "cta": {
-  "eyebrow": "Start Cooperation",
-  "title": "Ready to Source Agricultural Products?",
-  "description": "Whether you are an importer, wholesaler or food manufacturer, we are ready to support your business with reliable products and professional export service.",
-  "contact": "Contact Sales",
-  "products": "View Products",
-  "responseNote": "Share your sourcing requirements and our export team will follow up during business hours.",
-
-  "highlights": {
-    "oem": "OEM Production",
-    "privateLabel": "Private Label",
-    "mixedContainers": "Mixed Container Service",
-    "stableSupply": "Stable Year-round Supply"
+    "eyebrow": "Начать сотрудничество",
+    "title": "Готовы закупать сельскохозяйственную продукцию?",
+    "description": "Независимо от того, являетесь ли вы импортёром, оптовиком или производителем продуктов питания, мы готовы поддержать ваш бизнес надёжной продукцией и профессиональным экспортным сервисом.",
+    "contact": "Связаться с отделом продаж",
+    "products": "Посмотреть продукцию",
+    "responseNote": "Сообщите требования к закупке, и наша экспортная команда свяжется с вами в рабочее время.",
+    "highlights": {
+      "oem": "OEM-производство",
+      "privateLabel": "Частная марка",
+      "mixedContainers": "Сервис смешанных контейнеров",
+      "stableSupply": "Стабильные круглогодичные поставки"
+    }
   }
-}
 }

@@ -1,131 +1,120 @@
 {
   "contact": {
     "hero": {
-      "eyebrow": "Request a Quote",
-      "title": "Tell Us Your Sourcing Requirements",
-      "description": "Share your product, packaging, quantity and destination market requirements. Our export team will help you prepare a suitable supply solution."
+      "eyebrow": "طلب عرض سعر",
+      "title": "أخبرنا بمتطلبات التوريد الخاصة بك",
+      "description": "شاركنا متطلبات المنتج والتعبئة والكمية وسوق الوجهة، وسيساعدك فريق التصدير لدينا في إعداد حل توريد مناسب."
     },
-
     "form": {
-      "title": "Inquiry Form",
-      "selectedProduct": "Selected Product",
-      "privacyNote": "Your information is kept confidential and used only for communication regarding your inquiry.",
-
+      "title": "نموذج الاستفسار",
+      "selectedProduct": "المنتج المحدد",
+      "privacyNote": "تُحفظ معلوماتك بسرية وتُستخدم فقط للتواصل بشأن استفسارك.",
       "fields": {
         "name": {
-          "label": "Your Name",
-          "placeholder": "Your Name"
+          "label": "اسمك",
+          "placeholder": "اسمك"
         },
         "email": {
-          "label": "Email Address",
+          "label": "البريد الإلكتروني",
           "placeholder": "name@company.com"
         },
         "company": {
-          "label": "Company Name",
-          "placeholder": "Company Name"
+          "label": "اسم الشركة",
+          "placeholder": "اسم الشركة"
         },
         "destinationMarket": {
-          "label": "Destination Country / Market",
-          "placeholder": "Germany / UAE / Saudi Arabia"
+          "label": "دولة / سوق الوجهة",
+          "placeholder": "ألمانيا / الإمارات / السعودية"
         },
         "category": {
-          "label": "Product Category",
-          "placeholder": "Select Product Category"
+          "label": "فئة المنتج",
+          "placeholder": "اختر فئة المنتج"
         },
         "product": {
-          "label": "Product",
-          "placeholder": "Select Product",
-          "selectCategoryFirst": "Select category first"
+          "label": "المنتج",
+          "placeholder": "اختر المنتج",
+          "selectCategoryFirst": "اختر الفئة أولاً"
         },
         "quantity": {
-          "label": "Estimated Quantity",
-          "placeholder": "1 x 40HQ / Long-term cooperation"
+          "label": "الكمية التقديرية",
+          "placeholder": "حاوية 40HQ واحدة / تعاون طويل الأجل"
         },
         "packaging": {
-          "label": "Packaging Preference",
-          "placeholder": "10kg Carton / Mesh Bag / Private Label"
+          "label": "تفضيل التعبئة",
+          "placeholder": "كرتون 10 كجم / كيس شبكي / علامة خاصة"
         },
         "message": {
-          "label": "Detailed Requirements",
-          "placeholder": "Tell us your product, quantity, packaging and delivery requirements.",
-          "productTemplate": "I would like to request a quote for {product}."
+          "label": "المتطلبات التفصيلية",
+          "placeholder": "أخبرنا بالمنتج والكمية والتعبئة ومتطلبات التسليم.",
+          "productTemplate": "أود طلب عرض سعر لمنتج {product}."
         }
       },
-
       "services": {
-        "title": "Additional Services",
+        "title": "خدمات إضافية",
         "items": {
-          "oem": "OEM Production",
-          "privateLabel": "Private Label",
-          "customizedPackaging": "Customized Packaging",
-          "mixedContainer": "Mixed Container"
+          "oem": "إنتاج OEM",
+          "privateLabel": "علامة خاصة",
+          "customizedPackaging": "تعبئة مخصصة",
+          "mixedContainer": "حاوية مختلطة"
         }
       },
-
-      "submit": "Submit Inquiry",
-      "submitting": "Submitting...",
-
+      "submit": "إرسال الاستفسار",
+      "submitting": "جارٍ الإرسال...",
       "status": {
-        "validationError": "Please review the required fields and make sure the information is complete.",
-        "sendError": "We could not send your inquiry at this time. Please try again or contact our export team directly."
+        "validationError": "يرجى مراجعة الحقول المطلوبة والتأكد من اكتمال المعلومات.",
+        "sendError": "تعذر إرسال استفسارك حالياً. يرجى المحاولة مرة أخرى أو التواصل مباشرة مع فريق التصدير."
       }
     },
-
     "team": {
-      "title": "Export Team",
+      "title": "فريق التصدير",
       "items": {
-        "email": "Email",
-        "phone": "Phone",
-        "whatsapp": "WhatsApp",
-        "address": "Address",
-        "responseTime": "Response Time"
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "whatsapp": "واتساب",
+        "address": "العنوان",
+        "responseTime": "وقت الاستجابة"
       }
     },
-
     "reasons": {
-      "title": "Why Global Buyers Choose SanHe",
+      "title": "لماذا يختار المشترون الدوليون SanHe",
       "items": {
-        "planting": "Own planting bases for key products",
-        "processing": "Factory processing and export packing",
-        "coldChain": "Self-owned cold chain warehousing",
-        "traceability": "Full quality traceability",
-        "oem": "OEM, private label and mixed containers",
-        "certification": "SGS / HACCP / BRC certification support"
+        "planting": "قواعد زراعة مملوكة للمنتجات الرئيسية",
+        "processing": "معالجة في المصنع وتعبئة للتصدير",
+        "coldChain": "مستودعات سلسلة تبريد مملوكة",
+        "traceability": "تتبع كامل للجودة",
+        "oem": "OEM وعلامة خاصة وحاويات مختلطة",
+        "certification": "دعم شهادات SGS / HACCP / BRC"
       }
     },
-
     "success": {
-      "eyebrow": "Inquiry Received",
-      "title": "Thank You for Your Inquiry",
-      "description": "Your request has been received. Our export team will review the information and contact you as soon as possible during business hours.",
-      "browseProducts": "Browse More Products",
-      "backHome": "Back to Homepage",
-
+      "eyebrow": "تم استلام الاستفسار",
+      "title": "شكراً لاستفسارك",
+      "description": "تم استلام طلبك. سيراجع فريق التصدير المعلومات ويتواصل معك في أقرب وقت ممكن خلال ساعات العمل.",
+      "browseProducts": "استعراض المزيد من المنتجات",
+      "backHome": "العودة إلى الصفحة الرئيسية",
       "next": {
-        "eyebrow": "What Happens Next",
-        "title": "Our Team Will Review Your Requirements",
-        "description": "We will use the information you provided to prepare the next steps for product sourcing and quotation.",
-
+        "eyebrow": "ماذا يحدث بعد ذلك",
+        "title": "سيراجع فريقنا متطلباتك",
+        "description": "سنستخدم المعلومات التي قدمتها لإعداد الخطوات التالية لتوريد المنتج وعرض السعر.",
         "items": {
           "review": {
-            "title": "Requirement Review",
-            "description": "We review the selected product, estimated quantity, packaging and destination market."
+            "title": "مراجعة المتطلبات",
+            "description": "نراجع المنتج المحدد والكمية التقديرية والتعبئة وسوق الوجهة."
           },
           "contact": {
-            "title": "Export Team Contact",
-            "description": "A team member will contact you if additional product or shipment information is required."
+            "title": "تواصل فريق التصدير",
+            "description": "سيتواصل معك أحد أعضاء الفريق إذا كانت هناك حاجة إلى معلومات إضافية عن المنتج أو الشحنة."
           },
           "solution": {
-            "title": "Supply Solution",
-            "description": "We prepare a suitable product, packing and export supply proposal for further discussion."
+            "title": "حل التوريد",
+            "description": "نُعد مقترحاً مناسباً للمنتج والتعبئة والتوريد التصديري لمزيد من المناقشة."
           }
         }
       },
-
       "support": {
-        "title": "Need to add more information?",
-        "description": "You can return to the inquiry page and submit additional product or sourcing requirements.",
-        "button": "Submit Another Inquiry"
+        "title": "هل تحتاج إلى إضافة معلومات؟",
+        "description": "يمكنك العودة إلى صفحة الاستفسار وإرسال متطلبات إضافية للمنتج أو التوريد.",
+        "button": "إرسال استفسار آخر"
       }
     }
   }

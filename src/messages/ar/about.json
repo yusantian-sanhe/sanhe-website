@@ -1,43 +1,43 @@
 {
   "about": {
     "hero": {
-      "eyebrow": "About SanHe",
-      "title": "Trusted Agricultural Export Partner",
-      "description": "We support global buyers with selected agricultural products, stable supply chains and professional export service."
+      "eyebrow": "عن SanHe",
+      "title": "شريك موثوق لتصدير المنتجات الزراعية",
+      "description": "ندعم المشترين الدوليين بمنتجات زراعية مختارة وسلاسل توريد مستقرة وخدمة تصدير احترافية."
     },
     "intro": {
-      "eyebrow": "Who We Are",
-      "title": "Building Reliable Global Supply Relationships",
-      "description": "SanHe works with production and processing partners to supply agricultural products for importers, wholesalers, distributors and food manufacturers worldwide.",
-      "content": "From product selection and quality checking to export packing and shipment coordination, we focus on helping buyers reduce risk and build long-term sourcing partnerships."
+      "eyebrow": "من نحن",
+      "title": "نبني علاقات توريد عالمية موثوقة",
+      "description": "تتعاون SanHe مع شركاء في الإنتاج والمعالجة لتوريد المنتجات الزراعية للمستوردين وتجار الجملة والموزعين ومصنعي الأغذية حول العالم.",
+      "content": "من اختيار المنتجات وفحص الجودة إلى التعبئة المخصصة للتصدير وتنسيق الشحنات، نركز على مساعدة المشترين في تقليل المخاطر وبناء شراكات توريد طويلة الأجل."
     },
     "strengths": {
-      "eyebrow": "Our Strengths",
-      "title": "Why Buyers Work With Us",
-      "description": "We combine product knowledge, supplier coordination and export service to support international agricultural trade.",
+      "eyebrow": "نقاط قوتنا",
+      "title": "لماذا يعمل المشترون معنا",
+      "description": "نجمع بين المعرفة بالمنتجات وتنسيق الموردين وخدمات التصدير لدعم التجارة الدولية في المنتجات الزراعية.",
       "items": {
-        "sourcing": "Reliable Product Sourcing",
-        "packing": "Export-Ready Packing",
-        "quality": "Quality Control Support",
-        "cooperation": "Long-Term Cooperation"
+        "sourcing": "توريد موثوق للمنتجات",
+        "packing": "تعبئة جاهزة للتصدير",
+        "quality": "دعم مراقبة الجودة",
+        "cooperation": "تعاون طويل الأجل"
       }
     },
     "stats": {
       "years": {
         "value": "10+",
-        "label": "Years Experience"
+        "label": "سنوات من الخبرة"
       },
       "markets": {
         "value": "30+",
-        "label": "Markets Served"
+        "label": "سوقًا تم خدمته"
       },
       "shipments": {
         "value": "1,000+",
-        "label": "Export Shipments"
+        "label": "شحنة تصدير"
       },
       "partners": {
         "value": "200+",
-        "label": "Business Partners"
+        "label": "شريك تجاري"
       }
     }
   }

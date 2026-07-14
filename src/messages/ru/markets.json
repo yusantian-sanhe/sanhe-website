@@ -1,59 +1,51 @@
 {
   "markets": {
     "hero": {
-      "eyebrow": "Export Markets",
-      "title": "Serving Global Agricultural Import Markets",
-      "description": "We support buyers across key international markets with reliable product supply, export documentation and logistics coordination."
+      "eyebrow": "Экспортные рынки",
+      "title": "Обслуживаем мировые рынки импорта сельскохозяйственной продукции",
+      "description": "Мы поддерживаем покупателей на ключевых международных рынках, обеспечивая надёжные поставки продукции, экспортную документацию и координацию логистики."
     },
-
     "overview": {
-      "imageLabel": "Global Export & Logistics",
-
+      "imageLabel": "Глобальный экспорт и логистика",
       "stats": {
         "markets": {
           "value": "30+",
-          "label": "Global Import Markets"
+          "label": "Мировых импортных рынков"
         },
         "regions": {
           "value": "5",
-          "label": "Major Market Regions"
+          "label": "Основных рыночных регионов"
         },
         "service": {
           "value": "B2B",
-          "label": "Export Supply Service"
+          "label": "Экспортное снабжение"
         }
       }
     },
-
     "markets": {
-      "eyebrow": "Global Reach",
-      "title": "Markets We Support",
-      "description": "Our export service is built for importers, wholesalers, distributors and food manufacturers worldwide.",
-
+      "eyebrow": "Глобальное присутствие",
+      "title": "Рынки, которые мы обслуживаем",
+      "description": "Наш экспортный сервис предназначен для импортёров, оптовиков, дистрибьюторов и производителей продуктов питания по всему миру.",
       "items": {
         "middleEast": {
-          "title": "Middle East",
-          "description": "Supplying buyers in UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets."
+          "title": "Ближний Восток",
+          "description": "Поставляем продукцию покупателям в ОАЭ, Саудовской Аравии, Катаре, Кувейте и соседних рынках."
         },
-
         "europe": {
-          "title": "Europe",
-          "description": "Supporting importers and distributors across Germany, France, Spain, Italy and other European markets."
+          "title": "Европа",
+          "description": "Поддерживаем импортёров и дистрибьюторов в Германии, Франции, Испании, Италии и других европейских странах."
         },
-
         "asia": {
-          "title": "Asia",
-          "description": "Working with regional buyers, distributors and food processors across Asia."
+          "title": "Азия",
+          "description": "Сотрудничаем с региональными покупателями, дистрибьюторами и переработчиками продуктов питания по всей Азии."
         },
-
         "africa": {
-          "title": "Africa",
-          "description": "Serving selected food import markets across North Africa and West Africa."
+          "title": "Африка",
+          "description": "Обслуживаем отдельные рынки импорта продуктов питания в Северной и Западной Африке."
         },
-
         "americas": {
-          "title": "Americas",
-          "description": "Supporting wholesale and import channels in North America and Latin America."
+          "title": "Северная и Южная Америка",
+          "description": "Поддерживаем оптовые и импортные каналы в Северной Америке и странах Латинской Америки."
         }
       }
     }

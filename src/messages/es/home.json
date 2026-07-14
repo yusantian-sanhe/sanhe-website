@@ -1,237 +1,221 @@
 {
   "hero": {
-    "badge": "Trusted Agricultural Export Partner",
-    "titleLine1": "Reliable Agricultural Supply",
-    "titleLine2": "For Global Markets",
-    "description": "We support importers, wholesalers and food manufacturers with selected agricultural products, export-ready packing and dependable logistics.",
-    "viewProducts": "View Products",
-    "contactSales": "Contact Sales",
-    "supplyChainTitle": "Integrated Supply Chain",
-
+    "badge": "Socio confiable de exportación agrícola",
+    "titleLine1": "Suministro agrícola confiable",
+    "titleLine2": "Para mercados globales",
+    "description": "Apoyamos a importadores, mayoristas y fabricantes de alimentos con productos agrícolas seleccionados, embalaje de exportación y logística confiable.",
+    "viewProducts": "Ver productos",
+    "contactSales": "Contactar con ventas",
+    "supplyChainTitle": "Cadena de suministro integrada",
     "process": {
-      "planting": "Planting Bases",
-      "processing": "Factory Processing",
-      "coldChain": "Cold Chain Storage",
-      "export": "Global Export"
+      "planting": "Bases de cultivo",
+      "processing": "Procesamiento en fábrica",
+      "coldChain": "Almacenamiento en frío",
+      "export": "Exportación global"
     },
-
     "trustItems": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Reliable quality managed from the source."
+        "title": "Bases de cultivo propias",
+        "description": "Calidad confiable gestionada desde el origen."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Professional grading, processing and packaging."
+        "title": "Procesamiento directo en fábrica",
+        "description": "Clasificación, procesamiento y embalaje profesionales."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain",
-        "description": "Maintaining freshness during storage and export."
+        "title": "Cadena de frío propia",
+        "description": "Conservación de la frescura durante el almacenamiento y la exportación."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting to delivery."
+        "title": "Trazabilidad completa del producto",
+        "description": "Cada envío puede rastrearse desde el cultivo hasta la entrega."
       }
     }
   },
-
   "featuredProducts": {
-    "eyebrow": "Featured Products",
-    "title": "Fresh Produce, Frozen Foods & Prepared Food Solutions",
-    "description": "Explore our main product categories for global buyers.",
-    "learnMore": "Learn More",
-
+    "eyebrow": "Productos destacados",
+    "title": "Productos frescos, alimentos congelados y soluciones preparadas",
+    "description": "Explore nuestras principales categorías para compradores internacionales.",
+    "learnMore": "Más información",
     "items": {
       "freshVegetables": {
-        "name": "Fresh Vegetables",
-        "description": "Fresh vegetables supplied for global markets."
+        "name": "Verduras frescas",
+        "description": "Verduras frescas para mercados globales."
       },
       "freshFruits": {
-        "name": "Fresh Fruits",
-        "description": "Fresh fruits selected for international buyers."
+        "name": "Frutas frescas",
+        "description": "Frutas frescas seleccionadas para compradores internacionales."
       },
       "frozenFoods": {
-        "name": "Frozen Foods",
-        "description": "Frozen food solutions with stable supply."
+        "name": "Alimentos congelados",
+        "description": "Soluciones congeladas con suministro estable."
       },
       "preparedFoods": {
-        "name": "Prepared Foods",
-        "description": "Prepared food solutions for global customers."
+        "name": "Alimentos preparados",
+        "description": "Soluciones alimentarias preparadas para clientes internacionales."
       }
     }
   },
-
   "supplyChain": {
-    "eyebrow": "Supply Chain Overview",
-    "title": "From Our Fields to Global Markets",
-    "description": "Every shipment is managed through our integrated supply chain, from self-owned planting bases to global delivery, ensuring freshness, quality and full traceability.",
-
+    "eyebrow": "Resumen de la cadena de suministro",
+    "title": "De nuestros campos a los mercados globales",
+    "description": "Cada envío se gestiona mediante nuestra cadena de suministro integrada, desde las bases de cultivo propias hasta la entrega global, garantizando frescura, calidad y trazabilidad completa.",
     "steps": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Stable quality managed from the source."
+        "title": "Bases de cultivo propias",
+        "description": "Calidad estable gestionada desde el origen."
       },
       "processing": {
-        "title": "Factory Processing",
-        "description": "Cleaning, grading and processing under controlled production."
+        "title": "Procesamiento en fábrica",
+        "description": "Limpieza, clasificación y procesamiento bajo producción controlada."
       },
       "coldChain": {
-        "title": "Cold Chain Warehousing",
-        "description": "Professional storage helps preserve product freshness."
+        "title": "Almacenamiento en cadena de frío",
+        "description": "El almacenamiento profesional ayuda a conservar la frescura."
       },
       "inspection": {
-        "title": "Quality Inspection & Packaging",
-        "description": "Products are checked and packed according to customer specifications."
+        "title": "Inspección de calidad y embalaje",
+        "description": "Los productos se revisan y embalan según las especificaciones del cliente."
       },
       "export": {
-        "title": "Global Export",
-        "description": "Reliable delivery to worldwide markets."
+        "title": "Exportación global",
+        "description": "Entrega confiable a mercados de todo el mundo."
       }
     },
-
-    "closing": "By integrating planting, processing, cold storage and export logistics, SanHe helps customers reduce supply risks and build long-term partnerships."
+    "closing": "Al integrar cultivo, procesamiento, almacenamiento en frío y logística de exportación, SanHe ayuda a reducir riesgos y construir relaciones a largo plazo."
   },
-
   "whyChooseUs": {
-    "eyebrow": "Why Choose Us",
-    "title": "Built for Reliable International Trade",
-    "description": "We combine product sourcing, quality control, export packing and logistics coordination to help buyers reduce risk and build long-term supply relationships.",
-
+    "eyebrow": "Por qué elegirnos",
+    "title": "Diseñado para un comercio internacional confiable",
+    "description": "Combinamos abastecimiento, control de calidad, embalaje de exportación y coordinación logística para reducir riesgos y construir relaciones de suministro duraderas.",
     "items": {
       "planting": {
-        "title": "Self-owned Planting Bases",
-        "description": "Key products come from managed planting bases, ensuring stable quality and reliable supply."
+        "title": "Bases de cultivo propias",
+        "description": "Los productos clave proceden de bases gestionadas, garantizando calidad estable y suministro confiable."
       },
       "processing": {
-        "title": "Factory Direct Processing",
-        "description": "Cleaning, grading, processing and packaging are managed by production facilities to ensure consistent quality."
+        "title": "Procesamiento directo en fábrica",
+        "description": "La limpieza, clasificación, procesamiento y embalaje se gestionan en instalaciones de producción para garantizar calidad constante."
       },
       "coldChain": {
-        "title": "Self-owned Cold Chain Storage",
-        "description": "Professional cold storage helps maintain freshness and supports efficient export logistics."
+        "title": "Almacenamiento en frío propio",
+        "description": "El almacenamiento profesional mantiene la frescura y apoya una logística de exportación eficiente."
       },
       "traceability": {
-        "title": "Full Product Traceability",
-        "description": "Every shipment can be traced from planting, processing and packing to export."
+        "title": "Trazabilidad completa del producto",
+        "description": "Cada envío puede rastrearse desde el cultivo y el procesamiento hasta el embalaje y la exportación."
       },
       "customPackaging": {
-        "title": "Custom Packaging & OEM",
-        "description": "Flexible packaging, private label and OEM production solutions are available for customers."
+        "title": "Embalaje personalizado y OEM",
+        "description": "Disponemos de embalaje flexible, marca privada y producción OEM."
       },
       "stableSupply": {
-        "title": "Stable Year-round Supply",
-        "description": "Integrated supply chain management helps maintain reliable supply throughout the year."
+        "title": "Suministro estable todo el año",
+        "description": "La gestión integrada de la cadena ayuda a mantener un suministro confiable durante todo el año."
       }
     }
   },
-
   "exportMarkets": {
-    "eyebrow": "Export Markets",
-    "title": "Supplying Agricultural Products to Global Buyers",
-    "description": "We support customers across key import markets with flexible supply, export documentation and logistics coordination for international agricultural trade.",
-
+    "eyebrow": "Mercados de exportación",
+    "title": "Suministro de productos agrícolas a compradores globales",
+    "description": "Apoyamos a clientes en mercados clave con suministro flexible, documentación de exportación y coordinación logística.",
     "regions": {
       "middleEast": {
-        "title": "Middle East",
-        "countries": "UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets"
+        "title": "Oriente Medio",
+        "countries": "EAU, Arabia Saudita, Catar, Kuwait y mercados cercanos"
       },
       "europe": {
-        "title": "Europe",
-        "countries": "Germany, France, Spain, Italy and other European import markets"
+        "title": "Europa",
+        "countries": "Alemania, Francia, España, Italia y otros mercados europeos"
       },
       "asia": {
         "title": "Asia",
-        "countries": "China, Southeast Asia, Japan, Korea and regional distributors"
+        "countries": "China, Sudeste Asiático, Japón, Corea y distribuidores regionales"
       },
       "africa": {
-        "title": "Africa",
-        "countries": "North Africa, West Africa and selected food import markets"
+        "title": "África",
+        "countries": "Norte y oeste de África y mercados seleccionados de importación de alimentos"
       },
       "americas": {
-        "title": "Americas",
-        "countries": "United States, Canada, Latin America and wholesale channels"
+        "title": "América",
+        "countries": "Estados Unidos, Canadá, América Latina y canales mayoristas"
       }
     }
   },
-
   "certificates": {
-    "eyebrow": "Quality & Certifications",
-    "title": "Building Trust Through Quality Control",
-    "description": "SanHe supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection.",
-"panel": {
-  "eyebrow": "SanHe Quality",
-  "supportValue": "B2B",
-  "supportLabel": "Export Quality Support",
-  "notice": "Quality claims should be supported by actual inspection records, certificates and shipment documents."
-},
+    "eyebrow": "Calidad y certificaciones",
+    "title": "Generamos confianza mediante el control de calidad",
+    "description": "SanHe apoya a compradores globales con estándares reconocidos, cadenas trazables, almacenamiento en frío e inspección orientada a la exportación.",
+    "panel": {
+      "eyebrow": "Calidad SanHe",
+      "supportValue": "B2B",
+      "supportLabel": "Apoyo de calidad para exportación",
+      "notice": "Las afirmaciones de calidad deben respaldarse con registros de inspección, certificados y documentos de envío reales."
+    },
     "items": {
       "sgs": {
         "title": "SGS",
-        "description": "Third-party inspection support for international buyers."
+        "description": "Apoyo de inspección de terceros para compradores internacionales."
       },
       "haccp": {
         "title": "HACCP",
-        "description": "Food safety management for processing and export control."
+        "description": "Gestión de seguridad alimentaria para procesamiento y control de exportación."
       },
       "brc": {
         "title": "BRC",
-        "description": "International standard support for food supply chains."
+        "description": "Apoyo de estándares internacionales para cadenas alimentarias."
       },
       "traceability": {
-        "title": "Full Traceability",
-        "description": "Products can be traced from planting to final shipment."
+        "title": "Trazabilidad completa",
+        "description": "Los productos pueden rastrearse desde el cultivo hasta el envío final."
       },
       "coldChain": {
-        "title": "Cold Chain Management",
-        "description": "Temperature-controlled storage helps preserve freshness."
+        "title": "Gestión de la cadena de frío",
+        "description": "El almacenamiento con temperatura controlada ayuda a conservar la frescura."
       },
       "inspection": {
-        "title": "Quality Inspection",
-        "description": "Inspection and packing control before export shipment."
+        "title": "Inspección de calidad",
+        "description": "Inspección y control del embalaje antes del envío de exportación."
       }
     }
   },
-
   "statistics": {
     "items": {
       "stages": {
         "value": "4",
-        "label": "Integrated Supply Chain Stages"
+        "label": "Etapas de la cadena de suministro integrada"
       },
       "categories": {
         "value": "4",
-        "label": "Main Product Categories"
+        "label": "Categorías principales de productos"
       },
       "languages": {
         "value": "6",
-        "label": "Supported Website Languages"
+        "label": "Idiomas compatibles del sitio"
       },
       "service": {
         "value": "B2B",
-        "label": "International Export Supply Service"
+        "label": "Servicio internacional de suministro para exportación"
       }
     }
   },
-
   "testimonials": {
-    "eyebrow": "Buyer Feedback",
-    "title": "Trusted by Importers and Distributors",
-    "description": "We focus on long-term cooperation, stable quality and responsive export service."
+    "eyebrow": "Opiniones de compradores",
+    "title": "La confianza de importadores y distribuidores",
+    "description": "Nos centramos en la cooperación a largo plazo, la calidad estable y un servicio de exportación ágil."
   },
-
   "cta": {
-  "eyebrow": "Start Cooperation",
-  "title": "Ready to Source Agricultural Products?",
-  "description": "Whether you are an importer, wholesaler or food manufacturer, we are ready to support your business with reliable products and professional export service.",
-  "contact": "Contact Sales",
-  "products": "View Products",
-  "responseNote": "Share your sourcing requirements and our export team will follow up during business hours.",
-
-  "highlights": {
-    "oem": "OEM Production",
-    "privateLabel": "Private Label",
-    "mixedContainers": "Mixed Container Service",
-    "stableSupply": "Stable Year-round Supply"
+    "eyebrow": "Iniciar cooperación",
+    "title": "¿Listo para abastecerse de productos agrícolas?",
+    "description": "Tanto si es importador, mayorista o fabricante, estamos preparados para apoyar su negocio con productos confiables y servicio profesional de exportación.",
+    "contact": "Contactar con ventas",
+    "products": "Ver productos",
+    "responseNote": "Comparta sus requisitos y nuestro equipo de exportación responderá durante el horario laboral.",
+    "highlights": {
+      "oem": "Producción OEM",
+      "privateLabel": "Marca privada",
+      "mixedContainers": "Servicio de contenedor mixto",
+      "stableSupply": "Suministro estable todo el año"
+    }
   }
-}
 }

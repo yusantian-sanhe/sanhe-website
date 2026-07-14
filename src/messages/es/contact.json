@@ -1,131 +1,120 @@
 {
   "contact": {
     "hero": {
-      "eyebrow": "Request a Quote",
-      "title": "Tell Us Your Sourcing Requirements",
-      "description": "Share your product, packaging, quantity and destination market requirements. Our export team will help you prepare a suitable supply solution."
+      "eyebrow": "Solicitar cotización",
+      "title": "Cuéntenos sus requisitos de abastecimiento",
+      "description": "Comparta sus requisitos de producto, embalaje, cantidad y mercado de destino. Nuestro equipo de exportación le ayudará a preparar una solución de suministro adecuada."
     },
-
     "form": {
-      "title": "Inquiry Form",
-      "selectedProduct": "Selected Product",
-      "privacyNote": "Your information is kept confidential and used only for communication regarding your inquiry.",
-
+      "title": "Formulario de consulta",
+      "selectedProduct": "Producto seleccionado",
+      "privacyNote": "Su información se mantiene confidencial y solo se utiliza para comunicarnos sobre su consulta.",
       "fields": {
         "name": {
-          "label": "Your Name",
-          "placeholder": "Your Name"
+          "label": "Su nombre",
+          "placeholder": "Su nombre"
         },
         "email": {
-          "label": "Email Address",
+          "label": "Correo electrónico",
           "placeholder": "name@company.com"
         },
         "company": {
-          "label": "Company Name",
-          "placeholder": "Company Name"
+          "label": "Nombre de la empresa",
+          "placeholder": "Nombre de la empresa"
         },
         "destinationMarket": {
-          "label": "Destination Country / Market",
-          "placeholder": "Germany / UAE / Saudi Arabia"
+          "label": "País / mercado de destino",
+          "placeholder": "Alemania / EAU / Arabia Saudita"
         },
         "category": {
-          "label": "Product Category",
-          "placeholder": "Select Product Category"
+          "label": "Categoría de producto",
+          "placeholder": "Seleccione una categoría"
         },
         "product": {
-          "label": "Product",
-          "placeholder": "Select Product",
-          "selectCategoryFirst": "Select category first"
+          "label": "Producto",
+          "placeholder": "Seleccione un producto",
+          "selectCategoryFirst": "Seleccione primero una categoría"
         },
         "quantity": {
-          "label": "Estimated Quantity",
-          "placeholder": "1 x 40HQ / Long-term cooperation"
+          "label": "Cantidad estimada",
+          "placeholder": "1 × 40HQ / cooperación a largo plazo"
         },
         "packaging": {
-          "label": "Packaging Preference",
-          "placeholder": "10kg Carton / Mesh Bag / Private Label"
+          "label": "Preferencia de embalaje",
+          "placeholder": "Caja de 10 kg / saco de malla / marca privada"
         },
         "message": {
-          "label": "Detailed Requirements",
-          "placeholder": "Tell us your product, quantity, packaging and delivery requirements.",
-          "productTemplate": "I would like to request a quote for {product}."
+          "label": "Requisitos detallados",
+          "placeholder": "Indíquenos el producto, la cantidad, el embalaje y los requisitos de entrega.",
+          "productTemplate": "Me gustaría solicitar una cotización para {product}."
         }
       },
-
       "services": {
-        "title": "Additional Services",
+        "title": "Servicios adicionales",
         "items": {
-          "oem": "OEM Production",
-          "privateLabel": "Private Label",
-          "customizedPackaging": "Customized Packaging",
-          "mixedContainer": "Mixed Container"
+          "oem": "Producción OEM",
+          "privateLabel": "Marca privada",
+          "customizedPackaging": "Embalaje personalizado",
+          "mixedContainer": "Contenedor mixto"
         }
       },
-
-      "submit": "Submit Inquiry",
-      "submitting": "Submitting...",
-
+      "submit": "Enviar consulta",
+      "submitting": "Enviando...",
       "status": {
-        "validationError": "Please review the required fields and make sure the information is complete.",
-        "sendError": "We could not send your inquiry at this time. Please try again or contact our export team directly."
+        "validationError": "Revise los campos obligatorios y asegúrese de que la información esté completa.",
+        "sendError": "No pudimos enviar su consulta en este momento. Inténtelo de nuevo o contacte directamente con nuestro equipo de exportación."
       }
     },
-
     "team": {
-      "title": "Export Team",
+      "title": "Equipo de exportación",
       "items": {
-        "email": "Email",
-        "phone": "Phone",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
         "whatsapp": "WhatsApp",
-        "address": "Address",
-        "responseTime": "Response Time"
+        "address": "Dirección",
+        "responseTime": "Tiempo de respuesta"
       }
     },
-
     "reasons": {
-      "title": "Why Global Buyers Choose SanHe",
+      "title": "Por qué los compradores internacionales eligen SanHe",
       "items": {
-        "planting": "Own planting bases for key products",
-        "processing": "Factory processing and export packing",
-        "coldChain": "Self-owned cold chain warehousing",
-        "traceability": "Full quality traceability",
-        "oem": "OEM, private label and mixed containers",
-        "certification": "SGS / HACCP / BRC certification support"
+        "planting": "Bases de cultivo propias para productos clave",
+        "processing": "Procesamiento en fábrica y embalaje de exportación",
+        "coldChain": "Almacenamiento propio en cadena de frío",
+        "traceability": "Trazabilidad completa de la calidad",
+        "oem": "OEM, marca privada y contenedores mixtos",
+        "certification": "Apoyo para certificaciones SGS / HACCP / BRC"
       }
     },
-
     "success": {
-      "eyebrow": "Inquiry Received",
-      "title": "Thank You for Your Inquiry",
-      "description": "Your request has been received. Our export team will review the information and contact you as soon as possible during business hours.",
-      "browseProducts": "Browse More Products",
-      "backHome": "Back to Homepage",
-
+      "eyebrow": "Consulta recibida",
+      "title": "Gracias por su consulta",
+      "description": "Hemos recibido su solicitud. Nuestro equipo de exportación revisará la información y se pondrá en contacto con usted lo antes posible durante el horario laboral.",
+      "browseProducts": "Ver más productos",
+      "backHome": "Volver al inicio",
       "next": {
-        "eyebrow": "What Happens Next",
-        "title": "Our Team Will Review Your Requirements",
-        "description": "We will use the information you provided to prepare the next steps for product sourcing and quotation.",
-
+        "eyebrow": "Qué ocurre después",
+        "title": "Nuestro equipo revisará sus requisitos",
+        "description": "Utilizaremos la información proporcionada para preparar los siguientes pasos del abastecimiento y la cotización.",
         "items": {
           "review": {
-            "title": "Requirement Review",
-            "description": "We review the selected product, estimated quantity, packaging and destination market."
+            "title": "Revisión de requisitos",
+            "description": "Revisamos el producto seleccionado, la cantidad estimada, el embalaje y el mercado de destino."
           },
           "contact": {
-            "title": "Export Team Contact",
-            "description": "A team member will contact you if additional product or shipment information is required."
+            "title": "Contacto del equipo de exportación",
+            "description": "Un miembro del equipo se pondrá en contacto con usted si se necesita información adicional sobre el producto o el envío."
           },
           "solution": {
-            "title": "Supply Solution",
-            "description": "We prepare a suitable product, packing and export supply proposal for further discussion."
+            "title": "Solución de suministro",
+            "description": "Preparamos una propuesta adecuada de producto, embalaje y suministro de exportación para continuar la conversación."
           }
         }
       },
-
       "support": {
-        "title": "Need to add more information?",
-        "description": "You can return to the inquiry page and submit additional product or sourcing requirements.",
-        "button": "Submit Another Inquiry"
+        "title": "¿Necesita añadir más información?",
+        "description": "Puede volver a la página de consulta y enviar requisitos adicionales de producto o abastecimiento.",
+        "button": "Enviar otra consulta"
       }
     }
   }

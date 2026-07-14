@@ -1,59 +1,51 @@
 {
   "markets": {
     "hero": {
-      "eyebrow": "Export Markets",
-      "title": "Serving Global Agricultural Import Markets",
-      "description": "We support buyers across key international markets with reliable product supply, export documentation and logistics coordination."
+      "eyebrow": "Marchés d’exportation",
+      "title": "Au service des marchés mondiaux d’importation agricole",
+      "description": "Nous accompagnons les acheteurs sur les principaux marchés internationaux avec un approvisionnement fiable, des documents d’exportation et une coordination logistique."
     },
-
     "overview": {
-      "imageLabel": "Global Export & Logistics",
-
+      "imageLabel": "Exportation et logistique mondiales",
       "stats": {
         "markets": {
           "value": "30+",
-          "label": "Global Import Markets"
+          "label": "Marchés mondiaux d’importation"
         },
         "regions": {
           "value": "5",
-          "label": "Major Market Regions"
+          "label": "Principales régions de marché"
         },
         "service": {
           "value": "B2B",
-          "label": "Export Supply Service"
+          "label": "Service d’approvisionnement export"
         }
       }
     },
-
     "markets": {
-      "eyebrow": "Global Reach",
-      "title": "Markets We Support",
-      "description": "Our export service is built for importers, wholesalers, distributors and food manufacturers worldwide.",
-
+      "eyebrow": "Présence mondiale",
+      "title": "Les marchés que nous accompagnons",
+      "description": "Notre service export est conçu pour les importateurs, grossistes, distributeurs et fabricants alimentaires du monde entier.",
       "items": {
         "middleEast": {
-          "title": "Middle East",
-          "description": "Supplying buyers in UAE, Saudi Arabia, Qatar, Kuwait and surrounding markets."
+          "title": "Moyen-Orient",
+          "description": "Nous approvisionnons des acheteurs aux Émirats arabes unis, en Arabie saoudite, au Qatar, au Koweït et sur les marchés voisins."
         },
-
         "europe": {
           "title": "Europe",
-          "description": "Supporting importers and distributors across Germany, France, Spain, Italy and other European markets."
+          "description": "Nous accompagnons les importateurs et distributeurs en Allemagne, en France, en Espagne, en Italie et sur d’autres marchés européens."
         },
-
         "asia": {
-          "title": "Asia",
-          "description": "Working with regional buyers, distributors and food processors across Asia."
+          "title": "Asie",
+          "description": "Nous travaillons avec des acheteurs régionaux, des distributeurs et des transformateurs alimentaires dans toute l’Asie."
         },
-
         "africa": {
-          "title": "Africa",
-          "description": "Serving selected food import markets across North Africa and West Africa."
+          "title": "Afrique",
+          "description": "Nous desservons certains marchés d’importation alimentaire en Afrique du Nord et en Afrique de l’Ouest."
         },
-
         "americas": {
-          "title": "Americas",
-          "description": "Supporting wholesale and import channels in North America and Latin America."
+          "title": "Amériques",
+          "description": "Nous accompagnons les circuits de gros et d’importation en Amérique du Nord et en Amérique latine."
         }
       }
     }
