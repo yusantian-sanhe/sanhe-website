@@ -252,6 +252,29 @@
           "distributors": "Distributors"
         }
       },
+      "qualityAssurance": {
+  "eyebrow": "Quality Assurance",
+  "title": "Quality Controls That Support Reliable Supply",
+  "description": "SanHe coordinates inspection, food-safety management, traceability and storage conditions to reduce purchasing risk for international buyers.",
+  "items": {
+    "inspection": {
+      "title": "Quality Inspection",
+      "description": "Product condition, appearance, grading and packaging are checked before shipment."
+    },
+    "foodSafety": {
+      "title": "Food Safety Management",
+      "description": "Handling and processing are coordinated according to applicable food-safety requirements."
+    },
+    "traceability": {
+      "title": "Full Traceability",
+      "description": "Supply, processing and shipment information can be recorded to support product traceability."
+    },
+    "coldChain": {
+      "title": "Storage & Cold Chain",
+      "description": "Storage and cold-chain coordination help maintain product condition before export delivery."
+    }
+  }
+},
       "relatedProducts": {
         "eyebrow": "Related Products",
         "title": "You May Also Be Interested In",

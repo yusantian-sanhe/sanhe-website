@@ -212,6 +212,29 @@
           "distributors": "经销商"
         }
       },
+      "qualityAssurance": {
+  "eyebrow": "质量保障",
+  "title": "以质量控制支持稳定供应",
+  "description": "SanHe 协调产品检验、食品安全管理、全程追溯及仓储条件，帮助国际采购商降低采购风险。",
+  "items": {
+    "inspection": {
+      "title": "质量检验",
+      "description": "发货前对产品状态、外观、分级和包装进行检查。"
+    },
+    "foodSafety": {
+      "title": "食品安全管理",
+      "description": "根据适用的食品安全要求协调产品处理和加工流程。"
+    },
+    "traceability": {
+      "title": "全程追溯",
+      "description": "记录供应、加工和发货信息，为产品追溯提供支持。"
+    },
+    "coldChain": {
+      "title": "仓储与冷链",
+      "description": "通过仓储和冷链协调，在出口交付前保持良好的产品状态。"
+    }
+  }
+},
       "relatedProducts": {
         "eyebrow": "相关产品",
         "title": "您可能还感兴趣",

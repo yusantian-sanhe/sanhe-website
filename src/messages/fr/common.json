@@ -1,14 +1,13 @@
 {
   "navigation": {
-    "home": "Home",
-    "products": "Products",
-    "markets": "Markets",
-    "quality": "Quality",
-    "about": "About",
+    "home": "Accueil",
+    "products": "Produits",
+    "markets": "Marchés",
+    "quality": "Qualité",
+    "about": "À propos",
     "contact": "Contact",
-    "quote": "Get Quote"
+    "quote": "Demander un devis"
   },
-
   "hero": {
     "badge": "Trusted Agricultural Export Partner",
     "titleLine1": "Reliable Agricultural Supply",
@@ -17,14 +16,12 @@
     "viewProducts": "View Products",
     "contactSales": "Contact Sales",
     "supplyChainTitle": "Integrated Supply Chain",
-
     "process": {
       "planting": "Planting Bases",
       "processing": "Factory Processing",
       "coldChain": "Cold Chain Storage",
       "export": "Global Export"
     },
-
     "trustItems": {
       "planting": {
         "title": "Self-owned Planting Bases",
@@ -44,15 +41,11 @@
       }
     }
   },
-
-
-    "learnMore": "Learn More"
-},
+  "learnMore": "Learn More",
   "supplyChain": {
     "eyebrow": "Supply Chain Overview",
     "title": "From Our Fields to Global Markets",
     "description": "Every shipment is managed through our integrated supply chain, from self-owned planting bases to global delivery, ensuring freshness, quality and full traceability.",
-
     "steps": {
       "planting": {
         "title": "Self-owned Planting Bases",
@@ -75,16 +68,12 @@
         "description": "Reliable delivery to worldwide markets."
       }
     },
-
     "closing": "By integrating planting, processing, cold storage and export logistics, SanHe helps customers reduce supply risks and build long-term partnerships."
   },
-
-
   "whyChooseUs": {
     "eyebrow": "Why Choose Us",
     "title": "Built for Reliable International Trade",
     "description": "We combine product sourcing, quality control, export packing and logistics coordination to help buyers reduce risk and build long-term supply relationships.",
-
     "items": {
       "planting": {
         "title": "Self-owned Planting Bases",
@@ -112,13 +101,10 @@
       }
     }
   },
-
-
   "exportMarkets": {
     "eyebrow": "Export Markets",
     "title": "Supplying Agricultural Products to Global Buyers",
     "description": "We support customers across key import markets with flexible supply, export documentation and logistics coordination for international agricultural trade.",
-
     "regions": {
       "middleEast": {
         "title": "Middle East",
@@ -142,11 +128,10 @@
       }
     }
   },
-    "certificates": {
+  "certificates": {
     "eyebrow": "Quality & Certifications",
     "title": "Building Trust Through Quality Control",
     "description": "SanHe supports global buyers with recognized certification standards, traceable supply chains, cold chain warehousing and export-focused quality inspection.",
-
     "items": {
       "sgs": {
         "title": "SGS",
@@ -174,8 +159,6 @@
       }
     }
   },
-
-
   "statistics": {
     "items": {
       "years": {
@@ -196,13 +179,10 @@
       }
     }
   },
-
-
   "testimonials": {
     "eyebrow": "Buyer Feedback",
     "title": "Trusted by Importers and Distributors",
     "description": "We focus on long-term cooperation, stable quality and responsive export service.",
-
     "items": {
       "importer": {
         "name": "Food Importer",
@@ -221,7 +201,6 @@
       }
     }
   },
-  
   "cta": {
     "eyebrow": "Start Cooperation",
     "title": "Ready to Source Agricultural Products?",

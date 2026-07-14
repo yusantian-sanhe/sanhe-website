@@ -5,15 +5,19 @@ import { ProductApplications } from "@/components/products/ProductApplications";
 import { ProductDetailHero } from "@/components/products/ProductDetailHero";
 import { ProductInquiryCTA } from "@/components/products/ProductInquiryCTA";
 import { ProductPackaging } from "@/components/products/ProductPackaging";
+import { ProductQualityAssurance } from "@/components/products/ProductQualityAssurance";
 import { ProductStructuredData } from "@/components/products/ProductStructuredData";
 import { ProductSupplyCapability } from "@/components/products/ProductSupplyCapability";
 import { RelatedProducts } from "@/components/products/RelatedProducts";
+
 import {
   getCategoryBySlug,
   getProductBySlug,
   getProductsByCategory,
 } from "@/features/products/data";
+
 import { generatePageMetadata } from "@/lib/seo";
+
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -79,20 +83,14 @@ export default async function ProductDetailPage({
     notFound();
   }
 
-  if (
-    currentProduct.categorySlug !==
-    currentCategory.slug
-  ) {
+  if (currentProduct.categorySlug !== currentCategory.slug) {
     notFound();
   }
 
   const relatedProducts = getProductsByCategory(
     currentCategory.slug
   )
-    .filter(
-      (item) =>
-        item.slug !== currentProduct.slug
-    )
+    .filter((item) => item.slug !== currentProduct.slug)
     .slice(0, 4);
 
   const categoryName = t(
@@ -112,11 +110,8 @@ export default async function ProductDetailPage({
   );
 
   const specifications =
-    currentProduct.specifications.map(
-      (_, index) =>
-        t(
-          `items.${product}.specifications.${index}`
-        )
+    currentProduct.specifications.map((_, index) =>
+      t(`items.${product}.specifications.${index}`)
     );
 
   const packaging = t(
@@ -151,6 +146,45 @@ export default async function ProductDetailPage({
     {
       label: t("detail.loadingCapacity"),
       value: loadingCapacity,
+    },
+  ];
+
+  const qualityAssuranceItems = [
+    {
+      icon: "inspection" as const,
+      title: t(
+        "detailSections.qualityAssurance.items.inspection.title"
+      ),
+      description: t(
+        "detailSections.qualityAssurance.items.inspection.description"
+      ),
+    },
+    {
+      icon: "foodSafety" as const,
+      title: t(
+        "detailSections.qualityAssurance.items.foodSafety.title"
+      ),
+      description: t(
+        "detailSections.qualityAssurance.items.foodSafety.description"
+      ),
+    },
+    {
+      icon: "traceability" as const,
+      title: t(
+        "detailSections.qualityAssurance.items.traceability.title"
+      ),
+      description: t(
+        "detailSections.qualityAssurance.items.traceability.description"
+      ),
+    },
+    {
+      icon: "coldChain" as const,
+      title: t(
+        "detailSections.qualityAssurance.items.coldChain.title"
+      ),
+      description: t(
+        "detailSections.qualityAssurance.items.coldChain.description"
+      ),
     },
   ];
 
@@ -194,32 +228,41 @@ export default async function ProductDetailPage({
         productsLabel={navigation("products")}
       />
 
+      <ProductPackaging
+        packagingOptions={
+          currentProduct.packagingOptions ?? []
+        }
+      />
+
       {currentProduct.advantages &&
         currentProduct.advantages.length > 0 && (
           <ProductAdvantages
-            advantages={
-              currentProduct.advantages
-            }
+            advantages={currentProduct.advantages}
           />
         )}
+
+      <ProductSupplyCapability
+        capabilities={
+          currentProduct.supplyCapabilities ?? []
+        }
+      />
+
+      <ProductQualityAssurance
+        eyebrow={t(
+          "detailSections.qualityAssurance.eyebrow"
+        )}
+        title={t(
+          "detailSections.qualityAssurance.title"
+        )}
+        description={t(
+          "detailSections.qualityAssurance.description"
+        )}
+        items={qualityAssuranceItems}
+      />
 
       <ProductApplications
         applications={
           currentProduct.applications ?? []
-        }
-      />
-
-      <ProductPackaging
-        packagingOptions={
-          currentProduct.packagingOptions ??
-          []
-        }
-      />
-
-      <ProductSupplyCapability
-        capabilities={
-          currentProduct.supplyCapabilities ??
-          []
         }
       />
 

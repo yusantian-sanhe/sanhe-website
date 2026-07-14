@@ -1,13 +1,13 @@
 {
   "navigation": {
-    "home": "Home",
-    "products": "Products",
-    "markets": "Markets",
-    "quality": "Quality",
-    "about": "About",
-    "contact": "Contact",
-    "quote": "Get Quote"
-  },
+  "home": "Главная",
+  "products": "Продукция",
+  "markets": "Рынки",
+  "quality": "Качество",
+  "about": "О компании",
+  "contact": "Контакты",
+  "quote": "Запросить предложение"
+},
 
   "hero": {
     "badge": "Trusted Agricultural Export Partner",
@@ -43,11 +43,10 @@
         "description": "Every shipment can be traced from planting to delivery."
       }
     }
-  },
+    },
 
+  "learnMore": "Подробнее",
 
-    "learnMore": "Learn More"
-},
   "supplyChain": {
     "eyebrow": "Supply Chain Overview",
     "title": "From Our Fields to Global Markets",

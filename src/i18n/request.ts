@@ -1,54 +1,144 @@
 import { getRequestConfig } from "next-intl/server";
-import { defaultLocale, isLocale } from "./locales";
+import {
+  defaultLocale,
+  isLocale,
+} from "./locales";
 
-async function loadOptionalMessages(locale: string, file: string) {
+type MessageValue =
+  | string
+  | number
+  | boolean
+  | null
+  | MessageObject
+  | MessageValue[];
+
+interface MessageObject {
+  [key: string]: MessageValue;
+}
+
+async function loadOptionalMessages(
+  locale: string,
+  file: string
+): Promise<MessageObject> {
   try {
-    return (await import(`../messages/${locale}/${file}.json`)).default;
+    return (
+      await import(
+        `../messages/${locale}/${file}.json`
+      )
+    ).default as MessageObject;
   } catch {
     return {};
   }
 }
 
-export default getRequestConfig(async ({ requestLocale }) => {
-  const requested = await requestLocale;
+function isPlainObject(
+  value: unknown
+): value is MessageObject {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    !Array.isArray(value)
+  );
+}
 
-  const locale =
-    requested && isLocale(requested)
-      ? requested
-      : defaultLocale;
+/**
+ * Locale content overrides the English base.
+ * Missing nested keys continue using English.
+ *
+ * Arrays are replaced as complete values instead
+ * of being merged item by item.
+ */
+function deepMergeMessages(
+  base: MessageObject,
+  override: MessageObject
+): MessageObject {
+  const result: MessageObject = {
+    ...base,
+  };
 
-  const common = await loadOptionalMessages(locale, "common");
-  const products = await loadOptionalMessages(locale, "products");
-  const footer = await loadOptionalMessages(locale, "footer");
-  const about = await loadOptionalMessages(locale, "about");
-  const markets = await loadOptionalMessages(locale, "markets");
-  const quality = await loadOptionalMessages(locale, "quality");
-  const contact = await loadOptionalMessages(locale, "contact");
-  const home = await loadOptionalMessages(locale, "home");
-  console.log("LOADED HOME:", home);
-  const messages = {
-  ...common,
-  ...products,
-  ...footer,
-  ...about,
-  ...markets,
-  ...quality,
-  ...contact,
-  ...home,
-};
+  for (const [key, overrideValue] of Object.entries(
+    override
+  )) {
+    const baseValue = result[key];
 
-  console.log(
-  "FINAL MESSAGES KEYS:",
-  Object.keys(messages)
+    if (
+      isPlainObject(baseValue) &&
+      isPlainObject(overrideValue)
+    ) {
+      result[key] = deepMergeMessages(
+        baseValue,
+        overrideValue
+      );
+      continue;
+    }
+
+    result[key] = overrideValue;
+  }
+
+  return result;
+}
+
+async function loadNamespace(
+  locale: string,
+  file: string
+) {
+  const englishMessages =
+    await loadOptionalMessages("en", file);
+
+  if (locale === "en") {
+    return englishMessages;
+  }
+
+  const localeMessages =
+    await loadOptionalMessages(locale, file);
+
+  return deepMergeMessages(
+    englishMessages,
+    localeMessages
+  );
+}
+
+export default getRequestConfig(
+  async ({ requestLocale }) => {
+    const requested = await requestLocale;
+
+    const locale =
+      requested && isLocale(requested)
+        ? requested
+        : defaultLocale;
+
+    const [
+      common,
+      products,
+      footer,
+      about,
+      markets,
+      quality,
+      contact,
+      home,
+    ] = await Promise.all([
+      loadNamespace(locale, "common"),
+      loadNamespace(locale, "products"),
+      loadNamespace(locale, "footer"),
+      loadNamespace(locale, "about"),
+      loadNamespace(locale, "markets"),
+      loadNamespace(locale, "quality"),
+      loadNamespace(locale, "contact"),
+      loadNamespace(locale, "home"),
+    ]);
+
+    return {
+      locale,
+      messages: {
+        ...common,
+        ...products,
+        ...footer,
+        ...about,
+        ...markets,
+        ...quality,
+        ...contact,
+        ...home,
+      },
+    };
+  }
 );
-
-console.log(
-  "FEATURED:",
-  messages.featuredProducts
-);
-
-return {
-  locale,
-  messages,
-};
-});

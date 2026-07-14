@@ -1,6 +1,336 @@
 {
-  "eyebrow": "Productos",
-  "title": "Productos Agrícolas Listos para Exportar",
-  "description": "Explore productos agrícolas seleccionados para importadores, mayoristas y fabricantes de alimentos internacionales.",
-  "viewDetails": "Ver Detalles"
+  "products": {
+    "eyebrow": "Productos",
+    "title": "Productos frescos, alimentos congelados y soluciones de alimentos preparados",
+    "description": "Explore las principales categorías de productos de SanHe para compradores internacionales.",
+    "viewCategory": "Ver categoría",
+    "viewDetails": "Ver detalles",
+    "backToProducts": "Volver a productos",
+    "backToCategory": "Volver a {category}",
+    "categoryEyebrow": "Categoría de producto",
+    "detail": {
+      "overview": "Descripción del producto",
+      "exportInfo": "Información de exportación",
+      "specifications": "Especificaciones del producto",
+      "packaging": "Embalaje",
+      "moq": "Pedido mínimo",
+      "supplyAbility": "Capacidad de suministro",
+      "loadingCapacity": "Capacidad de carga",
+      "gallery": {
+        "galleryLabel": "Galería de {product}",
+        "imageAlt": "Imagen {number} de {product}",
+        "thumbnailAlt": "Miniatura {number} de {product}",
+        "thumbnailLabel": "Ver imagen {number} de {product}",
+        "previous": "Imagen anterior del producto",
+        "next": "Imagen siguiente del producto",
+        "zoomHint": "Pase el cursor para ampliar",
+        "swipeHint": "Deslice a izquierda o derecha para ver más imágenes"
+      }
+    },
+    "categories": {
+      "fresh-vegetables": {
+        "name": "Verduras frescas",
+        "description": "Jengibre, ajo, cebolla, patata, zanahoria, taro, ñame, pimiento y otras verduras frescas."
+      },
+      "fresh-fruits": {
+        "name": "Frutas frescas",
+        "description": "Manzanas, peras, melocotones, uvas, arándanos y otras frutas frescas de temporada."
+      },
+      "frozen-foods": {
+        "name": "Alimentos congelados",
+        "description": "Productos congelados de jengibre y ajo, verduras, frutas e ingredientes alimentarios."
+      },
+      "prepared-foods": {
+        "name": "Alimentos preparados",
+        "description": "Productos listos para cocinar, verduras preparadas y soluciones alimentarias personalizadas."
+      }
+    },
+    "items": {
+      "fresh-ginger": {
+        "name": "Jengibre fresco",
+        "description": "Jengibre fresco de China con embalaje de exportación, inspección de calidad y coordinación de cadena de frío para compradores internacionales.",
+        "details": "El jengibre fresco es uno de los principales productos de exportación de SanHe. Apoyamos a importadores, mayoristas, supermercados y fabricantes con abastecimiento, clasificación, limpieza, calibrado, embalaje y servicios de exportación coordinados.",
+        "specifications": [
+          "Jengibre fresco, limpio y firme",
+          "Opciones lavadas o secadas al aire",
+          "Varios tamaños y calibres disponibles",
+          "Embalaje listo para exportación disponible"
+        ],
+        "packaging": "Caja de 10 kg / 13,6 kg, saco de malla o embalaje de exportación personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estable respaldado por producción estacional, almacenamiento y coordinación de compras",
+        "loadingCapacity": "Según la especificación del embalaje y el tipo de contenedor"
+      },
+      "fresh-garlic": {
+        "name": "Ajo fresco",
+        "description": "Ajo fresco para importadores, mayoristas y distribuidores internacionales.",
+        "details": "Ofrecemos ajo fresco con embalaje de exportación, selección de tamaños y coordinación de envíos para mercados internacionales.",
+        "specifications": [
+          "Opciones de ajo blanco y ajo blanco normal",
+          "Varios tamaños disponibles",
+          "Aspecto limpio",
+          "Apto para mercados de exportación"
+        ],
+        "packaging": "Saco de malla, caja o embalaje personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estable durante la temporada de exportación",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "fresh-onion": {
+        "name": "Cebolla fresca",
+        "description": "Cebollas frescas para mercados mayoristas, minoristas y de restauración.",
+        "details": "Nuestro suministro de cebolla fresca apoya a los importadores con selección de producto, control de embalaje y documentación de exportación.",
+        "specifications": [
+          "Opciones de cebolla roja y amarilla",
+          "Varios tamaños disponibles",
+          "Bulbos firmes y limpios",
+          "Embalaje listo para exportación"
+        ],
+        "packaging": "Saco de malla, caja o embalaje personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estacional estable",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "fresh-potato": {
+        "name": "Patata fresca",
+        "description": "Patatas frescas con clasificación, embalaje y servicio de exportación.",
+        "details": "Hay patatas frescas disponibles para importadores, mayoristas y empresas de restauración con opciones flexibles de embalaje.",
+        "specifications": [
+          "Aspecto limpio",
+          "Varios tamaños disponibles",
+          "Apto para mayoristas y minoristas",
+          "Embalaje de exportación disponible"
+        ],
+        "packaging": "Saco de malla, caja o embalaje personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estacional estable",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "apple": {
+        "name": "Manzana",
+        "description": "Manzanas frescas seleccionadas para importadores y distribuidores internacionales.",
+        "details": "Apoyamos la exportación de manzanas con selección de producto, cadena de frío, embalaje y coordinación de envíos.",
+        "specifications": [
+          "Varias variedades disponibles",
+          "Clasificación por tamaño disponible",
+          "Fruta fresca y firme",
+          "Embalaje en caja de exportación"
+        ],
+        "packaging": "Caja o embalaje personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estacional estable",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "pear": {
+        "name": "Pera",
+        "description": "Peras frescas para supermercados, importadores y mercados mayoristas.",
+        "details": "Hay peras frescas disponibles con clasificación de exportación, embalaje y apoyo de cadena de frío.",
+        "specifications": [
+          "Frescas y crujientes",
+          "Varios tamaños disponibles",
+          "Selección de exportación",
+          "Cadena de frío disponible"
+        ],
+        "packaging": "Caja o embalaje personalizado",
+        "moq": "Un contenedor",
+        "supplyAbility": "Suministro estacional estable",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "frozen-ginger-products": {
+        "name": "Productos congelados de jengibre",
+        "description": "Productos congelados de jengibre para fabricantes, distribuidores y empresas de restauración.",
+        "details": "Ofrecemos productos congelados de jengibre con almacenamiento en frío, procesamiento personalizado y servicio de exportación.",
+        "specifications": [
+          "Opciones de rodajas, dados o pasta de jengibre congelado",
+          "Procesamiento personalizado disponible",
+          "Almacenamiento en frío",
+          "Apoyo documental de exportación"
+        ],
+        "packaging": "Caja, bolsa o embalaje personalizado",
+        "moq": "Negociable según el tipo de producto",
+        "supplyAbility": "Suministro estable desde almacenamiento congelado",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "frozen-vegetables": {
+        "name": "Verduras congeladas",
+        "description": "Verduras congeladas para fabricantes, supermercados y distribuidores.",
+        "details": "Las verduras congeladas pueden suministrarse con especificaciones, embalaje y logística de frío personalizados.",
+        "specifications": [
+          "Varias verduras disponibles",
+          "Cortes personalizados disponibles",
+          "Gestión de cadena de frío",
+          "Apto para procesamiento alimentario"
+        ],
+        "packaging": "Caja, bolsa o embalaje personalizado",
+        "moq": "Negociable según el tipo de producto",
+        "supplyAbility": "Suministro congelado estable",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      },
+      "prepared-vegetable-products": {
+        "name": "Productos vegetales preparados",
+        "description": "Productos vegetales preparados y soluciones personalizadas listas para cocinar.",
+        "details": "Apoyamos la producción personalizada de alimentos preparados según los requisitos del comprador, las normas de procesamiento y las necesidades de embalaje.",
+        "specifications": [
+          "Producción personalizada disponible",
+          "Opciones listas para cocinar",
+          "Soluciones de embalaje flexibles",
+          "Suministro directo de fábrica"
+        ],
+        "packaging": "Embalaje personalizado",
+        "moq": "Negociable según la especificación",
+        "supplyAbility": "Capacidad de producción personalizada",
+        "loadingCapacity": "Según el embalaje y el tipo de contenedor"
+      }
+    },
+    "detailSections": {
+      "packaging": {
+        "eyebrow": "Embalaje",
+        "title": "Opciones de embalaje disponibles",
+        "description": "Hay soluciones flexibles de embalaje para satisfacer los requisitos de distintos mercados y las preferencias de los clientes.",
+        "options": {
+          "tenKgCarton": "Caja de 10 kg",
+          "thirteenSixKgCarton": "Caja de 13,6 kg",
+          "meshBag": "Saco de malla",
+          "customizedPackaging": "Embalaje personalizado",
+          "privateLabel": "Marca privada"
+        }
+      },
+      "advantages": {
+        "eyebrow": "Por qué SanHe",
+        "title": "Por qué los compradores eligen SanHe",
+        "description": "SanHe apoya a compradores internacionales con abastecimiento coordinado, procesamiento controlado, embalaje flexible y servicio profesional de exportación.",
+        "items": {
+          "freshFromSource": {
+            "title": "Abastecimiento gestionado",
+            "description": "Los productos se seleccionan mediante canales de cultivo y abastecimiento cuidadosamente gestionados."
+          },
+          "stableSupply": {
+            "title": "Suministro estable coordinado",
+            "description": "La producción estacional, el almacenamiento y la coordinación de compras apoyan un suministro continuo."
+          },
+          "factoryProcessing": {
+            "title": "Procesamiento controlado",
+            "description": "La limpieza, clasificación y embalaje se coordinan bajo normas de procesamiento controladas."
+          },
+          "coldChain": {
+            "title": "Almacenamiento y cadena de frío",
+            "description": "La coordinación de almacenamiento y cadena de frío ayuda a mantener el producto antes del envío."
+          },
+          "customizedPackaging": {
+            "title": "Embalaje flexible",
+            "description": "Hay soluciones OEM, marca privada y embalaje específico para cada mercado."
+          },
+          "globalExport": {
+            "title": "Apoyo profesional de exportación",
+            "description": "La coordinación de exportación apoya a importadores, mayoristas y empresas alimentarias."
+          }
+        }
+      },
+      "supplyCapability": {
+        "eyebrow": "Capacidad de suministro",
+        "title": "Suministro fiable para compradores internacionales",
+        "description": "SanHe integra cultivo, procesamiento, almacenamiento en frío y servicio de exportación para mantener un suministro internacional estable.",
+        "items": {
+          "plantingBases": "Bases de cultivo propias",
+          "factoryProcessing": "Procesamiento directo de fábrica",
+          "coldChain": "Almacenamiento en frío",
+          "traceability": "Trazabilidad completa",
+          "oemPrivateLabel": "OEM y marca privada",
+          "mixedContainer": "Servicio de contenedor mixto"
+        }
+      },
+      "applications": {
+        "eyebrow": "Aplicaciones",
+        "title": "Adecuado para distintas necesidades",
+        "description": "Este producto es adecuado para importadores, mayoristas, supermercados, fabricantes de alimentos y empresas de restauración.",
+        "items": {
+          "importers": "Importadores",
+          "wholesalers": "Mayoristas",
+          "supermarkets": "Supermercados",
+          "foodManufacturers": "Fabricantes de alimentos",
+          "foodService": "Empresas de restauración",
+          "distributors": "Distribuidores"
+        }
+      },
+      "qualityAssurance": {
+        "eyebrow": "Garantía de calidad",
+        "title": "Controles de calidad para un suministro fiable",
+        "description": "SanHe coordina inspección, seguridad alimentaria, trazabilidad y almacenamiento para reducir el riesgo de compra.",
+        "items": {
+          "inspection": {
+            "title": "Inspección de calidad",
+            "description": "Antes del envío se revisan el estado, el aspecto, la clasificación y el embalaje del producto."
+          },
+          "foodSafety": {
+            "title": "Gestión de seguridad alimentaria",
+            "description": "La manipulación y el procesamiento se coordinan de acuerdo con los requisitos de seguridad alimentaria aplicables."
+          },
+          "traceability": {
+            "title": "Trazabilidad completa",
+            "description": "La información de suministro, procesamiento y envío puede registrarse para respaldar la trazabilidad del producto."
+          },
+          "coldChain": {
+            "title": "Almacenamiento y cadena de frío",
+            "description": "La coordinación del almacenamiento y la cadena de frío ayuda a mantener el estado del producto antes de la entrega de exportación."
+          }
+        }
+      },
+      "relatedProducts": {
+        "eyebrow": "Productos relacionados",
+        "title": "También puede interesarle",
+        "description": "Explore más productos de la misma categoría.",
+        "viewProduct": "Ver producto",
+        "items": {
+          "fresh-ginger": {
+            "name": "Jengibre fresco",
+            "description": "Jengibre fresco con embalaje de exportación, inspección de calidad y coordinación de cadena de frío para compradores internacionales."
+          },
+          "fresh-garlic": {
+            "name": "Ajo fresco",
+            "description": "Ajo fresco para importadores, mayoristas y distribuidores internacionales."
+          },
+          "fresh-onion": {
+            "name": "Cebolla fresca",
+            "description": "Cebollas frescas para mercados mayoristas, minoristas y de restauración."
+          },
+          "fresh-potato": {
+            "name": "Patata fresca",
+            "description": "Patatas frescas con clasificación, embalaje y servicio de exportación."
+          },
+          "apple": {
+            "name": "Manzana",
+            "description": "Manzanas frescas seleccionadas para importadores y distribuidores internacionales."
+          },
+          "pear": {
+            "name": "Pera",
+            "description": "Peras frescas para supermercados, importadores y mercados mayoristas."
+          },
+          "frozen-ginger-products": {
+            "name": "Productos congelados de jengibre",
+            "description": "Productos congelados de jengibre para fabricantes, distribuidores y empresas de restauración."
+          },
+          "frozen-vegetables": {
+            "name": "Verduras congeladas",
+            "description": "Verduras congeladas para fabricantes, supermercados y distribuidores."
+          },
+          "prepared-vegetable-products": {
+            "name": "Productos vegetales preparados",
+            "description": "Productos vegetales preparados y soluciones personalizadas listas para cocinar."
+          }
+        }
+      },
+      "inquiry": {
+        "eyebrow": "Solicitar cotización",
+        "title": "¿Le interesa {product}?",
+        "description": "Contacte con nuestro equipo de exportación para hablar de especificaciones, embalaje, cantidad, OEM, marca privada o requisitos de contenedores mixtos.",
+        "button": "Solicitar cotización",
+        "highlights": {
+          "oem": "OEM",
+          "privateLabel": "Marca privada",
+          "customizedPackaging": "Embalaje personalizado",
+          "mixedContainers": "Contenedores mixtos"
+        }
+      }
+    }
+  }
 }

@@ -1,17 +1,19 @@
 {
-  "description": "Socio confiable de exportación agrícola que apoya a compradores globales con productos estables, empaque listo para exportación y servicio profesional.",
-  "sections": {
+  "footer": {
+    "description": "Socio confiable de exportación agrícola que apoya a compradores internacionales con productos estables, embalaje listo para exportación y servicio profesional.",
+    "homeLabel": "Ir a la página principal de SanHe",
     "company": "Empresa",
     "products": "Productos",
-    "contact": "Contacto"
-  },
-  "links": {
+    "contact": "Contacto",
     "about": "Nosotros",
     "quality": "Calidad",
     "markets": "Mercados",
-    "beans": "Frijoles",
-    "seeds": "Semillas",
-    "spices": "Especias",
-    "linkedin": "LinkedIn"
+    "email": "Enviar correo",
+    "phone": "Llamarnos",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "quoteTitle": "¿Busca un proveedor confiable?",
+    "quoteDescription": "Indíquenos el producto, la cantidad, el embalaje y los requisitos del mercado de destino.",
+    "quoteButton": "Solicitar cotización"
   }
 }

@@ -1,17 +1,19 @@
 {
-  "description": "Partenaire fiable pour l’exportation agricole, accompagnant les acheteurs mondiaux avec des produits stables, un emballage prêt à l’exportation et un service professionnel.",
-  "sections": {
+  "footer": {
+    "description": "Partenaire fiable pour l’exportation agricole, accompagnant les acheteurs internationaux avec des produits stables, un emballage prêt à l’exportation et un service professionnel.",
+    "homeLabel": "Accéder à la page d’accueil de SanHe",
     "company": "Entreprise",
     "products": "Produits",
-    "contact": "Contact"
-  },
-  "links": {
+    "contact": "Contact",
     "about": "À propos",
     "quality": "Qualité",
     "markets": "Marchés",
-    "beans": "Haricots",
-    "seeds": "Graines",
-    "spices": "Épices",
-    "linkedin": "LinkedIn"
+    "email": "Nous écrire",
+    "phone": "Nous appeler",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "quoteTitle": "Vous recherchez un fournisseur fiable ?",
+    "quoteDescription": "Indiquez-nous le produit, la quantité, l’emballage et les exigences du marché de destination.",
+    "quoteButton": "Demander un devis"
   }
 }
