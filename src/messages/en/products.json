@@ -48,18 +48,18 @@
     "items": {
       "fresh-ginger": {
         "name": "Fresh Ginger",
-        "description": "Fresh ginger supplied from China with stable quality, export packing and cold chain support.",
-        "details": "Fresh ginger is one of our key export products. We support global buyers with stable sourcing, sorting, cleaning, packing and export coordination.",
+        "description": "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing, quality inspection and cold-chain coordination for international buyers.",
+        "details": "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services. Flexible specifications and customized packaging are available according to destination-market requirements.",
         "specifications": [
-          "Fresh, clean and firm",
+          "Fresh, clean and firm ginger",
           "Washed or air-dried options",
-          "Different sizes available",
-          "Export packing available"
+          "Multiple sizes and grades available",
+          "Export-ready packaging available"
         ],
-        "packaging": "10kg / 13.6kg carton or customized packing",
+        "packaging": "10kg / 13.6kg carton, mesh bag or customized export packaging",
         "moq": "One container",
-        "supplyAbility": "Stable seasonal supply",
-        "loadingCapacity": "According to packing and container type"
+        "supplyAbility": "Stable supply supported by seasonal production, storage and sourcing coordination",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "fresh-garlic": {
         "name": "Fresh Garlic",
@@ -196,33 +196,33 @@
         }
       },
       "advantages": {
-        "eyebrow": "Product Advantages",
-        "title": "Why This Product Works for Global Buyers",
-        "description": "Each product is supported by SanHe's controlled supply chain, export experience and customer-focused service.",
+        "eyebrow": "Why SanHe",
+        "title": "Why Buyers Choose SanHe",
+        "description": "SanHe supports international buyers with coordinated sourcing, controlled processing, flexible packaging and professional export service.",
         "items": {
           "freshFromSource": {
-            "title": "Fresh from Source",
-            "description": "Selected from self-owned planting bases for reliable quality."
+            "title": "Carefully Managed Sourcing",
+            "description": "Products are selected through carefully managed planting and sourcing channels."
           },
           "stableSupply": {
-            "title": "Stable Year-round Supply",
-            "description": "Reliable production and export throughout the year."
+            "title": "Coordinated Stable Supply",
+            "description": "Seasonal production, storage and sourcing coordination support continuous export supply."
           },
           "factoryProcessing": {
-            "title": "Factory Direct Processing",
-            "description": "Cleaning, grading and processing managed in-house."
+            "title": "Controlled Processing",
+            "description": "Cleaning, grading and packing are coordinated under controlled processing standards."
           },
           "coldChain": {
-            "title": "Cold Chain Warehousing",
-            "description": "Maintaining freshness before export shipment."
+            "title": "Storage & Cold Chain",
+            "description": "Storage and cold-chain coordination help maintain product condition before shipment."
           },
           "customizedPackaging": {
-            "title": "Customized Packaging",
-            "description": "OEM, private label and customized packaging available."
+            "title": "Flexible Packaging",
+            "description": "OEM, private-label and market-specific packaging solutions are available."
           },
           "globalExport": {
-            "title": "Global Export Experience",
-            "description": "Serving importers, wholesalers and supermarkets worldwide."
+            "title": "Professional Export Support",
+            "description": "Export coordination supports importers, wholesalers and food businesses in global markets."
           }
         }
       },
@@ -260,7 +260,7 @@
         "items": {
           "fresh-ginger": {
             "name": "Fresh Ginger",
-            "description": "Fresh ginger supplied from China with stable quality, export packing and cold chain support."
+            "description": "Fresh ginger with export-ready packing, quality inspection and cold-chain coordination for international buyers."
           },
           "fresh-garlic": {
             "name": "Fresh Garlic",

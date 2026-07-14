@@ -79,14 +79,20 @@ export default async function ProductDetailPage({
     notFound();
   }
 
-  if (currentProduct.categorySlug !== currentCategory.slug) {
+  if (
+    currentProduct.categorySlug !==
+    currentCategory.slug
+  ) {
     notFound();
   }
 
   const relatedProducts = getProductsByCategory(
     currentCategory.slug
   )
-    .filter((item) => item.slug !== currentProduct.slug)
+    .filter(
+      (item) =>
+        item.slug !== currentProduct.slug
+    )
     .slice(0, 4);
 
   const categoryName = t(
@@ -106,8 +112,11 @@ export default async function ProductDetailPage({
   );
 
   const specifications =
-    currentProduct.specifications.map((_, index) =>
-      t(`items.${product}.specifications.${index}`)
+    currentProduct.specifications.map(
+      (_, index) =>
+        t(
+          `items.${product}.specifications.${index}`
+        )
     );
 
   const packaging = t(
@@ -178,33 +187,39 @@ export default async function ProductDetailPage({
           category: categoryName,
         })}
         overviewLabel={t("detail.overview")}
-        specificationsLabel={t("detail.specifications")}
+        specificationsLabel={t(
+          "detail.specifications"
+        )}
         quoteLabel={navigation("quote")}
         productsLabel={navigation("products")}
-      />
-
-      <ProductPackaging
-        packagingOptions={
-          currentProduct.packagingOptions ?? []
-        }
       />
 
       {currentProduct.advantages &&
         currentProduct.advantages.length > 0 && (
           <ProductAdvantages
-            advantages={currentProduct.advantages}
+            advantages={
+              currentProduct.advantages
+            }
           />
         )}
-
-      <ProductSupplyCapability
-        capabilities={
-          currentProduct.supplyCapabilities ?? []
-        }
-      />
 
       <ProductApplications
         applications={
           currentProduct.applications ?? []
+        }
+      />
+
+      <ProductPackaging
+        packagingOptions={
+          currentProduct.packagingOptions ??
+          []
+        }
+      />
+
+      <ProductSupplyCapability
+        capabilities={
+          currentProduct.supplyCapabilities ??
+          []
         }
       />
 

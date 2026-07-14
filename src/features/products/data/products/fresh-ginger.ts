@@ -6,22 +6,27 @@ export const freshGinger: Product = {
 
   category: "Fresh Vegetables",
   name: "Fresh Ginger",
+
   description:
-    "Fresh ginger supplied from China with stable quality, export packing and cold chain support.",
+    "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing, quality inspection and cold-chain coordination for international buyers.",
+
   details:
-    "Fresh ginger is one of our key export products. We support global buyers with stable sourcing, sorting, cleaning, packing and export coordination.",
+    "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services. Flexible specifications and customized packaging are available according to destination-market requirements.",
 
-  image: "/products/fresh-ginger/main.png",
-  images: ["/products/fresh-ginger/main.png"],
-
-  specifications: [
-    "Fresh, clean and firm",
-    "Washed or air-dried options",
-    "Different sizes available",
-    "Export packing available",
+  image: "/products/fresh-ginger/main.jpeg",
+  images: [
+    "/products/fresh-ginger/main.jpeg",
   ],
 
-  packaging: "10kg / 13.6kg carton or customized packing",
+  specifications: [
+    "Fresh, clean and firm ginger",
+    "Washed or air-dried options",
+    "Multiple sizes and grades available",
+    "Export-ready packaging available",
+  ],
+
+  packaging:
+    "10kg / 13.6kg carton, mesh bag or customized export packaging",
 
   packagingOptions: [
     "10kg Carton",
@@ -32,39 +37,43 @@ export const freshGinger: Product = {
   ],
 
   moq: "One container",
-  supplyAbility: "Stable seasonal supply",
-  loadingCapacity: "According to packing and container type",
+
+  supplyAbility:
+    "Stable supply supported by seasonal production, storage and sourcing coordination",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
 
   advantages: [
     {
       title: "Fresh from Source",
       description:
-        "Selected from self-owned planting bases for reliable quality.",
+        "Selected through carefully managed planting and sourcing channels.",
     },
     {
       title: "Stable Year-round Supply",
       description:
-        "Reliable production and export throughout the year.",
+        "Coordinated seasonal production, storage and sourcing support continuous export supply.",
     },
     {
       title: "Factory Direct Processing",
       description:
-        "Cleaning, grading and processing managed in-house.",
+        "Cleaning, grading and packing are coordinated under controlled processing standards.",
     },
     {
       title: "Cold Chain Warehousing",
       description:
-        "Maintaining freshness before export shipment.",
+        "Storage and cold-chain coordination help maintain freshness before shipment.",
     },
     {
       title: "Customized Packaging",
       description:
-        "OEM, private label and customized packaging available.",
+        "OEM, private-label and market-specific packaging solutions are available.",
     },
     {
       title: "Global Export Experience",
       description:
-        "Serving importers, wholesalers and supermarkets worldwide.",
+        "Professional export coordination for importers, wholesalers and food businesses.",
     },
   ],
 
@@ -85,4 +94,26 @@ export const freshGinger: Product = {
     "Food Service Companies",
     "Distributors",
   ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Washed Ginger",
+      "Air-dried Ginger",
+    ],
+    season:
+      "Seasonal production with storage-supported supply",
+    storage:
+      "Cool, dry and ventilated storage according to product condition",
+    sizes: [
+      "Multiple export grades available",
+    ],
+    processingOptions: [
+      "Washing",
+      "Air-drying",
+      "Sorting",
+      "Grading",
+      "Customized Packing",
+    ],
+  },
 };
