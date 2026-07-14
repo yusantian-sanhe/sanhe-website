@@ -1,205 +1,243 @@
-# Brand Guidelines
+# SanHe Brand Guidelines
 
-> Project Harvest Brand Guidelines
->
-> Version: 1.0
-
----
-
-# 1. Brand Positioning
-
-Harvest is a China-based supplier specializing in fresh vegetables, fresh fruits, frozen foods and prepared food solutions.
-
-We are more than a product exporter.
-
-We are a reliable agricultural supply chain partner for global buyers.
+Version: 1.0  
+Status: Production Standard  
+Last Updated: 2026-07
 
 ---
 
-# 2. Brand Mission
+## 1. Purpose
 
-To deliver safe, fresh and reliable agricultural products from our planting bases to customers around the world.
+This document defines the long-term brand standards for the SanHe website, sales materials, product content, multilingual communication and future digital products.
 
-We build long-term partnerships through stable supply, quality assurance and professional export services.
+It explains:
 
----
+- Who SanHe is
+- Who SanHe serves
+- What SanHe promises
+- How SanHe should communicate
+- How the website should build buyer trust
+- Which actions every page should encourage
 
-# 3. Brand Vision
-
-To become one of the most trusted Chinese suppliers of fresh produce and frozen food solutions in the global market.
-
----
-
-# 4. Core Value Proposition
-
-From Our Fields to Global Markets.
-
-Harvest provides integrated supply chain solutions covering:
-
-- Self-owned Planting Bases
-- Factory Direct Processing
-- Self-owned Cold Chain Warehousing
-- Full Product Traceability
-- Stable Year-round Supply
-- Customized Packaging
-- Private Label
-- OEM Production
+All future design, content and product decisions should follow these guidelines.
 
 ---
 
-# 5. Our Competitive Advantages
+## 2. The SanHe Principle
 
-## Self-owned Planting Bases
+> Every decision should make global buyers trust SanHe more and make cooperation easier.
 
-Key products including fresh ginger, garlic, onion, green onion and carrot are sourced from our own planting bases.
+中文：
 
-This enables stable quality, reliable supply and better production management.
+> SanHe 的每一个设计、每一段内容和每一个功能，都应该让全球采购商更加信任 SanHe，并让合作变得更加简单。
 
----
-
-## Factory Direct Processing
-
-Cleaning, grading, processing and packing are managed through our own production facilities.
+This is the highest-level principle for the SanHe digital platform.
 
 ---
 
-## Self-owned Cold Chain Warehousing
+## 3. Brand Mission
 
-Professional cold storage facilities help preserve freshness and maintain product quality during storage and export.
+### English
 
----
+SanHe helps global food buyers build long-term partnerships with trusted Chinese food supply chains.
 
-## Full Product Traceability
+### 中文
 
-Every shipment can be traced from planting bases through processing, warehousing and export.
-
----
-
-## Stable Year-round Supply
-
-Our integrated supply chain helps ensure reliable supply throughout the year.
+SanHe 致力于帮助全球食品采购商找到值得长期合作的中国食品供应链伙伴。
 
 ---
 
-## Customized Production
+## 4. Brand Vision
 
-Harvest supports:
+### English
 
-- Customized Packaging
-- Private Label
-- OEM Production
-- Mixed Product Containers
+To become one of the most trusted international food supply chain partners connecting China with global markets.
 
-according to customer requirements.
+### 中文
+
+成为连接中国与全球市场、最值得信赖的国际食品供应链合作伙伴之一。
 
 ---
 
-# 6. Target Customers
+## 5. Brand Positioning
 
-Harvest mainly serves:
+SanHe is not simply a food exporter or a product catalogue.
 
-- Importers
-- Wholesalers
-- Supermarkets
-- Food Manufacturers
-- Food Service Companies
-- Retail Chains
+SanHe is a professional international food supply chain partner providing:
+
+- Reliable sourcing
+- Stable supply
+- Quality assurance
+- Export coordination
+- Customized packaging
+- OEM and private-label support
+- Long-term cooperation
+
+### Positioning Statement
+
+> SanHe is a trusted Chinese food supply chain partner for global importers, wholesalers, food manufacturers and distributors.
+
+### 中文定位
+
+> SanHe 是面向全球进口商、批发商、食品制造商和经销商的可信赖中国食品供应链合作伙伴。
+
+---
+
+## 6. Brand Promise
+
+SanHe's brand promise consists of three commitments:
+
+### Reliable Supply
+
+Stable sourcing, production coordination, storage and export delivery.
+
+### Professional Quality
+
+Strict quality inspection, food safety management and traceability.
+
+### Long-term Partnership
+
+Transparent communication, flexible solutions and reliable support throughout cooperation.
+
+Short form:
+
+> Reliable Supply. Professional Quality. Long-term Partnership.
+
+---
+
+## 7. Core Values
+
+### 7.1 Reliability
+
+SanHe communicates clearly and delivers responsibly.
+
+This includes:
+
+- Stable supply
+- Reliable delivery
+- Transparent communication
+- Realistic lead times
+- Accurate product information
+
+Do not make commitments that cannot be verified or fulfilled.
+
+---
+
+### 7.2 Quality
+
+Quality is demonstrated through processes, standards and consistent execution.
+
+This includes:
+
+- Raw-material selection
+- Grading and inspection
+- Food-safety controls
+- Cold-chain coordination
+- Traceability
+- Continuous improvement
+
+Quality claims should be supported by facts, certifications or process descriptions.
+
+---
+
+### 7.3 Partnership
+
+SanHe prioritizes long-term cooperation over one-time transactions.
+
+Communication should show:
+
+- Responsiveness
+- Flexibility
+- Mutual respect
+- Market understanding
+- Practical problem solving
+- Long-term support
+
+---
+
+### 7.4 Responsibility
+
+SanHe supports responsible sourcing, processing, storage and export operations.
+
+This includes responsibility toward:
+
+- Buyers
+- Consumers
+- Suppliers
+- Employees
+- Product safety
+- Business commitments
+
+---
+
+## 8. Target Customers
+
+### Primary Customers
+
+- Food importers
+- Food wholesalers
+- Supermarket chains
+- Food manufacturers
+- Food processors
+- Brand owners
+
+### Secondary Customers
+
 - Distributors
+- Retail groups
+- Food-service companies
+- Catering supply companies
+- Regional sourcing agents
+
+The website should primarily communicate with professional B2B buyers, not retail consumers.
 
 ---
 
-# 7. Global Markets
+## 9. Buyer Questions
 
-Harvest supplies customers worldwide, with key markets including:
+Every important page should answer at least one of the following buyer questions:
 
-- Middle East
-- Europe
-- Central Asia
-- Southeast Asia
-- Africa
-- North America
-- South America
-- Oceania
+1. Can I trust SanHe?
+2. Can SanHe supply us consistently?
+3. Is the product suitable for our market?
+4. Can SanHe meet our packaging and specification requirements?
+5. Can SanHe support export documentation and delivery?
+6. How do we begin cooperation?
 
----
-
-# 8. Website Communication Principles
-
-Every page should clearly answer three questions:
-
-## What do we supply?
-
-Fresh vegetables, fresh fruits, frozen foods and prepared food solutions.
+A section that does not answer a buyer question should be reconsidered.
 
 ---
 
-## Why Harvest?
+## 10. Website Mission
 
-Because we offer:
+The SanHe website exists to build buyer confidence and support international cooperation.
 
-- Own Planting Bases
-- Own Factory
-- Own Cold Chain Warehousing
-- Full Traceability
-- Stable Year-round Supply
-- OEM & Private Label
-- Professional Export Service
+It is not merely:
 
----
+- A product catalogue
+- A corporate brochure
+- A collection of SEO pages
+- A visual design showcase
 
-## How can customers work with us?
+It is:
 
-Customers can contact our export team for:
+> A digital showroom demonstrating SanHe's capability as a long-term international food supply chain partner.
 
-- Product Information
-- Quotations
-- OEM Projects
-- Packaging Solutions
-- Mixed Containers
-- Long-term Cooperation
+Every page should help buyers understand SanHe's reliability, supply capability, quality standards and cooperation options.
 
 ---
 
-# 9. Tone of Voice
+## 11. Website Narrative
 
-Harvest communicates in a professional, reliable and practical manner.
+The website should follow this narrative:
 
-Avoid exaggerated marketing language.
-
-Prefer factual statements based on real capabilities.
-
-Instead of saying:
-
-"Best Supplier"
-
-Use:
-
-"Reliable Supply Chain Partner"
-
-Instead of:
-
-"Highest Quality"
-
-Use:
-
-"Full Product Traceability"
-
-Instead of:
-
-"Professional Service"
-
-Use:
-
-"Customized Supply Solutions"
-
----
-
-# 10. Future Website Direction
-
-The Harvest website should become a professional B2B platform focused on:
-
-- Building Trust
-- Demonstrating Supply Chain Strength
-- Presenting Real Products
-- Supporting Global Buyers
-- Generating High-quality Inquiries
+```text
+Trust
+  ↓
+Capability
+  ↓
+Products
+  ↓
+Proof
+  ↓
+Cooperation
