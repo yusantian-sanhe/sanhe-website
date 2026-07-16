@@ -146,7 +146,9 @@ export function generatePageMetadata({
     createAbsoluteUrl(image);
 
   return {
-    title: pageTitle,
+    title: {
+  absolute: pageTitle,
+},
     description,
     keywords: [...SEO.keywords],
 
