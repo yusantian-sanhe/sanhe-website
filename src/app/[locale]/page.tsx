@@ -32,7 +32,8 @@ export async function generateMetadata({
     description: t("description"),
     path: `/${locale}`,
     alternatePath: "",
-  });
+  
+    locale,});
 }
 
 export default function LocaleHomePage() {

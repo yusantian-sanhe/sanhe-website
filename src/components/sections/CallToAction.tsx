@@ -31,7 +31,7 @@ function HighlightIcon({
   icon: HighlightIconName;
 }) {
   const className =
-    "h-6 w-6 fill-none stroke-current stroke-2";
+    "h-5 w-5 fill-none stroke-current stroke-2";
 
   if (icon === "factory") {
     return (
@@ -98,24 +98,25 @@ export function CallToAction() {
   return (
     <Section className="relative overflow-hidden bg-green-950 text-white">
       <div
-        className="pointer-events-none absolute -left-24 -top-24 h-80 w-80 rounded-full bg-green-700/25 blur-3xl"
+        className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-green-700/25 blur-3xl"
         aria-hidden="true"
       />
 
       <div
-        className="pointer-events-none absolute -bottom-28 -right-20 h-96 w-96 rounded-full bg-emerald-500/15 blur-3xl"
+        className="pointer-events-none absolute -bottom-24 -right-20 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl"
         aria-hidden="true"
       />
 
       <Container>
-        <div className="relative overflow-hidden rounded-[36px] border border-white/10 bg-gradient-to-br from-green-800 via-green-900 to-green-950 px-6 py-12 shadow-2xl sm:px-10 sm:py-16 lg:px-16">
+        <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-green-800 via-green-900 to-green-950 px-6 py-10 shadow-2xl sm:px-10 sm:py-12 lg:px-14 lg:py-14">
           <div
-            className="pointer-events-none absolute inset-0 opacity-[0.08]"
+            className="pointer-events-none absolute inset-0 opacity-[0.07]"
             aria-hidden="true"
           >
             <svg
               viewBox="0 0 800 400"
               className="h-full w-full"
+              preserveAspectRatio="xMidYMid slice"
             >
               <circle
                 cx="680"
@@ -143,36 +144,36 @@ export function CallToAction() {
           </div>
 
           <div className="relative mx-auto max-w-5xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-200">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-green-200 sm:text-sm">
               {t("eyebrow")}
             </p>
 
-            <h2 className="mx-auto mt-5 max-w-4xl text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
+            <h2 className="mx-auto mt-4 max-w-4xl text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
               {t("title")}
             </h2>
 
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-green-100">
+            <p className="mx-auto mt-5 max-w-3xl text-base leading-7 text-green-100 sm:text-lg sm:leading-8">
               {t("description")}
             </p>
 
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {highlightItems.map((item) => (
                 <div
                   key={item.key}
-                  className="group flex items-center gap-4 rounded-2xl border border-white/15 bg-white/5 px-5 py-4 text-start backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/10"
+                  className="group flex min-h-20 items-center gap-3 rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-start backdrop-blur transition duration-300 motion-safe:hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/10"
                 >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-green-100 transition group-hover:bg-white group-hover:text-green-800">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-green-100 transition group-hover:bg-white group-hover:text-green-800">
                     <HighlightIcon icon={item.icon} />
                   </div>
 
-                  <span className="font-semibold leading-6 text-white">
+                  <span className="text-sm font-semibold leading-5 text-white sm:text-base sm:leading-6">
                     {t(`highlights.${item.key}`)}
                   </span>
                 </div>
               ))}
             </div>
 
-            <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+            <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
               <Button
                 href={`/${locale}/contact`}
                 variant="secondary"
@@ -188,7 +189,7 @@ export function CallToAction() {
               </Button>
             </div>
 
-            <p className="mt-7 text-sm leading-6 text-green-200">
+            <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-green-200">
               {t("responseNote")}
             </p>
           </div>

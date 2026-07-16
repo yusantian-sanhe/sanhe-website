@@ -44,11 +44,11 @@ export const SEO = {
     "/opengraph-image",
 
   localeMap: {
-    en: "en_US",
-    zh: "zh_CN",
-    ru: "ru_RU",
-    ar: "ar_SA",
-    es: "es_ES",
-    fr: "fr_FR",
-  },
+  en: "en_US",
+  zh: "zh_CN",
+  ru: "ru_RU",
+  ar: "ar_AR",
+  es: "es_ES",
+  fr: "fr_FR",
+},
 } as const;

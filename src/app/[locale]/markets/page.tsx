@@ -26,7 +26,8 @@ export async function generateMetadata({
     description: t("hero.description"),
     path: `/${locale}/markets`,
     alternatePath: "/markets",
-  });
+  
+    locale,});
 }
 
 export default async function MarketsPage({

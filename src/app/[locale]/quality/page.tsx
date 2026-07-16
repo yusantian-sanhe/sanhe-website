@@ -26,7 +26,8 @@ export async function generateMetadata({
     description: t("hero.description"),
     path: `/${locale}/quality`,
     alternatePath: "/quality",
-  });
+  
+    locale,});
 }
 
 const qualitySteps = [

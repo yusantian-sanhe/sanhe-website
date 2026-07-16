@@ -14,22 +14,22 @@ const featuredItems = [
   {
     key: "freshVegetables",
     slug: "fresh-vegetables",
-    image: "/products/categories/fresh-vegetables.jpg",
+    image: "/images/categories/fresh-vegetables.jpg",
   },
   {
     key: "freshFruits",
     slug: "fresh-fruits",
-    image: "/products/categories/fresh-fruits.jpg",
+    image: "/images/categories/fresh-fruits.jpg",
   },
   {
     key: "frozenFoods",
     slug: "frozen-foods",
-    image: "/products/categories/frozen-foods.jpg",
+    image: "/images/categories/frozen-foods.jpg",
   },
   {
     key: "preparedFoods",
     slug: "prepared-foods",
-    image: "/products/categories/prepared-foods.jpg",
+    image: "/images/categories/prepared-foods.jpg",
   },
 ] as const;
 
@@ -47,7 +47,7 @@ export function FeaturedProducts() {
           description={t("description")}
         />
 
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {featuredItems.map((item) => {
             const productName = t(`items.${item.key}.name`);
             const productDescription = t(
@@ -57,36 +57,42 @@ export function FeaturedProducts() {
             return (
               <Card
                 key={item.slug}
-                className="group flex h-full flex-col overflow-hidden p-0 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex h-full flex-col overflow-hidden p-0 transition duration-300 motion-safe:hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="relative h-72 overflow-hidden bg-green-100 sm:h-80">
+                <div className="relative aspect-[5/4] overflow-hidden bg-green-100">
                   <Image
                     src={item.image}
                     alt={productName}
                     fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover transition duration-700 motion-safe:group-hover:scale-105"
+                    quality={88}
+                    sizes="
+                      (max-width: 639px) 100vw,
+                      (max-width: 1279px) 50vw,
+                      25vw
+                    "
+                    className="object-cover transition-transform duration-700 ease-out motion-safe:group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <p className="text-sm font-semibold uppercase tracking-[0.16em] text-green-100">
-                      {t("eyebrow")}
-                    </p>
-
-                    <h3 className="mt-2 text-3xl font-bold text-white">
-                      {productName}
-                    </h3>
-                  </div>
+                  <div
+                    className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"
+                    aria-hidden="true"
+                  />
                 </div>
 
-                <div className="flex flex-1 flex-col p-7">
-                  <p className="flex-1 leading-7 text-gray-600">
+                <div className="flex flex-1 flex-col p-6">
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-green-700">
+                    {t("eyebrow")}
+                  </p>
+
+                  <h3 className="mt-3 text-2xl font-bold leading-tight text-gray-950">
+                    {productName}
+                  </h3>
+
+                  <p className="mt-4 line-clamp-3 flex-1 leading-7 text-gray-600">
                     {productDescription}
                   </p>
 
-                  <div className="mt-8">
+                  <div className="mt-6">
                     <Button
                       href={`/${locale}/products/${item.slug}`}
                       aria-label={`${t("learnMore")}: ${productName}`}

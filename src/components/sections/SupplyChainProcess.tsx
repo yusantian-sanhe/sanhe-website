@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container, Heading, Section } from "@/components/ui";
 
@@ -35,7 +36,7 @@ function SupplyChainIcon({
   icon: SupplyChainIconName;
 }) {
   const className =
-    "h-8 w-8 fill-none stroke-current stroke-2";
+    "h-7 w-7 fill-none stroke-current stroke-2";
 
   if (icon === "plant") {
     return (
@@ -125,46 +126,67 @@ export function SupplyChainProcess() {
           description={t("description")}
         />
 
-        <div className="relative mt-16">
+        <div className="group relative mt-12 h-[280px] overflow-hidden rounded-[30px] bg-green-100 shadow-lg sm:h-[320px] lg:h-[340px]">
+          <Image
+            src="/images/homepage/supply-chain.jpg"
+            alt={t("title")}
+            fill
+            quality={88}
+            sizes="(max-width: 768px) 100vw, 1200px"
+            className="object-cover object-center transition-transform duration-1000 ease-out motion-safe:group-hover:scale-[1.02]"
+          />
+
           <div
-            className="absolute left-[10%] right-[10%] top-9 hidden h-px bg-gradient-to-r from-green-100 via-green-500 to-green-100 xl:block"
+            className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent rtl:bg-gradient-to-l"
             aria-hidden="true"
           />
 
-          <div className="grid gap-7 md:grid-cols-2 xl:grid-cols-5">
+          <div
+            className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/30 to-transparent"
+            aria-hidden="true"
+          />
+        </div>
+
+        <div className="relative mt-12">
+          <div
+            className="absolute left-[10%] right-[10%] top-8 hidden h-px bg-gradient-to-r from-green-100 via-green-500 to-green-100 xl:block"
+            aria-hidden="true"
+          />
+
+          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-5">
             {supplyChainSteps.map((step, index) => (
               <article
                 key={step.key}
-                className="group relative flex h-full flex-col rounded-[30px] border border-gray-100 bg-white p-7 shadow-sm transition duration-300 motion-safe:hover:-translate-y-1 hover:border-green-200 hover:shadow-xl"
+                className="group relative flex h-full flex-col rounded-[26px] border border-gray-100 bg-white p-6 shadow-sm transition duration-300 motion-safe:hover:-translate-y-1 hover:border-green-200 hover:shadow-lg"
               >
                 <div className="relative z-10 flex items-start justify-between gap-4">
-                  <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-green-100 text-green-800 transition duration-300 group-hover:bg-green-800 group-hover:text-white">
+                  <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-green-100 text-green-800 transition duration-300 group-hover:bg-green-800 group-hover:text-white">
                     <SupplyChainIcon icon={step.icon} />
 
-                    <span className="absolute -right-2 -top-2 flex h-7 w-7 items-center justify-center rounded-full bg-green-900 text-xs font-bold text-white shadow-sm rtl:-left-2 rtl:right-auto">
+                    <span className="absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full bg-green-900 text-[11px] font-bold text-white shadow-sm rtl:-left-2 rtl:right-auto">
                       {index + 1}
                     </span>
                   </div>
 
-                  <span className="text-sm font-extrabold tracking-[0.12em] text-green-700">
+                  <span className="text-xs font-extrabold tracking-[0.12em] text-green-700">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
 
-                <h3 className="mt-8 text-xl font-bold text-gray-950">
+                <h3 className="mt-6 text-xl font-bold text-gray-950">
                   {t(`steps.${step.key}.title`)}
                 </h3>
 
-                <p className="mt-4 flex-1 leading-7 text-gray-600">
+                <p className="mt-3 flex-1 text-sm leading-6 text-gray-600">
                   {t(`steps.${step.key}.description`)}
                 </p>
 
-                <div className="mt-8 flex items-center gap-3">
-                  <div className="h-1 w-12 rounded-full bg-green-700 transition-all duration-300 group-hover:w-20" />
+                <div className="mt-6 flex items-center gap-3">
+                  <div className="h-1 w-10 rounded-full bg-green-700 transition-all duration-300 group-hover:w-16" />
 
                   {index < supplyChainSteps.length - 1 && (
                     <span
-                      className="hidden text-lg font-bold text-green-600 xl:inline rtl:rotate-180"
+                      className="hidden text-base font-bold text-green-600 xl:inline rtl:rotate-180"
                       aria-hidden="true"
                     >
                       →
@@ -176,16 +198,19 @@ export function SupplyChainProcess() {
           </div>
         </div>
 
-        <div className="mx-auto mt-14 max-w-4xl rounded-3xl border border-green-100 bg-white px-7 py-8 text-center shadow-sm">
-          <div className="mx-auto h-1 w-16 rounded-full bg-green-700" />
+        <div className="mx-auto mt-10 flex max-w-5xl flex-col items-center justify-center gap-4 rounded-2xl border border-green-100 bg-white px-6 py-5 text-center shadow-sm sm:flex-row sm:text-left rtl:sm:text-right">
+          <div
+            className="h-10 w-1 shrink-0 rounded-full bg-green-700 sm:h-1 sm:w-12"
+            aria-hidden="true"
+          />
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="text-base leading-7 text-gray-600">
             {t("closing")}
           </p>
 
-          <p className="mt-5 text-sm font-bold uppercase tracking-[0.18em] text-green-800">
+          <span className="shrink-0 text-xs font-bold uppercase tracking-[0.18em] text-green-800">
             SanHe
-          </p>
+          </span>
         </div>
       </Container>
     </Section>

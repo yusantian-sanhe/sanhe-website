@@ -171,15 +171,19 @@ export function HeroSection() {
           <div className="relative pb-4 lg:pb-28">
             <div className="group relative min-h-[360px] overflow-hidden rounded-[30px] bg-green-100 shadow-xl sm:min-h-[460px] lg:min-h-[540px] lg:rounded-[38px] lg:shadow-2xl">
               <Image
-                src="/hero/hero-home.jpg"
+                src="/images/hero/hero-home-production-v1.jpg"
                 alt={`${t("titleLine1")} ${t("titleLine2")}`}
                 fill
                 priority
+                quality={90}
                 sizes="(max-width: 1024px) 100vw, 55vw"
-                className="object-cover transition duration-700 motion-safe:group-hover:scale-[1.025]"
+                className="object-cover object-[58%_center] transition-transform duration-700 ease-out motion-safe:group-hover:scale-[1.025]"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-white/5" />
+              <div
+                className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-white/5"
+                aria-hidden="true"
+              />
             </div>
 
             <div className="relative z-10 mx-3 -mt-7 rounded-[26px] border border-gray-100 bg-white/95 p-5 shadow-xl backdrop-blur sm:mx-7 sm:-mt-9 sm:p-6 lg:absolute lg:-bottom-1 lg:left-1/2 lg:mx-0 lg:mt-0 lg:w-[90%] lg:-translate-x-1/2 lg:shadow-2xl">

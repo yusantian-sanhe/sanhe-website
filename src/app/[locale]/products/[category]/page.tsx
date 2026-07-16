@@ -83,7 +83,8 @@ export async function generateMetadata({
     image:
       categoryImages[category] ??
       "/images/og-image.jpg",
-  });
+  
+    locale,});
 }
 
 export default async function ProductCategoryPage({

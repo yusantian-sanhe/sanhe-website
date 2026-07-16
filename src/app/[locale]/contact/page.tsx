@@ -39,7 +39,8 @@ export async function generateMetadata({
     ),
     path: `/${locale}/contact`,
     alternatePath: "/contact",
-  });
+  
+    locale,});
 }
 
 const contactItems = [

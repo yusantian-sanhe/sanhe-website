@@ -26,7 +26,8 @@ export async function generateMetadata({
     description: t("hero.description"),
     path: `/${locale}/about`,
     alternatePath: "/about",
-  });
+  
+    locale,});
 }
 
 export default async function AboutPage({
@@ -97,9 +98,9 @@ export default async function AboutPage({
               <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/5 to-transparent" />
 
               <div className="absolute bottom-6 left-6 right-6">
-                <div className="inline-flex rounded-full border border-white/30 bg-black/25 px-4 py-2 text-sm font-semibold text-white backdrop-blur">
-                  SanHe Agricultural Supply Chain
-                </div>
+               <div className="inline-flex rounded-full border border-white/30 bg-black/25 px-4 py-2 text-sm font-semibold text-white backdrop-blur">
+  {t("intro.imageLabel")}
+</div> 
               </div>
             </div>
           </div>

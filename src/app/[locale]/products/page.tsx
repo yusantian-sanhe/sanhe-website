@@ -48,7 +48,8 @@ export async function generateMetadata({
     description: t("description"),
     path: `/${locale}/products`,
     alternatePath: "/products",
-  });
+  
+    locale,});
 }
 
 export default async function ProductsPage({

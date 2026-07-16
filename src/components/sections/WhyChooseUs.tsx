@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container, Heading, Section } from "@/components/ui";
 
@@ -152,33 +153,49 @@ export function WhyChooseUs() {
               description={t("description")}
             />
 
-            <div className="mt-8 rounded-[30px] bg-green-900 p-8 text-white shadow-xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-green-200">
-                SanHe
-              </p>
+            <div className="group relative mt-9 aspect-[4/3] overflow-hidden rounded-[30px] bg-green-100 shadow-xl">
+              <Image
+                src="/images/homepage/why-choose-us.jpg"
+                alt={t("title")}
+                fill
+                quality={88}
+                sizes="(max-width: 1279px) 100vw, 40vw"
+                className="object-cover transition-transform duration-1000 ease-out motion-safe:group-hover:scale-[1.03]"
+              />
 
-              <h3 className="mt-4 text-3xl font-bold leading-tight">
-                {t("title")}
-              </h3>
+              <div
+                className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent"
+                aria-hidden="true"
+              />
 
-              <p className="mt-5 leading-8 text-green-100">
-                {t("description")}
-              </p>
+              <div className="absolute inset-x-7 bottom-7">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-green-100">
+                  SanHe
+                </p>
 
-              <div className="mt-8 grid grid-cols-2 gap-4">
-                <div className="rounded-2xl border border-white/15 bg-white/5 p-5">
-                  <p className="text-3xl font-extrabold">6</p>
-                  <p className="mt-2 text-sm leading-6 text-green-100">
-                    {t("eyebrow")}
-                  </p>
-                </div>
+                <p className="mt-2 max-w-sm text-xl font-bold leading-8 text-white">
+                  {t("title")}
+                </p>
+              </div>
+            </div>
 
-                <div className="rounded-2xl border border-white/15 bg-white/5 p-5">
-                  <p className="text-3xl font-extrabold">B2B</p>
-                  <p className="mt-2 text-sm leading-6 text-green-100">
-                    SanHe
-                  </p>
-                </div>
+            <div className="mt-6 grid grid-cols-2 gap-4">
+              <div className="rounded-2xl border border-green-100 bg-green-50 p-5">
+                <p className="text-3xl font-extrabold text-green-900">
+                  6
+                </p>
+
+                <p className="mt-2 text-sm leading-6 text-green-800">
+                  {t("eyebrow")}
+                </p>
+              </div>
+
+              <div className="rounded-2xl bg-green-900 p-5 text-white">
+                <p className="text-3xl font-extrabold">B2B</p>
+
+                <p className="mt-2 text-sm leading-6 text-green-100">
+                  SanHe
+                </p>
               </div>
             </div>
           </div>

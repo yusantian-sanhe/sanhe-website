@@ -3,8 +3,16 @@ import {
   Geist,
   Geist_Mono,
 } from "next/font/google";
+import { headers } from "next/headers";
+
 import { SiteStructuredData } from "@/components/seo/SiteStructuredData";
 import { SEO } from "@/constants/seo";
+import {
+  defaultLocale,
+  getLocaleConfig,
+  isLocale,
+} from "@/i18n/locales";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -20,34 +28,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase:
-    new URL(SEO.siteUrl),
+  metadataBase: new URL(SEO.siteUrl),
 
   title: {
-    default:
-      SEO.defaultTitle,
-    template:
-      SEO.titleTemplate,
+    default: SEO.defaultTitle,
+    template: SEO.titleTemplate,
   },
 
-  description:
-    SEO.defaultDescription,
+  description: SEO.defaultDescription,
 
-  applicationName:
-    SEO.siteName,
+  applicationName: SEO.siteName,
 
-  keywords:
-    [...SEO.keywords],
+  keywords: [...SEO.keywords],
 
   icons: {
-    icon:
-      "/logo-icon.png",
-
-    shortcut:
-      "/logo-icon.png",
-
-    apple:
-      "/apple-touch-icon.png",
+    icon: "/logo-icon.png",
+    shortcut: "/logo-icon.png",
+    apple: "/apple-touch-icon.png",
   },
 
   formatDetection: {
@@ -61,47 +58,48 @@ export const metadata: Metadata = {
     url: SEO.siteUrl,
     siteName: SEO.siteName,
     title: SEO.defaultTitle,
-    description:
-      SEO.defaultDescription,
+    description: SEO.defaultDescription,
 
     images: [
       {
-        url:
-          SEO.ogImage,
-
+        url: SEO.ogImage,
         width: 1200,
         height: 630,
-
-        alt:
-          `${SEO.siteName} global agricultural food supply`,
+        alt: `${SEO.siteName} global agricultural food supply`,
       },
     ],
   },
 
   twitter: {
-    card:
-      "summary_large_image",
-
-    title:
-      SEO.defaultTitle,
-
-    description:
-      SEO.defaultDescription,
-
-    images: [
-      SEO.ogImage,
-    ],
+    card: "summary_large_image",
+    title: SEO.defaultTitle,
+    description: SEO.defaultDescription,
+    images: [SEO.ogImage],
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const requestHeaders = await headers();
+
+  const requestedLocale = requestHeaders.get(
+    "x-next-intl-locale"
+  );
+
+  const locale =
+    requestedLocale && isLocale(requestedLocale)
+      ? requestedLocale
+      : defaultLocale;
+
+  const localeConfig = getLocaleConfig(locale);
+
   return (
     <html
-      lang="en"
+      lang={locale}
+      dir={localeConfig.dir}
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
