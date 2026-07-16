@@ -4,7 +4,7 @@ export {
   getProductsByCategory,
   productCategories,
   products,
-} from "./data/index";
+} from "./data-backup-v1/index";
 
 export type {
   Product,

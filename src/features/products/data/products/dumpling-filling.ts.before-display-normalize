@@ -1,0 +1,118 @@
+import type { Product } from "../../types";
+
+export const dumplingFilling: Product = {
+  slug: "dumpling-filling",
+  categorySlug: "prepared-foods",
+
+  category: "Prepared Foods",
+  name: "Dumpling Filling",
+
+  description:
+    "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs.",
+
+  details:
+    "SanHe supports customized vegetable-based dumpling filling, recipe adjustment, particle size, portioning, packing and export coordination.",
+
+  image: "/images/products/dumpling-filling/main.jpg",
+  images: [
+    "/images/products/dumpling-filling/main.jpg",
+  ],
+
+  specifications: [
+    "Vegetable-based formulations",
+    "Customized recipes",
+    "Controlled particle size",
+    "Private label available",
+  ],
+
+  packaging:
+    "Bag, pouch, tub or customized packaging",
+
+  packagingOptions: [
+    "Standard Export Packaging",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Reliable Product Supply",
+      description:
+        "Coordinated sourcing, production and inventory planning for international buyers.",
+    },
+    {
+      title: "Controlled Processing",
+      description:
+        "Product handling and processing are coordinated according to buyer and market requirements.",
+    },
+    {
+      title: "Cold Chain Coordination",
+      description:
+        "Storage and logistics support are arranged according to product specifications.",
+    },
+    {
+      title: "Full Product Traceability",
+      description:
+        "Product and processing records support quality management and buyer requirements.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging options are available.",
+    },
+    {
+      title: "Global Export Support",
+      description:
+        "Professional documentation, shipment and buyer-service coordination.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Planting & Sourcing Coordination",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Vegetable Dumpling Filling",
+      "Customized Dumpling Filling",
+    ],
+    season:
+      "Year-round production",
+    storage:
+      "Chilled or frozen according to specification",
+    sizes: [
+      "Food-service and bulk packs",
+    ],
+    processingOptions: [
+      "Selection",
+      "Cutting",
+      "Mixing",
+      "Seasoning",
+      "Packing",
+    ],
+  },
+};

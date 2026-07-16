@@ -8,9 +8,18 @@ import {
   isLocale,
 } from "@/i18n/locales";
 
+export type InquiryFieldName =
+  | "name"
+  | "email"
+  | "category"
+  | "product"
+  | "destinationMarket"
+  | "message";
+
 export interface InquiryActionState {
   success: boolean;
   message: string;
+  field: InquiryFieldName | null;
 }
 
 export async function submitInquiry(
@@ -45,14 +54,35 @@ export async function submitInquiry(
   });
 
   if (!result.success) {
+    const firstIssue = result.error.issues[0];
+    const fieldName = firstIssue?.path[0];
+
+    const supportedFields: InquiryFieldName[] = [
+      "name",
+      "email",
+      "category",
+      "product",
+      "destinationMarket",
+      "message",
+    ];
+
+    const field =
+      typeof fieldName === "string" &&
+      supportedFields.includes(
+        fieldName as InquiryFieldName
+      )
+        ? (fieldName as InquiryFieldName)
+        : null;
+
     console.error(
       "Inquiry validation failed:",
-      result.error.issues
+      result.error.flatten()
     );
 
     return {
       success: false,
       message: "validationError",
+      field,
     };
   }
 
@@ -68,6 +98,7 @@ export async function submitInquiry(
     return {
       success: false,
       message: "sendError",
+      field: null,
     };
   }
 

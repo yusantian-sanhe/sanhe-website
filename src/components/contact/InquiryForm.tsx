@@ -7,7 +7,10 @@ import {
   useState,
 } from "react";
 import { useTranslations } from "next-intl";
-import { submitInquiry } from "@/actions/inquiry";
+import {
+  submitInquiry,
+  type InquiryActionState,
+} from "@/actions/inquiry";
 import { Button } from "@/components/ui";
 import {
   getProductsByCategory,
@@ -24,9 +27,10 @@ type InquiryStatusKey =
   | "validationError"
   | "sendError";
 
-const initialState = {
+const initialState: InquiryActionState = {
   success: false,
   message: "",
+  field: null,
 };
 
 const services = [
@@ -140,6 +144,29 @@ export function InquiryForm({
     );
   }, [initialProductName, productsT]);
 
+  useEffect(() => {
+    if (!state.field) {
+      return;
+    }
+
+    const element = document.getElementById(
+      state.field
+    );
+
+    if (
+      element instanceof HTMLInputElement ||
+      element instanceof HTMLSelectElement ||
+      element instanceof HTMLTextAreaElement
+    ) {
+      element.focus();
+
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  }, [state.field]);
+
   function handleCategoryChange(
     value: string
   ) {
@@ -148,10 +175,20 @@ export function InquiryForm({
     setMatchedProductName("");
   }
 
+  const invalidFieldLabel =
+    state.field
+      ? t(`fields.${state.field}.label`)
+      : "";
+
   const statusMessage =
     state.message &&
     isInquiryStatusKey(state.message)
-      ? t(`status.${state.message}`)
+      ? state.message === "validationError" &&
+        invalidFieldLabel
+        ? `${t(
+            "status.validationError"
+          )}\n${invalidFieldLabel}`
+        : t(`status.${state.message}`)
       : state.message;
 
   return (

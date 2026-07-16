@@ -1,0 +1,336 @@
+{
+  "products": {
+    "eyebrow": "Products",
+    "title": "Fresh Produce, Frozen Foods & Prepared Food Solutions",
+    "description": "Explore our main product categories, including fresh vegetables, fresh fruits, frozen foods and prepared foods for global buyers.",
+    "viewCategory": "View Category",
+    "viewDetails": "View Details",
+    "backToProducts": "Back To Products",
+    "backToCategory": "Back To {category}",
+    "categoryEyebrow": "Product Category",
+    "detail": {
+      "overview": "Product Overview",
+      "exportInfo": "Export Information",
+      "specifications": "Product Specifications",
+      "packaging": "Packaging",
+      "moq": "MOQ",
+      "supplyAbility": "Supply Ability",
+      "loadingCapacity": "Loading Capacity",
+      "gallery": {
+        "galleryLabel": "{product} product gallery",
+        "imageAlt": "{product} product image {number}",
+        "thumbnailAlt": "{product} thumbnail {number}",
+        "thumbnailLabel": "View {product} image {number}",
+        "previous": "Previous product image",
+        "next": "Next product image",
+        "zoomHint": "Hover to zoom",
+        "swipeHint": "Swipe left or right to view more images"
+      }
+    },
+    "categories": {
+      "fresh-vegetables": {
+        "name": "Fresh Vegetables",
+        "description": "Fresh ginger, garlic, onion, potato, carrot, taro, yam, bell pepper and other fresh vegetables."
+      },
+      "fresh-fruits": {
+        "name": "Fresh Fruits",
+        "description": "Apples, pears, peaches, grapes, blueberries and other seasonal fresh fruits."
+      },
+      "frozen-foods": {
+        "name": "Frozen Foods",
+        "description": "Frozen ginger products, garlic products, vegetables, fruits and food ingredients."
+      },
+      "prepared-foods": {
+        "name": "Prepared Foods",
+        "description": "Ready-to-cook products, prepared vegetables and customized food solutions."
+      }
+    },
+    "items": {
+      "fresh-ginger": {
+        "name": "Fresh Ginger",
+        "description": "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing, quality inspection and cold-chain coordination for international buyers.",
+        "details": "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services. Flexible specifications and customized packaging are available according to destination-market requirements.",
+        "specifications": [
+          "Fresh, clean and firm ginger",
+          "Washed or air-dried options",
+          "Multiple sizes and grades available",
+          "Export-ready packaging available"
+        ],
+        "packaging": "10kg / 13.6kg carton, mesh bag or customized export packaging",
+        "moq": "One container",
+        "supplyAbility": "Stable supply supported by seasonal production, storage and sourcing coordination",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "fresh-garlic": {
+        "name": "Fresh Garlic",
+        "description": "Fresh garlic for international importers, wholesalers and food distributors.",
+        "details": "We provide fresh garlic with export-grade packing, size selection and shipment coordination for global markets.",
+        "specifications": [
+          "White garlic and normal white garlic options",
+          "Multiple sizes available",
+          "Clean appearance",
+          "Suitable for export markets"
+        ],
+        "packaging": "Mesh bag, carton or customized packing",
+        "moq": "One container",
+        "supplyAbility": "Stable supply during export season",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "fresh-onion": {
+        "name": "Fresh Onion",
+        "description": "Fresh onions prepared for wholesale, retail and food service markets.",
+        "details": "Our fresh onion supply supports importers with product selection, packing control and export documentation.",
+        "specifications": [
+          "Red onion and yellow onion options",
+          "Different sizes available",
+          "Firm and clean bulbs",
+          "Export-ready packing"
+        ],
+        "packaging": "Mesh bag, carton or customized packing",
+        "moq": "One container",
+        "supplyAbility": "Seasonal stable supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "fresh-potato": {
+        "name": "Fresh Potato",
+        "description": "Fresh potatoes supplied with sorting, packing and export service.",
+        "details": "Fresh potatoes are available for importers, wholesalers and food service companies with flexible packing requirements.",
+        "specifications": [
+          "Clean appearance",
+          "Different sizes available",
+          "Suitable for wholesale and retail",
+          "Export packing available"
+        ],
+        "packaging": "Mesh bag, carton or customized packing",
+        "moq": "One container",
+        "supplyAbility": "Stable seasonal supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "apple": {
+        "name": "Apple",
+        "description": "Fresh apples selected for global fruit importers and distributors.",
+        "details": "We support apple export with product selection, cold chain handling, packing and shipment coordination.",
+        "specifications": [
+          "Multiple varieties available",
+          "Size grading available",
+          "Fresh and firm fruit",
+          "Export carton packing"
+        ],
+        "packaging": "Carton or customized packing",
+        "moq": "One container",
+        "supplyAbility": "Seasonal stable supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "pear": {
+        "name": "Pear",
+        "description": "Fresh pears supplied for supermarkets, importers and wholesale markets.",
+        "details": "Fresh pears are available with export-grade sorting, packing and cold chain support.",
+        "specifications": [
+          "Fresh and crisp",
+          "Different sizes available",
+          "Export-grade selection",
+          "Cold chain handling available"
+        ],
+        "packaging": "Carton or customized packing",
+        "moq": "One container",
+        "supplyAbility": "Seasonal stable supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "frozen-ginger-products": {
+        "name": "Frozen Ginger Products",
+        "description": "Frozen ginger products for food manufacturers, distributors and food service buyers.",
+        "details": "We provide frozen ginger products with cold chain storage, customized processing and export service.",
+        "specifications": [
+          "Frozen ginger slices, dices or paste options",
+          "Customized processing available",
+          "Cold chain storage",
+          "Export documentation support"
+        ],
+        "packaging": "Carton, bag or customized packing",
+        "moq": "Negotiable by product type",
+        "supplyAbility": "Stable frozen storage supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "frozen-vegetables": {
+        "name": "Frozen Vegetables",
+        "description": "Frozen vegetables prepared for food manufacturers, supermarkets and distributors.",
+        "details": "Frozen vegetables can be supplied with customized specifications, packing and cold chain logistics.",
+        "specifications": [
+          "Multiple vegetable options",
+          "Customized cuts available",
+          "Cold chain handling",
+          "Suitable for food processing"
+        ],
+        "packaging": "Carton, bag or customized packing",
+        "moq": "Negotiable by product type",
+        "supplyAbility": "Stable frozen supply",
+        "loadingCapacity": "According to packing and container type"
+      },
+      "prepared-vegetable-products": {
+        "name": "Prepared Vegetable Products",
+        "description": "Prepared vegetable products and customized ready-to-cook solutions.",
+        "details": "We support customized prepared food production according to buyer requirements, processing standards and packing needs.",
+        "specifications": [
+          "Customized production available",
+          "Ready-to-cook options",
+          "Flexible packing solutions",
+          "Factory direct supply"
+        ],
+        "packaging": "Customized packing",
+        "moq": "Negotiable by product specification",
+        "supplyAbility": "Customized production capacity",
+        "loadingCapacity": "According to packing and container type"
+      }
+    },
+    "detailSections": {
+      "packaging": {
+        "eyebrow": "Packaging",
+        "title": "Available Packaging Options",
+        "description": "Flexible packaging solutions are available to meet different market requirements and customer preferences.",
+        "options": {
+          "tenKgCarton": "10kg Carton",
+          "thirteenSixKgCarton": "13.6kg Carton",
+          "meshBag": "Mesh Bag",
+          "customizedPackaging": "Customized Packaging",
+          "privateLabel": "Private Label"
+        }
+      },
+      "advantages": {
+        "eyebrow": "Why SanHe",
+        "title": "Why Buyers Choose SanHe",
+        "description": "SanHe supports international buyers with coordinated sourcing, controlled processing, flexible packaging and professional export service.",
+        "items": {
+          "freshFromSource": {
+            "title": "Carefully Managed Sourcing",
+            "description": "Products are selected through carefully managed planting and sourcing channels."
+          },
+          "stableSupply": {
+            "title": "Coordinated Stable Supply",
+            "description": "Seasonal production, storage and sourcing coordination support continuous export supply."
+          },
+          "factoryProcessing": {
+            "title": "Controlled Processing",
+            "description": "Cleaning, grading and packing are coordinated under controlled processing standards."
+          },
+          "coldChain": {
+            "title": "Storage & Cold Chain",
+            "description": "Storage and cold-chain coordination help maintain product condition before shipment."
+          },
+          "customizedPackaging": {
+            "title": "Flexible Packaging",
+            "description": "OEM, private-label and market-specific packaging solutions are available."
+          },
+          "globalExport": {
+            "title": "Professional Export Support",
+            "description": "Export coordination supports importers, wholesalers and food businesses in global markets."
+          }
+        }
+      },
+      "supplyCapability": {
+        "eyebrow": "Supply Capability",
+        "title": "Reliable Supply for Global Buyers",
+        "description": "SanHe integrates planting, processing, cold chain warehousing and export service to support stable international supply.",
+        "items": {
+          "plantingBases": "Own Planting Bases",
+          "factoryProcessing": "Factory Direct Processing",
+          "coldChain": "Cold Chain Warehousing",
+          "traceability": "Full Product Traceability",
+          "oemPrivateLabel": "OEM & Private Label",
+          "mixedContainer": "Mixed Container Service"
+        }
+      },
+      "applications": {
+        "eyebrow": "Applications",
+        "title": "Suitable for Different Buyer Needs",
+        "description": "This product is suitable for importers, wholesalers, supermarkets, food manufacturers and food service companies.",
+        "items": {
+          "importers": "Importers",
+          "wholesalers": "Wholesalers",
+          "supermarkets": "Supermarkets",
+          "foodManufacturers": "Food Manufacturers",
+          "foodService": "Food Service Companies",
+          "distributors": "Distributors"
+        }
+      },
+      "qualityAssurance": {
+  "eyebrow": "Quality Assurance",
+  "title": "Quality Controls That Support Reliable Supply",
+  "description": "SanHe coordinates inspection, food-safety management, traceability and storage conditions to reduce purchasing risk for international buyers.",
+  "items": {
+    "inspection": {
+      "title": "Quality Inspection",
+      "description": "Product condition, appearance, grading and packaging are checked before shipment."
+    },
+    "foodSafety": {
+      "title": "Food Safety Management",
+      "description": "Handling and processing are coordinated according to applicable food-safety requirements."
+    },
+    "traceability": {
+      "title": "Full Traceability",
+      "description": "Supply, processing and shipment information can be recorded to support product traceability."
+    },
+    "coldChain": {
+      "title": "Storage & Cold Chain",
+      "description": "Storage and cold-chain coordination help maintain product condition before export delivery."
+    }
+  }
+},
+      "relatedProducts": {
+        "eyebrow": "Related Products",
+        "title": "You May Also Be Interested In",
+        "description": "Explore more products from the same category.",
+        "viewProduct": "View Product",
+        "items": {
+          "fresh-ginger": {
+            "name": "Fresh Ginger",
+            "description": "Fresh ginger with export-ready packing, quality inspection and cold-chain coordination for international buyers."
+          },
+          "fresh-garlic": {
+            "name": "Fresh Garlic",
+            "description": "Fresh garlic for international importers, wholesalers and food distributors."
+          },
+          "fresh-onion": {
+            "name": "Fresh Onion",
+            "description": "Fresh onions prepared for wholesale, retail and food service markets."
+          },
+          "fresh-potato": {
+            "name": "Fresh Potato",
+            "description": "Fresh potatoes supplied with sorting, packing and export service."
+          },
+          "apple": {
+            "name": "Apple",
+            "description": "Fresh apples selected for global fruit importers and distributors."
+          },
+          "pear": {
+            "name": "Pear",
+            "description": "Fresh pears supplied for supermarkets, importers and wholesale markets."
+          },
+          "frozen-ginger-products": {
+            "name": "Frozen Ginger Products",
+            "description": "Frozen ginger products for food manufacturers, distributors and food service buyers."
+          },
+          "frozen-vegetables": {
+            "name": "Frozen Vegetables",
+            "description": "Frozen vegetables prepared for food manufacturers, supermarkets and distributors."
+          },
+          "prepared-vegetable-products": {
+            "name": "Prepared Vegetable Products",
+            "description": "Prepared vegetable products and customized ready-to-cook solutions."
+          }
+        }
+      },
+      "inquiry": {
+        "eyebrow": "Request a Quote",
+        "title": "Interested in {product}?",
+        "description": "Contact our export team to discuss specifications, packaging, quantity, OEM, private label or mixed container requirements.",
+        "button": "Request a Quote",
+        "highlights": {
+          "oem": "OEM",
+          "privateLabel": "Private Label",
+          "customizedPackaging": "Customized Packaging",
+          "mixedContainers": "Mixed Containers"
+        }
+      }
+    }
+  }
+}

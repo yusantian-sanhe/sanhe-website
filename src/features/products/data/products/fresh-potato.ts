@@ -6,13 +6,17 @@ export const freshPotato: Product = {
 
   category: "Fresh Vegetables",
   name: "Fresh Potato",
-  description:
-    "Fresh potatoes supplied with sorting, packing and export service.",
-  details:
-    "Fresh potatoes are available for importers, wholesalers and food service companies with flexible packing requirements.",
 
-  image: "/products/fresh-potato/main.png",
-  images: ["/products/fresh-potato/main.png"],
+  description:
+    "Fresh potatoes supplied with sorting, grading, packing and export coordination.",
+
+  details:
+    "Fresh potatoes are available for importers, wholesalers and food-service companies with flexible specifications and packing requirements.",
+
+  image: "/images/products/fresh-potato/main.jpg",
+  images: [
+    "/images/products/fresh-potato/main.jpg",
+  ],
 
   specifications: [
     "Clean appearance",
@@ -21,8 +25,95 @@ export const freshPotato: Product = {
     "Export packing available",
   ],
 
-  packaging: "Mesh bag, carton or customized packing",
-  moq: "One container",
-  supplyAbility: "Stable seasonal supply",
-  loadingCapacity: "According to packing and container type",
+  packaging:
+    "Mesh bag, carton or customized export packaging",
+
+  packagingOptions: [
+    "10kg Carton",
+    "13.6kg Carton",
+    "Mesh Bag",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Fresh from Source",
+      description:
+        "Selected through carefully managed planting and sourcing channels.",
+    },
+    {
+      title: "Stable Year-round Supply",
+      description:
+        "Coordinated production, storage and sourcing support continuous supply.",
+    },
+    {
+      title: "Factory Direct Processing",
+      description:
+        "Processing and packing are coordinated under controlled standards.",
+    },
+    {
+      title: "Cold Chain Warehousing",
+      description:
+        "Storage and cold-chain coordination support product quality.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging are available.",
+    },
+    {
+      title: "Global Export Experience",
+      description:
+        "Professional export coordination for international buyers.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Own Planting Bases",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Yellow-flesh Potato",
+      "White-flesh Potato",
+    ],
+    season:
+      "Seasonal production with storage-supported supply",
+    storage:
+      "Cool, dark and ventilated storage",
+    sizes: [
+      "Multiple export grades available",
+    ],
+    processingOptions: [
+      "Sorting",
+      "Grading",
+      "Cleaning",
+      "Customized Packing",
+    ],
+  },
 };

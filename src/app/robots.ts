@@ -1,21 +1,21 @@
 import type { MetadataRoute } from "next";
 import { SEO } from "@/constants/seo";
+import { locales } from "@/i18n/locales";
 
 function isProductionDeployment() {
   const vercelEnvironment =
     process.env.VERCEL_ENV;
 
   /*
-   * On Vercel, only the Production deployment
-   * should be indexable. Preview and Development
-   * deployments must remain blocked.
+   * Vercel Preview 和 Development 部署
+   * 不允许被搜索引擎索引。
    */
   if (vercelEnvironment) {
     return vercelEnvironment === "production";
   }
 
   /*
-   * Fallback for non-Vercel production hosting.
+   * 非 Vercel 托管环境的生产模式回退。
    */
   return process.env.NODE_ENV === "production";
 }
@@ -30,21 +30,27 @@ export default function robots(): MetadataRoute.Robots {
     };
   }
 
+  const localizedSuccessPages =
+    locales.map(
+      (locale) =>
+        `/${locale}/contact/success`
+    );
+
   return {
     rules: {
       userAgent: "*",
-
       allow: "/",
 
       disallow: [
         "/admin",
         "/admin/",
         "/api/",
-        "/*/contact/success",
+        ...localizedSuccessPages,
       ],
     },
 
-    sitemap: `${SEO.siteUrl}/sitemap.xml`,
+    sitemap:
+      `${SEO.siteUrl}/sitemap.xml`,
 
     host: SEO.siteUrl,
   };

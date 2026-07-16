@@ -1,0 +1,296 @@
+{
+  "products": {
+    "eyebrow": "产品",
+    "title": "新鲜农产品、冷冻食品及预制食品解决方案",
+    "description": "为全球进口商、批发商和食品加工企业提供精选农产品供应。",
+    "viewCategory": "查看分类",
+    "viewDetails": "查看详情",
+    "backToProducts": "返回产品列表",
+    "backToCategory": "返回{category}",
+    "categoryEyebrow": "产品分类",
+
+    "detail": {
+      "overview": "产品概览",
+      "exportInfo": "出口信息",
+      "specifications": "产品规格",
+      "packaging": "包装方式",
+      "moq": "起订量",
+      "supplyAbility": "供应能力",
+      "loadingCapacity": "装载量",
+
+      "gallery": {
+  "galleryLabel": "{product}产品图库",
+  "imageAlt": "{product}产品图片第{number}张",
+  "thumbnailAlt": "{product}缩略图第{number}张",
+  "thumbnailLabel": "查看{product}第{number}张图片",
+  "previous": "上一张产品图片",
+  "next": "下一张产品图片",
+  "zoomHint": "移动鼠标查看细节",
+  "swipeHint": "左右滑动查看更多图片"
+}
+    },
+
+    "categories": {
+      "fresh-vegetables": {
+        "name": "新鲜蔬菜",
+        "description": "提供生姜、大蒜、洋葱、土豆、胡萝卜、芋头、山药、彩椒等新鲜蔬菜。"
+      },
+      "fresh-fruits": {
+        "name": "新鲜水果",
+        "description": "提供苹果、梨、桃、葡萄、蓝莓等季节性水果。"
+      },
+      "frozen-foods": {
+        "name": "冷冻食品",
+        "description": "提供冷冻姜制品、大蒜制品、蔬菜、水果及食品原料。"
+      },
+      "prepared-foods": {
+        "name": "预制食品",
+        "description": "提供即烹产品、预制蔬菜及定制食品解决方案。"
+      }
+    },
+
+    "items": {
+      "fresh-ginger": {
+        "name": "新鲜生姜",
+        "description": "来自中国的优质生姜，支持出口包装、稳定供应和冷链服务。",
+        "details": "新鲜生姜是我们的重点出口产品之一。我们为全球采购商提供稳定采购、分选、清洗、包装和出口协调服务。",
+        "specifications": ["新鲜、洁净、质地坚实", "可提供水洗或风干选项", "可提供不同规格尺寸", "支持出口包装"],
+        "packaging": "10公斤 / 13.6公斤纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "稳定季节性供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "fresh-garlic": {
+        "name": "新鲜大蒜",
+        "description": "面向国际进口商、批发商和食品经销商的新鲜大蒜。",
+        "details": "我们提供出口级新鲜大蒜，可支持规格筛选、包装控制和全球市场发货协调。",
+        "specifications": ["可提供白皮蒜和普通白皮蒜", "多种尺寸可选", "外观洁净", "适合出口市场"],
+        "packaging": "网袋、纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "出口季稳定供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "fresh-onion": {
+        "name": "新鲜洋葱",
+        "description": "适用于批发、零售和餐饮市场的新鲜洋葱。",
+        "details": "我们的新鲜洋葱供应可为进口商提供产品分选、包装控制和出口文件支持。",
+        "specifications": ["可提供红洋葱和黄洋葱", "多种尺寸可选", "球体紧实、外观洁净", "出口就绪包装"],
+        "packaging": "网袋、纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "季节性稳定供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "fresh-potato": {
+        "name": "新鲜土豆",
+        "description": "提供分选、包装和出口服务的新鲜土豆。",
+        "details": "新鲜土豆适用于进口商、批发商和餐饮服务企业，可根据客户需求提供灵活包装。",
+        "specifications": ["外观洁净", "多种尺寸可选", "适合批发和零售渠道", "支持出口包装"],
+        "packaging": "网袋、纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "稳定季节性供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "apple": {
+        "name": "苹果",
+        "description": "为全球水果进口商和经销商精选的新鲜苹果。",
+        "details": "我们支持苹果出口中的产品筛选、冷链处理、包装和发货协调。",
+        "specifications": ["可提供多种品种", "支持尺寸分级", "果实新鲜、坚实", "出口纸箱包装"],
+        "packaging": "纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "季节性稳定供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "pear": {
+        "name": "梨",
+        "description": "面向超市、进口商和批发市场供应的新鲜梨。",
+        "details": "新鲜梨可提供出口级分选、包装和冷链支持。",
+        "specifications": ["新鲜爽脆", "多种尺寸可选", "出口级筛选", "可提供冷链处理"],
+        "packaging": "纸箱或定制包装",
+        "moq": "一个集装箱",
+        "supplyAbility": "季节性稳定供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "frozen-ginger-products": {
+        "name": "冷冻姜制品",
+        "description": "面向食品制造商、经销商和餐饮客户的冷冻姜制品。",
+        "details": "我们提供冷冻姜制品，支持冷链仓储、定制加工和出口服务。",
+        "specifications": ["可提供冷冻姜片、姜丁或姜泥", "支持定制加工", "冷链仓储", "支持出口文件"],
+        "packaging": "纸箱、袋装或定制包装",
+        "moq": "按产品类型协商",
+        "supplyAbility": "稳定冷冻仓储供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "frozen-vegetables": {
+        "name": "冷冻蔬菜",
+        "description": "为食品制造商、超市和经销商准备的冷冻蔬菜。",
+        "details": "冷冻蔬菜可根据客户要求提供定制规格、包装和冷链物流服务。",
+        "specifications": ["多种蔬菜可选", "支持定制切割规格", "冷链处理", "适合食品加工"],
+        "packaging": "纸箱、袋装或定制包装",
+        "moq": "按产品类型协商",
+        "supplyAbility": "稳定冷冻供应",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "prepared-vegetable-products": {
+        "name": "预制蔬菜产品",
+        "description": "预制蔬菜产品及定制即烹食品解决方案。",
+        "details": "我们可根据采购商要求、加工标准和包装需求，支持定制预制食品生产。",
+        "specifications": ["支持定制生产", "即烹选项", "灵活包装方案", "工厂直接供应"],
+        "packaging": "定制包装",
+        "moq": "按产品规格协商",
+        "supplyAbility": "定制生产能力",
+        "loadingCapacity": "根据包装方式和集装箱类型确定"
+      }
+    },
+
+    "detailSections": {
+      "packaging": {
+        "eyebrow": "包装方式",
+        "title": "可选包装方案",
+        "description": "可根据不同市场要求和客户偏好提供灵活包装方案。",
+        "options": {
+          "tenKgCarton": "10公斤纸箱",
+          "thirteenSixKgCarton": "13.6公斤纸箱",
+          "meshBag": "网袋",
+          "customizedPackaging": "定制包装",
+          "privateLabel": "私人标签"
+        }
+      },
+      "advantages": {
+        "eyebrow": "产品优势",
+        "title": "为什么该产品适合全球采购商",
+        "description": "每款产品都依托 SanHe 的供应链管理、出口经验和客户服务能力。",
+        "items": {
+          "freshFromSource": {
+            "title": "源头新鲜供应",
+            "description": "来自自有种植基地，品质更加稳定可靠。"
+          },
+          "stableSupply": {
+            "title": "全年稳定供应",
+            "description": "支持全年稳定生产和出口服务。"
+          },
+          "factoryProcessing": {
+            "title": "工厂直接加工",
+            "description": "清洗、分级和加工由工厂统一管理。"
+          },
+          "coldChain": {
+            "title": "冷链仓储",
+            "description": "出口发货前保持产品新鲜度。"
+          },
+          "customizedPackaging": {
+            "title": "定制包装",
+            "description": "可提供 OEM、私人标签和定制包装服务。"
+          },
+          "globalExport": {
+            "title": "全球出口经验",
+            "description": "服务全球进口商、批发商和超市客户。"
+          }
+        }
+      },
+      "supplyCapability": {
+        "eyebrow": "供应能力",
+        "title": "为全球采购商提供稳定供应",
+        "description": "SanHe 整合种植、加工、冷链仓储和出口服务，支持稳定的国际供应。",
+        "items": {
+          "plantingBases": "自有种植基地",
+          "factoryProcessing": "工厂直接加工",
+          "coldChain": "冷链仓储",
+          "traceability": "完整产品追溯",
+          "oemPrivateLabel": "OEM 与私人标签",
+          "mixedContainer": "混柜服务"
+        }
+      },
+      "applications": {
+        "eyebrow": "应用场景",
+        "title": "适合不同采购需求",
+        "description": "该产品适用于进口商、批发商、超市、食品制造商和餐饮服务企业。",
+        "items": {
+          "importers": "进口商",
+          "wholesalers": "批发商",
+          "supermarkets": "超市",
+          "foodManufacturers": "食品制造商",
+          "foodService": "餐饮服务企业",
+          "distributors": "经销商"
+        }
+      },
+      "qualityAssurance": {
+  "eyebrow": "质量保障",
+  "title": "以质量控制支持稳定供应",
+  "description": "SanHe 协调产品检验、食品安全管理、全程追溯及仓储条件，帮助国际采购商降低采购风险。",
+  "items": {
+    "inspection": {
+      "title": "质量检验",
+      "description": "发货前对产品状态、外观、分级和包装进行检查。"
+    },
+    "foodSafety": {
+      "title": "食品安全管理",
+      "description": "根据适用的食品安全要求协调产品处理和加工流程。"
+    },
+    "traceability": {
+      "title": "全程追溯",
+      "description": "记录供应、加工和发货信息，为产品追溯提供支持。"
+    },
+    "coldChain": {
+      "title": "仓储与冷链",
+      "description": "通过仓储和冷链协调，在出口交付前保持良好的产品状态。"
+    }
+  }
+},
+      "relatedProducts": {
+        "eyebrow": "相关产品",
+        "title": "您可能还感兴趣",
+        "description": "浏览同一分类下的更多产品。",
+        "viewProduct": "查看产品",
+        "items": {
+          "fresh-ginger": {
+            "name": "新鲜生姜",
+            "description": "来自中国的优质生姜，支持出口包装、稳定供应和冷链服务。"
+          },
+          "fresh-garlic": {
+            "name": "新鲜大蒜",
+            "description": "面向国际进口商、批发商和食品经销商的新鲜大蒜。"
+          },
+          "fresh-onion": {
+            "name": "新鲜洋葱",
+            "description": "适用于批发、零售和餐饮市场的新鲜洋葱。"
+          },
+          "fresh-potato": {
+            "name": "新鲜土豆",
+            "description": "提供分选、包装和出口服务的新鲜土豆。"
+          },
+          "apple": {
+            "name": "苹果",
+            "description": "为全球水果进口商和经销商精选的新鲜苹果。"
+          },
+          "pear": {
+            "name": "梨",
+            "description": "面向超市、进口商和批发市场供应的新鲜梨。"
+          },
+          "frozen-ginger-products": {
+            "name": "冷冻姜制品",
+            "description": "面向食品制造商、经销商和餐饮客户的冷冻姜制品。"
+          },
+          "frozen-vegetables": {
+            "name": "冷冻蔬菜",
+            "description": "为食品制造商、超市和经销商准备的冷冻蔬菜。"
+          },
+          "prepared-vegetable-products": {
+            "name": "预制蔬菜产品",
+            "description": "预制蔬菜产品及定制即烹食品解决方案。"
+          }
+        }
+      },
+      "inquiry": {
+        "eyebrow": "获取报价",
+        "title": "对{product}感兴趣？",
+        "description": "联系我们的出口团队，沟通规格、包装、数量、OEM、私人标签或混柜需求。",
+        "button": "获取报价",
+        "highlights": {
+          "oem": "OEM",
+          "privateLabel": "私人标签",
+          "customizedPackaging": "定制包装",
+          "mixedContainers": "混柜"
+        }
+      }
+    }
+  }
+}

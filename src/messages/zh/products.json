@@ -8,7 +8,6 @@
     "backToProducts": "返回产品列表",
     "backToCategory": "返回{category}",
     "categoryEyebrow": "产品分类",
-
     "detail": {
       "overview": "产品概览",
       "exportInfo": "出口信息",
@@ -17,19 +16,17 @@
       "moq": "起订量",
       "supplyAbility": "供应能力",
       "loadingCapacity": "装载量",
-
       "gallery": {
-  "galleryLabel": "{product}产品图库",
-  "imageAlt": "{product}产品图片第{number}张",
-  "thumbnailAlt": "{product}缩略图第{number}张",
-  "thumbnailLabel": "查看{product}第{number}张图片",
-  "previous": "上一张产品图片",
-  "next": "下一张产品图片",
-  "zoomHint": "移动鼠标查看细节",
-  "swipeHint": "左右滑动查看更多图片"
-}
+        "galleryLabel": "{product}产品图库",
+        "imageAlt": "{product}产品图片第{number}张",
+        "thumbnailAlt": "{product}缩略图第{number}张",
+        "thumbnailLabel": "查看{product}第{number}张图片",
+        "previous": "上一张产品图片",
+        "next": "下一张产品图片",
+        "zoomHint": "移动鼠标查看细节",
+        "swipeHint": "左右滑动查看更多图片"
+      }
     },
-
     "categories": {
       "fresh-vegetables": {
         "name": "新鲜蔬菜",
@@ -48,63 +45,98 @@
         "description": "提供即烹产品、预制蔬菜及定制食品解决方案。"
       }
     },
-
     "items": {
       "fresh-ginger": {
+        "slug": "fresh-ginger",
         "name": "新鲜生姜",
         "description": "来自中国的优质生姜，支持出口包装、稳定供应和冷链服务。",
         "details": "新鲜生姜是我们的重点出口产品之一。我们为全球采购商提供稳定采购、分选、清洗、包装和出口协调服务。",
-        "specifications": ["新鲜、洁净、质地坚实", "可提供水洗或风干选项", "可提供不同规格尺寸", "支持出口包装"],
+        "specifications": [
+          "新鲜、洁净、质地坚实",
+          "可提供水洗或风干选项",
+          "可提供不同规格尺寸",
+          "支持出口包装"
+        ],
         "packaging": "10公斤 / 13.6公斤纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "稳定季节性供应",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
       },
       "fresh-garlic": {
+        "slug": "fresh-garlic",
         "name": "新鲜大蒜",
         "description": "面向国际进口商、批发商和食品经销商的新鲜大蒜。",
         "details": "我们提供出口级新鲜大蒜，可支持规格筛选、包装控制和全球市场发货协调。",
-        "specifications": ["可提供白皮蒜和普通白皮蒜", "多种尺寸可选", "外观洁净", "适合出口市场"],
+        "specifications": [
+          "可提供白皮蒜和普通白皮蒜",
+          "多种尺寸可选",
+          "外观洁净",
+          "适合出口市场"
+        ],
         "packaging": "网袋、纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "出口季稳定供应",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
       },
       "fresh-onion": {
+        "slug": "fresh-onion",
         "name": "新鲜洋葱",
         "description": "适用于批发、零售和餐饮市场的新鲜洋葱。",
         "details": "我们的新鲜洋葱供应可为进口商提供产品分选、包装控制和出口文件支持。",
-        "specifications": ["可提供红洋葱和黄洋葱", "多种尺寸可选", "球体紧实、外观洁净", "出口就绪包装"],
+        "specifications": [
+          "可提供红洋葱和黄洋葱",
+          "多种尺寸可选",
+          "球体紧实、外观洁净",
+          "出口就绪包装"
+        ],
         "packaging": "网袋、纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "季节性稳定供应",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
       },
       "fresh-potato": {
+        "slug": "fresh-potato",
         "name": "新鲜土豆",
         "description": "提供分选、包装和出口服务的新鲜土豆。",
         "details": "新鲜土豆适用于进口商、批发商和餐饮服务企业，可根据客户需求提供灵活包装。",
-        "specifications": ["外观洁净", "多种尺寸可选", "适合批发和零售渠道", "支持出口包装"],
+        "specifications": [
+          "外观洁净",
+          "多种尺寸可选",
+          "适合批发和零售渠道",
+          "支持出口包装"
+        ],
         "packaging": "网袋、纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "稳定季节性供应",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
       },
       "apple": {
+        "slug": "apple",
         "name": "苹果",
         "description": "为全球水果进口商和经销商精选的新鲜苹果。",
         "details": "我们支持苹果出口中的产品筛选、冷链处理、包装和发货协调。",
-        "specifications": ["可提供多种品种", "支持尺寸分级", "果实新鲜、坚实", "出口纸箱包装"],
+        "specifications": [
+          "可提供多种品种",
+          "支持尺寸分级",
+          "果实新鲜、坚实",
+          "出口纸箱包装"
+        ],
         "packaging": "纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "季节性稳定供应",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
       },
       "pear": {
+        "slug": "pear",
         "name": "梨",
         "description": "面向超市、进口商和批发市场供应的新鲜梨。",
         "details": "新鲜梨可提供出口级分选、包装和冷链支持。",
-        "specifications": ["新鲜爽脆", "多种尺寸可选", "出口级筛选", "可提供冷链处理"],
+        "specifications": [
+          "新鲜爽脆",
+          "多种尺寸可选",
+          "出口级筛选",
+          "可提供冷链处理"
+        ],
         "packaging": "纸箱或定制包装",
         "moq": "一个集装箱",
         "supplyAbility": "季节性稳定供应",
@@ -114,7 +146,12 @@
         "name": "冷冻姜制品",
         "description": "面向食品制造商、经销商和餐饮客户的冷冻姜制品。",
         "details": "我们提供冷冻姜制品，支持冷链仓储、定制加工和出口服务。",
-        "specifications": ["可提供冷冻姜片、姜丁或姜泥", "支持定制加工", "冷链仓储", "支持出口文件"],
+        "specifications": [
+          "可提供冷冻姜片、姜丁或姜泥",
+          "支持定制加工",
+          "冷链仓储",
+          "支持出口文件"
+        ],
         "packaging": "纸箱、袋装或定制包装",
         "moq": "按产品类型协商",
         "supplyAbility": "稳定冷冻仓储供应",
@@ -124,7 +161,12 @@
         "name": "冷冻蔬菜",
         "description": "为食品制造商、超市和经销商准备的冷冻蔬菜。",
         "details": "冷冻蔬菜可根据客户要求提供定制规格、包装和冷链物流服务。",
-        "specifications": ["多种蔬菜可选", "支持定制切割规格", "冷链处理", "适合食品加工"],
+        "specifications": [
+          "多种蔬菜可选",
+          "支持定制切割规格",
+          "冷链处理",
+          "适合食品加工"
+        ],
         "packaging": "纸箱、袋装或定制包装",
         "moq": "按产品类型协商",
         "supplyAbility": "稳定冷冻供应",
@@ -134,14 +176,338 @@
         "name": "预制蔬菜产品",
         "description": "预制蔬菜产品及定制即烹食品解决方案。",
         "details": "我们可根据采购商要求、加工标准和包装需求，支持定制预制食品生产。",
-        "specifications": ["支持定制生产", "即烹选项", "灵活包装方案", "工厂直接供应"],
+        "specifications": [
+          "支持定制生产",
+          "即烹选项",
+          "灵活包装方案",
+          "工厂直接供应"
+        ],
         "packaging": "定制包装",
         "moq": "按产品规格协商",
         "supplyAbility": "定制生产能力",
         "loadingCapacity": "根据包装方式和集装箱类型确定"
+      },
+      "blueberry": {
+        "slug": "blueberry",
+        "name": "Blueberry",
+        "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support.",
+        "details": "SanHe coordinates selection, punnet packing, temperature control and export handling for blueberry programs.",
+        "specifications": [
+          "Fresh and plump berries",
+          "Punnet packing available",
+          "Cold-chain handling",
+          "Retail-ready options"
+        ],
+        "packaging": "Punnet, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "dumpling-filling": {
+        "slug": "dumpling-filling",
+        "name": "Dumpling Filling",
+        "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs.",
+        "details": "SanHe supports customized vegetable-based dumpling filling, recipe adjustment, particle size, portioning, packing and export coordination.",
+        "specifications": [
+          "Vegetable-based formulations",
+          "Customized recipes",
+          "Controlled particle size",
+          "Private label available"
+        ],
+        "packaging": "Bag, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "fresh-carrot": {
+        "slug": "fresh-carrot",
+        "name": "Fresh Carrot",
+        "description": "Fresh carrots selected for international wholesale, retail and food-processing markets.",
+        "details": "SanHe coordinates sourcing, washing, grading, packing and cold-chain handling for export-ready fresh carrots.",
+        "specifications": [
+          "Fresh and firm roots",
+          "Washed and graded options",
+          "Multiple sizes available",
+          "Export-ready packing"
+        ],
+        "packaging": "Carton, bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "fresh-taro": {
+        "slug": "fresh-taro",
+        "name": "Fresh Taro",
+        "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers.",
+        "details": "SanHe provides carefully selected taro with grading, packing and shipment coordination according to destination-market requirements.",
+        "specifications": [
+          "Natural appearance",
+          "Firm texture",
+          "Multiple grades available",
+          "Export-ready packing"
+        ],
+        "packaging": "Carton, mesh bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-fruits": {
+        "slug": "frozen-fruits",
+        "name": "Frozen Fruits",
+        "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers.",
+        "details": "SanHe coordinates fruit selection, rapid freezing, packing and export cold-chain service.",
+        "specifications": [
+          "Multiple fruit options",
+          "Whole, sliced or diced formats",
+          "Rapid freezing",
+          "Customized packing"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-garlic": {
+        "slug": "frozen-garlic",
+        "name": "Frozen Garlic",
+        "description": "Frozen garlic prepared for industrial food processing and food-service applications.",
+        "details": "SanHe supplies frozen garlic in diced, minced or customized formats with controlled processing and cold-chain handling.",
+        "specifications": [
+          "Diced or minced formats",
+          "Customized processing available",
+          "Frozen storage",
+          "Food-service and industrial use"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-ginger": {
+        "slug": "frozen-ginger",
+        "name": "Frozen Ginger",
+        "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers.",
+        "details": "SanHe supplies frozen ginger in diced, sliced, shredded or customized formats with controlled processing, frozen storage and export support.",
+        "specifications": [
+          "Diced, sliced or shredded formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Export documentation support"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-green-onion": {
+        "slug": "frozen-green-onion",
+        "name": "Frozen Green Onion",
+        "description": "Frozen chopped green onion for food-service and manufacturing applications.",
+        "details": "SanHe supplies frozen green onion with controlled cutting, rapid freezing, packing and cold-chain coordination.",
+        "specifications": [
+          "Chopped format",
+          "Customized cut sizes",
+          "Rapid freezing",
+          "Frozen storage"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-mixed-vegetables": {
+        "slug": "frozen-mixed-vegetables",
+        "name": "Frozen Mixed Vegetables",
+        "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors.",
+        "details": "SanHe supplies customized vegetable combinations, cut sizes, packing formats and cold-chain logistics.",
+        "specifications": [
+          "Multiple vegetable combinations",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "frozen-onion": {
+        "slug": "frozen-onion",
+        "name": "Frozen Onion",
+        "description": "Frozen onion supplied in convenient food-service and industrial formats.",
+        "details": "SanHe provides diced and sliced frozen onion with customized specifications, packing and cold-chain logistics.",
+        "specifications": [
+          "Diced or sliced formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
+        ],
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "garlic-paste": {
+        "slug": "garlic-paste",
+        "name": "Garlic Paste",
+        "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers.",
+        "details": "SanHe supports customized garlic paste production, texture, formulation, packing, private label and export coordination.",
+        "specifications": [
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
+        ],
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "ginger-paste": {
+        "slug": "ginger-paste",
+        "name": "Ginger Paste",
+        "description": "Ready-to-use ginger paste for industrial, retail and food-service applications.",
+        "details": "SanHe supplies ginger paste with customized texture, formulation, packing, private label and export documentation support.",
+        "specifications": [
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
+        ],
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "grape": {
+        "slug": "grape",
+        "name": "Grape",
+        "description": "Fresh grapes prepared for international wholesale, retail and food-service markets.",
+        "details": "SanHe supports grape export with variety selection, careful handling, cold-chain coordination and customized packing.",
+        "specifications": [
+          "Green, red and dark grape options",
+          "Fresh and firm berries",
+          "Cold-chain handling",
+          "Retail and wholesale packing"
+        ],
+        "packaging": "Carton, punnet or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "minced-garlic": {
+        "slug": "minced-garlic",
+        "name": "Minced Garlic",
+        "description": "Minced garlic prepared for food-service, manufacturing and retail buyers.",
+        "details": "SanHe supports customized particle size, formulation, packing and private-label production.",
+        "specifications": [
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
+        ],
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "minced-ginger": {
+        "slug": "minced-ginger",
+        "name": "Minced Ginger",
+        "description": "Minced ginger prepared for industrial food processing and food-service use.",
+        "details": "SanHe supplies minced ginger with customized particle size, formulation, packing and private-label options.",
+        "specifications": [
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
+        ],
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "mixed-vegetables": {
+        "slug": "mixed-vegetables",
+        "name": "Mixed Vegetables",
+        "description": "Prepared mixed vegetables for convenient food-service and retail applications.",
+        "details": "SanHe supports customized vegetable combinations, cut sizes, seasoning options and packing formats.",
+        "specifications": [
+          "Customized vegetable combinations",
+          "Multiple cut sizes",
+          "Seasoning options available",
+          "Private label available"
+        ],
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "peach": {
+        "slug": "peach",
+        "name": "Peach",
+        "description": "Fresh peaches selected for seasonal export programs and international fruit buyers.",
+        "details": "SanHe coordinates peach selection, grading, protective packing, cold-chain handling and shipment planning.",
+        "specifications": [
+          "Seasonal varieties available",
+          "Size grading available",
+          "Protective export packing",
+          "Cold-chain support"
+        ],
+        "packaging": "Protective carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "seasoned-vegetable-mix": {
+        "slug": "seasoned-vegetable-mix",
+        "name": "Seasoned Vegetable Mix",
+        "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs.",
+        "details": "SanHe supports customized vegetables, seasoning profiles, portion sizes and export-ready packing.",
+        "specifications": [
+          "Customized seasoning profiles",
+          "Multiple vegetable combinations",
+          "Ready-to-use format",
+          "Private label available"
+        ],
+        "packaging": "Bag, pouch, tray or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "soup-vegetable-mix": {
+        "slug": "soup-vegetable-mix",
+        "name": "Soup Vegetable Mix",
+        "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications.",
+        "details": "SanHe supplies customized soup vegetable combinations, cut sizes, portioning and private-label packing.",
+        "specifications": [
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Multiple cut sizes",
+          "Private label available"
+        ],
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
+      },
+      "stir-fry-vegetable-mix": {
+        "slug": "stir-fry-vegetable-mix",
+        "name": "Stir-fry Vegetable Mix",
+        "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs.",
+        "details": "SanHe provides customized vegetable combinations, portion sizes, seasoning options and packing.",
+        "specifications": [
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Optional seasoning",
+          "Private label available"
+        ],
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       }
     },
-
     "detailSections": {
       "packaging": {
         "eyebrow": "包装方式",
@@ -213,28 +579,28 @@
         }
       },
       "qualityAssurance": {
-  "eyebrow": "质量保障",
-  "title": "以质量控制支持稳定供应",
-  "description": "SanHe 协调产品检验、食品安全管理、全程追溯及仓储条件，帮助国际采购商降低采购风险。",
-  "items": {
-    "inspection": {
-      "title": "质量检验",
-      "description": "发货前对产品状态、外观、分级和包装进行检查。"
-    },
-    "foodSafety": {
-      "title": "食品安全管理",
-      "description": "根据适用的食品安全要求协调产品处理和加工流程。"
-    },
-    "traceability": {
-      "title": "全程追溯",
-      "description": "记录供应、加工和发货信息，为产品追溯提供支持。"
-    },
-    "coldChain": {
-      "title": "仓储与冷链",
-      "description": "通过仓储和冷链协调，在出口交付前保持良好的产品状态。"
-    }
-  }
-},
+        "eyebrow": "质量保障",
+        "title": "以质量控制支持稳定供应",
+        "description": "SanHe 协调产品检验、食品安全管理、全程追溯及仓储条件，帮助国际采购商降低采购风险。",
+        "items": {
+          "inspection": {
+            "title": "质量检验",
+            "description": "发货前对产品状态、外观、分级和包装进行检查。"
+          },
+          "foodSafety": {
+            "title": "食品安全管理",
+            "description": "根据适用的食品安全要求协调产品处理和加工流程。"
+          },
+          "traceability": {
+            "title": "全程追溯",
+            "description": "记录供应、加工和发货信息，为产品追溯提供支持。"
+          },
+          "coldChain": {
+            "title": "仓储与冷链",
+            "description": "通过仓储和冷链协调，在出口交付前保持良好的产品状态。"
+          }
+        }
+      },
       "relatedProducts": {
         "eyebrow": "相关产品",
         "title": "您可能还感兴趣",
@@ -276,6 +642,86 @@
           "prepared-vegetable-products": {
             "name": "预制蔬菜产品",
             "description": "预制蔬菜产品及定制即烹食品解决方案。"
+          },
+          "blueberry": {
+            "name": "Blueberry",
+            "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support."
+          },
+          "dumpling-filling": {
+            "name": "Dumpling Filling",
+            "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs."
+          },
+          "fresh-carrot": {
+            "name": "Fresh Carrot",
+            "description": "Fresh carrots selected for international wholesale, retail and food-processing markets."
+          },
+          "fresh-taro": {
+            "name": "Fresh Taro",
+            "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers."
+          },
+          "frozen-fruits": {
+            "name": "Frozen Fruits",
+            "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers."
+          },
+          "frozen-garlic": {
+            "name": "Frozen Garlic",
+            "description": "Frozen garlic prepared for industrial food processing and food-service applications."
+          },
+          "frozen-ginger": {
+            "name": "Frozen Ginger",
+            "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers."
+          },
+          "frozen-green-onion": {
+            "name": "Frozen Green Onion",
+            "description": "Frozen chopped green onion for food-service and manufacturing applications."
+          },
+          "frozen-mixed-vegetables": {
+            "name": "Frozen Mixed Vegetables",
+            "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors."
+          },
+          "frozen-onion": {
+            "name": "Frozen Onion",
+            "description": "Frozen onion supplied in convenient food-service and industrial formats."
+          },
+          "garlic-paste": {
+            "name": "Garlic Paste",
+            "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers."
+          },
+          "ginger-paste": {
+            "name": "Ginger Paste",
+            "description": "Ready-to-use ginger paste for industrial, retail and food-service applications."
+          },
+          "grape": {
+            "name": "Grape",
+            "description": "Fresh grapes prepared for international wholesale, retail and food-service markets."
+          },
+          "minced-garlic": {
+            "name": "Minced Garlic",
+            "description": "Minced garlic prepared for food-service, manufacturing and retail buyers."
+          },
+          "minced-ginger": {
+            "name": "Minced Ginger",
+            "description": "Minced ginger prepared for industrial food processing and food-service use."
+          },
+          "mixed-vegetables": {
+            "name": "Mixed Vegetables",
+            "description": "Prepared mixed vegetables for convenient food-service and retail applications."
+          },
+          "peach": {
+            "name": "Peach",
+            "description": "Fresh peaches selected for seasonal export programs and international fruit buyers."
+          },
+          "seasoned-vegetable-mix": {
+            "name": "Seasoned Vegetable Mix",
+            "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs."
+          },
+          "soup-vegetable-mix": {
+            "name": "Soup Vegetable Mix",
+            "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications."
+          },
+          "stir-fry-vegetable-mix": {
+            "name": "Stir-fry Vegetable Mix",
+            "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs."
           }
         }
       },

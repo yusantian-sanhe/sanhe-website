@@ -6,23 +6,114 @@ export const freshOnion: Product = {
 
   category: "Fresh Vegetables",
   name: "Fresh Onion",
-  description:
-    "Fresh onions prepared for wholesale, retail and food service markets.",
-  details:
-    "Our fresh onion supply supports importers with product selection, packing control and export documentation.",
 
-  image: "/products/fresh-onion/main.png",
-  images: ["/products/fresh-onion/main.png"],
+  description:
+    "Fresh onions prepared for wholesale, retail, food-service and food-processing markets.",
+
+  details:
+    "SanHe supports buyers with product selection, grading, packing control, cold-chain coordination and export documentation.",
+
+  image: "/images/products/fresh-onion/main.jpg",
+  images: [
+    "/images/products/fresh-onion/main.jpg",
+  ],
 
   specifications: [
-    "Red onion and yellow onion options",
-    "Different sizes available",
+    "Yellow and red onion options",
+    "Multiple sizes available",
     "Firm and clean bulbs",
     "Export-ready packing",
   ],
 
-  packaging: "Mesh bag, carton or customized packing",
-  moq: "One container",
-  supplyAbility: "Seasonal stable supply",
-  loadingCapacity: "According to packing and container type",
+  packaging:
+    "Mesh bag, carton or customized export packaging",
+
+  packagingOptions: [
+    "10kg Carton",
+    "13.6kg Carton",
+    "Mesh Bag",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Fresh from Source",
+      description:
+        "Selected through carefully managed planting and sourcing channels.",
+    },
+    {
+      title: "Stable Year-round Supply",
+      description:
+        "Coordinated production, storage and sourcing support continuous supply.",
+    },
+    {
+      title: "Factory Direct Processing",
+      description:
+        "Processing and packing are coordinated under controlled standards.",
+    },
+    {
+      title: "Cold Chain Warehousing",
+      description:
+        "Storage and cold-chain coordination support product quality.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging are available.",
+    },
+    {
+      title: "Global Export Experience",
+      description:
+        "Professional export coordination for international buyers.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Own Planting Bases",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Yellow Onion",
+      "Red Onion",
+    ],
+    season:
+      "Seasonal production with storage-supported supply",
+    storage:
+      "Cool, dry and ventilated storage",
+    sizes: [
+      "Multiple export sizes available",
+    ],
+    processingOptions: [
+      "Sorting",
+      "Grading",
+      "Cleaning",
+      "Customized Packing",
+    ],
+  },
 };

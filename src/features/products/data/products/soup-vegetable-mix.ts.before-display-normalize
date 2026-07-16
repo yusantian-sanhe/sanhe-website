@@ -1,0 +1,118 @@
+import type { Product } from "../../types";
+
+export const soupVegetableMix: Product = {
+  slug: "soup-vegetable-mix",
+  categorySlug: "prepared-foods",
+
+  category: "Prepared Foods",
+  name: "Soup Vegetable Mix",
+
+  description:
+    "Prepared vegetable mix designed for soups, stews and convenient meal applications.",
+
+  details:
+    "SanHe supplies customized soup vegetable combinations, cut sizes, portioning and private-label packing.",
+
+  image: "/images/products/soup-vegetable-mix/main.jpg",
+  images: [
+    "/images/products/soup-vegetable-mix/main.jpg",
+  ],
+
+  specifications: [
+    "Ready-to-cook format",
+    "Customized combinations",
+    "Multiple cut sizes",
+    "Private label available",
+  ],
+
+  packaging:
+    "Bag, tray, pouch or customized packaging",
+
+  packagingOptions: [
+    "Standard Export Packaging",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Reliable Product Supply",
+      description:
+        "Coordinated sourcing, production and inventory planning for international buyers.",
+    },
+    {
+      title: "Controlled Processing",
+      description:
+        "Product handling and processing are coordinated according to buyer and market requirements.",
+    },
+    {
+      title: "Cold Chain Coordination",
+      description:
+        "Storage and logistics support are arranged according to product specifications.",
+    },
+    {
+      title: "Full Product Traceability",
+      description:
+        "Product and processing records support quality management and buyer requirements.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging options are available.",
+    },
+    {
+      title: "Global Export Support",
+      description:
+        "Professional documentation, shipment and buyer-service coordination.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Planting & Sourcing Coordination",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Classic Soup Mix",
+      "Customized Soup Mix",
+    ],
+    season:
+      "Year-round production",
+    storage:
+      "Chilled or frozen according to specification",
+    sizes: [
+      "Retail and food-service packs",
+    ],
+    processingOptions: [
+      "Selection",
+      "Cutting",
+      "Mixing",
+      "Portioning",
+      "Packing",
+    ],
+  },
+};

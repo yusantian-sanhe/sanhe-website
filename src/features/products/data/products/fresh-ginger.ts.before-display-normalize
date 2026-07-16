@@ -1,0 +1,118 @@
+import type { Product } from "../../types";
+
+export const freshGinger: Product = {
+  slug: "fresh-ginger",
+  categorySlug: "fresh-vegetables",
+
+  category: "Fresh Vegetables",
+  name: "Fresh Ginger",
+
+  description:
+    "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing and cold-chain coordination.",
+
+  details:
+    "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services.",
+
+  image: "/images/products/fresh-ginger/main.jpg",
+  images: [
+    "/images/products/fresh-ginger/main.jpg",
+  ],
+
+  specifications: [
+    "Fresh, clean and firm ginger",
+    "Washed or air-dried options",
+    "Multiple sizes and grades available",
+    "Export-ready packaging available",
+  ],
+
+  packaging:
+    "10kg / 13.6kg carton, mesh bag or customized export packaging",
+
+  packagingOptions: [
+    "Standard Export Packaging",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Reliable Product Supply",
+      description:
+        "Coordinated sourcing, production and inventory planning for international buyers.",
+    },
+    {
+      title: "Controlled Processing",
+      description:
+        "Product handling and processing are coordinated according to buyer and market requirements.",
+    },
+    {
+      title: "Cold Chain Coordination",
+      description:
+        "Storage and logistics support are arranged according to product specifications.",
+    },
+    {
+      title: "Full Product Traceability",
+      description:
+        "Product and processing records support quality management and buyer requirements.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging options are available.",
+    },
+    {
+      title: "Global Export Support",
+      description:
+        "Professional documentation, shipment and buyer-service coordination.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Planting & Sourcing Coordination",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Washed Ginger",
+      "Air-dried Ginger",
+    ],
+    season:
+      "Seasonal production with storage-supported supply",
+    storage:
+      "Cool, dry and ventilated storage according to product condition",
+    sizes: [
+      "Multiple export grades available",
+    ],
+    processingOptions: [
+      "Washing",
+      "Air-drying",
+      "Sorting",
+      "Grading",
+      "Customized Packing",
+    ],
+  },
+};

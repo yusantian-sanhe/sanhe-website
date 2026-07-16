@@ -1,0 +1,119 @@
+import type { Product } from "../../types";
+
+export const seasonedVegetableMix: Product = {
+  slug: "seasoned-vegetable-mix",
+  categorySlug: "prepared-foods",
+
+  category: "Prepared Foods",
+  name: "Seasoned Vegetable Mix",
+
+  description:
+    "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs.",
+
+  details:
+    "SanHe supports customized vegetables, seasoning profiles, portion sizes and export-ready packing.",
+
+  image: "/images/products/seasoned-vegetable-mix/main.jpg",
+  images: [
+    "/images/products/seasoned-vegetable-mix/main.jpg",
+  ],
+
+  specifications: [
+    "Customized seasoning profiles",
+    "Multiple vegetable combinations",
+    "Ready-to-use format",
+    "Private label available",
+  ],
+
+  packaging:
+    "Bag, pouch, tray or customized packaging",
+
+  packagingOptions: [
+    "Standard Export Packaging",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Reliable Product Supply",
+      description:
+        "Coordinated sourcing, production and inventory planning for international buyers.",
+    },
+    {
+      title: "Controlled Processing",
+      description:
+        "Product handling and processing are coordinated according to buyer and market requirements.",
+    },
+    {
+      title: "Cold Chain Coordination",
+      description:
+        "Storage and logistics support are arranged according to product specifications.",
+    },
+    {
+      title: "Full Product Traceability",
+      description:
+        "Product and processing records support quality management and buyer requirements.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging options are available.",
+    },
+    {
+      title: "Global Export Support",
+      description:
+        "Professional documentation, shipment and buyer-service coordination.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Planting & Sourcing Coordination",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Mild Seasoned Mix",
+      "Spicy Seasoned Mix",
+      "Customized Seasoned Mix",
+    ],
+    season:
+      "Year-round production",
+    storage:
+      "Chilled or frozen according to specification",
+    sizes: [
+      "Retail and food-service packs",
+    ],
+    processingOptions: [
+      "Selection",
+      "Cutting",
+      "Mixing",
+      "Seasoning",
+      "Packing",
+    ],
+  },
+};

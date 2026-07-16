@@ -8,14 +8,14 @@ export const freshGinger: Product = {
   name: "Fresh Ginger",
 
   description:
-    "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing, quality inspection and cold-chain coordination for international buyers.",
+    "Fresh ginger sourced from carefully managed planting bases in China, with export-ready packing and cold-chain coordination.",
 
   details:
-    "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services. Flexible specifications and customized packaging are available according to destination-market requirements.",
+    "Fresh ginger is one of SanHe's core export products. We support importers, wholesalers, supermarkets and food manufacturers with coordinated sourcing, sorting, cleaning, grading, packaging and export services.",
 
-  image: "/products/fresh-ginger/main.jpeg",
+  image: "/images/products/fresh-ginger/main.jpg",
   images: [
-    "/products/fresh-ginger/main.jpeg",
+    "/images/products/fresh-ginger/main.jpg",
   ],
 
   specifications: [
@@ -36,10 +36,11 @@ export const freshGinger: Product = {
     "Private Label",
   ],
 
-  moq: "One container",
+  moq:
+    "Negotiable according to product and packing specification",
 
   supplyAbility:
-    "Stable supply supported by seasonal production, storage and sourcing coordination",
+    "Stable supply supported by coordinated production, processing and storage",
 
   loadingCapacity:
     "According to packaging specification and container type",
@@ -53,27 +54,27 @@ export const freshGinger: Product = {
     {
       title: "Stable Year-round Supply",
       description:
-        "Coordinated seasonal production, storage and sourcing support continuous export supply.",
+        "Coordinated production, storage and sourcing support continuous supply.",
     },
     {
       title: "Factory Direct Processing",
       description:
-        "Cleaning, grading and packing are coordinated under controlled processing standards.",
+        "Processing and packing are coordinated under controlled standards.",
     },
     {
       title: "Cold Chain Warehousing",
       description:
-        "Storage and cold-chain coordination help maintain freshness before shipment.",
+        "Storage and cold-chain coordination support product quality.",
     },
     {
       title: "Customized Packaging",
       description:
-        "OEM, private-label and market-specific packaging solutions are available.",
+        "OEM, private-label and market-specific packaging are available.",
     },
     {
       title: "Global Export Experience",
       description:
-        "Professional export coordination for importers, wholesalers and food businesses.",
+        "Professional export coordination for international buyers.",
     },
   ],
 

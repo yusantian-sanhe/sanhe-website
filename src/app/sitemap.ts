@@ -25,7 +25,9 @@ interface RouteDefinition {
   priority: number;
 }
 
-function normalizePath(path: string) {
+function normalizePath(
+  path: string
+) {
   if (!path) {
     return "";
   }
@@ -55,10 +57,8 @@ function createLanguageAlternates(
   > = {};
 
   for (const locale of locales) {
-    languages[locale] = createUrl(
-      locale,
-      path
-    );
+    languages[locale] =
+      createUrl(locale, path);
   }
 
   languages["x-default"] =

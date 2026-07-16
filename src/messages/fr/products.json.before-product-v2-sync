@@ -1,0 +1,336 @@
+{
+  "products": {
+    "eyebrow": "Produits",
+    "title": "Produits frais, aliments surgelés et solutions de produits préparés",
+    "description": "Découvrez les principales catégories de produits SanHe pour les acheteurs internationaux.",
+    "viewCategory": "Voir la catégorie",
+    "viewDetails": "Voir les détails",
+    "backToProducts": "Retour aux produits",
+    "backToCategory": "Retour à {category}",
+    "categoryEyebrow": "Catégorie de produits",
+    "detail": {
+      "overview": "Présentation du produit",
+      "exportInfo": "Informations d’exportation",
+      "specifications": "Spécifications du produit",
+      "packaging": "Emballage",
+      "moq": "Commande minimale",
+      "supplyAbility": "Capacité d’approvisionnement",
+      "loadingCapacity": "Capacité de chargement",
+      "gallery": {
+        "galleryLabel": "Galerie du produit {product}",
+        "imageAlt": "Image {number} du produit {product}",
+        "thumbnailAlt": "Miniature {number} du produit {product}",
+        "thumbnailLabel": "Voir l’image {number} du produit {product}",
+        "previous": "Image précédente du produit",
+        "next": "Image suivante du produit",
+        "zoomHint": "Survolez pour zoomer",
+        "swipeHint": "Faites glisser vers la gauche ou la droite pour voir plus d’images"
+      }
+    },
+    "categories": {
+      "fresh-vegetables": {
+        "name": "Légumes frais",
+        "description": "Gingembre, ail, oignon, pomme de terre, carotte, taro, igname, poivron et autres légumes frais."
+      },
+      "fresh-fruits": {
+        "name": "Fruits frais",
+        "description": "Pommes, poires, pêches, raisins, myrtilles et autres fruits frais de saison."
+      },
+      "frozen-foods": {
+        "name": "Aliments surgelés",
+        "description": "Produits surgelés à base de gingembre et d’ail, légumes, fruits et ingrédients alimentaires."
+      },
+      "prepared-foods": {
+        "name": "Produits préparés",
+        "description": "Produits prêts à cuire, légumes préparés et solutions alimentaires personnalisées."
+      }
+    },
+    "items": {
+      "fresh-ginger": {
+        "name": "Gingembre frais",
+        "description": "Gingembre frais de Chine avec emballage export, inspection qualité et coordination de la chaîne du froid pour les acheteurs internationaux.",
+        "details": "Le gingembre frais est l’un des principaux produits d’exportation de SanHe. Nous accompagnons importateurs, grossistes, supermarchés et fabricants avec approvisionnement, tri, nettoyage, calibrage, emballage et services export coordonnés.",
+        "specifications": [
+          "Gingembre frais, propre et ferme",
+          "Options lavées ou séchées à l’air",
+          "Plusieurs tailles et calibres disponibles",
+          "Emballage prêt à l’export disponible"
+        ],
+        "packaging": "Carton de 10 kg / 13,6 kg, sac en maille ou emballage export personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement stable soutenu par la production saisonnière, le stockage et la coordination des achats",
+        "loadingCapacity": "Selon la spécification d’emballage et le type de conteneur"
+      },
+      "fresh-garlic": {
+        "name": "Ail frais",
+        "description": "Ail frais pour importateurs, grossistes et distributeurs internationaux.",
+        "details": "Nous fournissons de l’ail frais avec emballage export, sélection des calibres et coordination des expéditions pour les marchés mondiaux.",
+        "specifications": [
+          "Options d’ail blanc et d’ail blanc normal",
+          "Plusieurs calibres disponibles",
+          "Aspect propre",
+          "Adapté aux marchés d’exportation"
+        ],
+        "packaging": "Sac en maille, carton ou emballage personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement stable pendant la saison d’exportation",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "fresh-onion": {
+        "name": "Oignon frais",
+        "description": "Oignons frais pour les marchés de gros, de détail et de restauration.",
+        "details": "Notre offre d’oignons frais accompagne les importateurs avec la sélection des produits, le contrôle de l’emballage et la documentation export.",
+        "specifications": [
+          "Options d’oignon rouge et jaune",
+          "Plusieurs calibres disponibles",
+          "Bulbes fermes et propres",
+          "Emballage prêt à l’export"
+        ],
+        "packaging": "Sac en maille, carton ou emballage personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement saisonnier stable",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "fresh-potato": {
+        "name": "Pomme de terre fraîche",
+        "description": "Pommes de terre fraîches avec tri, emballage et service export.",
+        "details": "Des pommes de terre fraîches sont disponibles pour les importateurs, grossistes et entreprises de restauration avec des options d’emballage flexibles.",
+        "specifications": [
+          "Aspect propre",
+          "Plusieurs calibres disponibles",
+          "Adapté au gros et au détail",
+          "Emballage export disponible"
+        ],
+        "packaging": "Sac en maille, carton ou emballage personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement saisonnier stable",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "apple": {
+        "name": "Pomme",
+        "description": "Pommes fraîches sélectionnées pour les importateurs et distributeurs internationaux.",
+        "details": "Nous accompagnons l’exportation des pommes avec la sélection des produits, la chaîne du froid, l’emballage et la coordination des expéditions.",
+        "specifications": [
+          "Plusieurs variétés disponibles",
+          "Calibrage disponible",
+          "Fruit frais et ferme",
+          "Emballage carton export"
+        ],
+        "packaging": "Carton ou emballage personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement saisonnier stable",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "pear": {
+        "name": "Poire",
+        "description": "Poires fraîches pour les supermarchés, importateurs et marchés de gros.",
+        "details": "Des poires fraîches sont disponibles avec tri export, emballage et soutien de la chaîne du froid.",
+        "specifications": [
+          "Fraîches et croquantes",
+          "Plusieurs calibres disponibles",
+          "Sélection export",
+          "Gestion de la chaîne du froid disponible"
+        ],
+        "packaging": "Carton ou emballage personnalisé",
+        "moq": "Un conteneur",
+        "supplyAbility": "Approvisionnement saisonnier stable",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "frozen-ginger-products": {
+        "name": "Produits de gingembre surgelés",
+        "description": "Produits de gingembre surgelés pour les fabricants, distributeurs et entreprises de restauration.",
+        "details": "Nous fournissons des produits de gingembre surgelés avec stockage frigorifique, transformation personnalisée et service export.",
+        "specifications": [
+          "Options de tranches, dés ou pâte de gingembre surgelé",
+          "Transformation personnalisée disponible",
+          "Stockage frigorifique",
+          "Support documentaire export"
+        ],
+        "packaging": "Carton, sac ou emballage personnalisé",
+        "moq": "Négociable selon le type de produit",
+        "supplyAbility": "Approvisionnement stable depuis le stockage surgelé",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "frozen-vegetables": {
+        "name": "Légumes surgelés",
+        "description": "Légumes surgelés pour les fabricants, supermarchés et distributeurs.",
+        "details": "Les légumes surgelés peuvent être fournis avec des spécifications, un emballage et une logistique frigorifique personnalisés.",
+        "specifications": [
+          "Plusieurs légumes disponibles",
+          "Découpes personnalisées disponibles",
+          "Gestion de la chaîne du froid",
+          "Adapté à la transformation alimentaire"
+        ],
+        "packaging": "Carton, sac ou emballage personnalisé",
+        "moq": "Négociable selon le type de produit",
+        "supplyAbility": "Approvisionnement surgelé stable",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      },
+      "prepared-vegetable-products": {
+        "name": "Produits végétaux préparés",
+        "description": "Produits végétaux préparés et solutions personnalisées prêtes à cuire.",
+        "details": "Nous soutenons la production personnalisée d’aliments préparés selon les exigences de l’acheteur, les normes de transformation et les besoins d’emballage.",
+        "specifications": [
+          "Production personnalisée disponible",
+          "Options prêtes à cuire",
+          "Solutions d’emballage flexibles",
+          "Approvisionnement direct usine"
+        ],
+        "packaging": "Emballage personnalisé",
+        "moq": "Négociable selon la spécification",
+        "supplyAbility": "Capacité de production personnalisée",
+        "loadingCapacity": "Selon l’emballage et le type de conteneur"
+      }
+    },
+    "detailSections": {
+      "packaging": {
+        "eyebrow": "Emballage",
+        "title": "Options d’emballage disponibles",
+        "description": "Des solutions d’emballage flexibles sont disponibles pour répondre aux exigences des différents marchés et aux préférences des clients.",
+        "options": {
+          "tenKgCarton": "Carton de 10 kg",
+          "thirteenSixKgCarton": "Carton de 13,6 kg",
+          "meshBag": "Sac en maille",
+          "customizedPackaging": "Emballage personnalisé",
+          "privateLabel": "Marque privée"
+        }
+      },
+      "advantages": {
+        "eyebrow": "Pourquoi SanHe",
+        "title": "Pourquoi les acheteurs choisissent SanHe",
+        "description": "SanHe accompagne les acheteurs internationaux avec un approvisionnement coordonné, une transformation contrôlée, un emballage flexible et un service export professionnel.",
+        "items": {
+          "freshFromSource": {
+            "title": "Approvisionnement maîtrisé",
+            "description": "Les produits sont sélectionnés via des canaux de culture et d’approvisionnement soigneusement gérés."
+          },
+          "stableSupply": {
+            "title": "Approvisionnement stable coordonné",
+            "description": "La production saisonnière, le stockage et la coordination des achats soutiennent un approvisionnement continu."
+          },
+          "factoryProcessing": {
+            "title": "Transformation contrôlée",
+            "description": "Le nettoyage, le calibrage et l’emballage sont coordonnés selon des normes contrôlées."
+          },
+          "coldChain": {
+            "title": "Stockage et chaîne du froid",
+            "description": "La coordination du stockage et de la chaîne du froid aide à maintenir l’état du produit avant expédition."
+          },
+          "customizedPackaging": {
+            "title": "Emballage flexible",
+            "description": "Des solutions OEM, marque privée et emballage spécifique au marché sont disponibles."
+          },
+          "globalExport": {
+            "title": "Support export professionnel",
+            "description": "La coordination export accompagne importateurs, grossistes et entreprises alimentaires."
+          }
+        }
+      },
+      "supplyCapability": {
+        "eyebrow": "Capacité d’approvisionnement",
+        "title": "Approvisionnement fiable pour les acheteurs internationaux",
+        "description": "SanHe intègre culture, transformation, stockage frigorifique et service export pour soutenir un approvisionnement international stable.",
+        "items": {
+          "plantingBases": "Bases de culture propres",
+          "factoryProcessing": "Transformation directe usine",
+          "coldChain": "Entreposage frigorifique",
+          "traceability": "Traçabilité complète",
+          "oemPrivateLabel": "OEM et marque privée",
+          "mixedContainer": "Service de conteneur mixte"
+        }
+      },
+      "applications": {
+        "eyebrow": "Applications",
+        "title": "Adapté à différents besoins",
+        "description": "Ce produit convient aux importateurs, grossistes, supermarchés, fabricants alimentaires et entreprises de restauration.",
+        "items": {
+          "importers": "Importateurs",
+          "wholesalers": "Grossistes",
+          "supermarkets": "Supermarchés",
+          "foodManufacturers": "Fabricants alimentaires",
+          "foodService": "Entreprises de restauration",
+          "distributors": "Distributeurs"
+        }
+      },
+      "qualityAssurance": {
+        "eyebrow": "Assurance qualité",
+        "title": "Des contrôles qualité pour un approvisionnement fiable",
+        "description": "SanHe coordonne l’inspection, la sécurité alimentaire, la traçabilité et le stockage afin de réduire le risque d’achat.",
+        "items": {
+          "inspection": {
+            "title": "Inspection qualité",
+            "description": "L’état, l’aspect, le calibrage et l’emballage du produit sont vérifiés avant expédition."
+          },
+          "foodSafety": {
+            "title": "Gestion de la sécurité alimentaire",
+            "description": "La manutention et la transformation sont coordonnées conformément aux exigences applicables en matière de sécurité alimentaire."
+          },
+          "traceability": {
+            "title": "Traçabilité complète",
+            "description": "Les informations relatives à l’approvisionnement, à la transformation et à l’expédition peuvent être enregistrées pour assurer la traçabilité du produit."
+          },
+          "coldChain": {
+            "title": "Stockage et chaîne du froid",
+            "description": "La coordination du stockage et de la chaîne du froid aide à maintenir l’état du produit avant la livraison export."
+          }
+        }
+      },
+      "relatedProducts": {
+        "eyebrow": "Produits associés",
+        "title": "Vous pourriez aussi être intéressé",
+        "description": "Découvrez d’autres produits de la même catégorie.",
+        "viewProduct": "Voir le produit",
+        "items": {
+          "fresh-ginger": {
+            "name": "Gingembre frais",
+            "description": "Gingembre frais avec emballage export, inspection qualité et coordination de la chaîne du froid pour les acheteurs internationaux."
+          },
+          "fresh-garlic": {
+            "name": "Ail frais",
+            "description": "Ail frais pour importateurs, grossistes et distributeurs internationaux."
+          },
+          "fresh-onion": {
+            "name": "Oignon frais",
+            "description": "Oignons frais pour les marchés de gros, de détail et de restauration."
+          },
+          "fresh-potato": {
+            "name": "Pomme de terre fraîche",
+            "description": "Pommes de terre fraîches avec tri, emballage et service export."
+          },
+          "apple": {
+            "name": "Pomme",
+            "description": "Pommes fraîches sélectionnées pour les importateurs et distributeurs internationaux."
+          },
+          "pear": {
+            "name": "Poire",
+            "description": "Poires fraîches pour les supermarchés, importateurs et marchés de gros."
+          },
+          "frozen-ginger-products": {
+            "name": "Produits de gingembre surgelés",
+            "description": "Produits de gingembre surgelés pour les fabricants, distributeurs et entreprises de restauration."
+          },
+          "frozen-vegetables": {
+            "name": "Légumes surgelés",
+            "description": "Légumes surgelés pour les fabricants, supermarchés et distributeurs."
+          },
+          "prepared-vegetable-products": {
+            "name": "Produits végétaux préparés",
+            "description": "Produits végétaux préparés et solutions personnalisées prêtes à cuire."
+          }
+        }
+      },
+      "inquiry": {
+        "eyebrow": "Demander un devis",
+        "title": "Intéressé par {product} ?",
+        "description": "Contactez notre équipe export pour discuter des spécifications, de l’emballage, du volume, de l’OEM, de la marque privée ou des exigences de conteneurs mixtes.",
+        "button": "Demander un devis",
+        "highlights": {
+          "oem": "OEM",
+          "privateLabel": "Marque privée",
+          "customizedPackaging": "Emballage personnalisé",
+          "mixedContainers": "Conteneurs mixtes"
+        }
+      }
+    }
+  }
+}

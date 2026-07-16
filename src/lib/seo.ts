@@ -11,7 +11,7 @@ interface MetadataOptions {
   description?: string;
 
   /**
-   * 当前页面路径，包含 locale。
+   * 当前页面完整路径，包含 locale。
    *
    * 例如：
    * /en/products/fresh-vegetables/fresh-ginger
@@ -20,6 +20,8 @@ interface MetadataOptions {
 
   /**
    * 不包含 locale 的公共路径。
+   *
+   * 用于生成六语言 hreflang。
    *
    * 例如：
    * /products/fresh-vegetables/fresh-ginger
@@ -32,10 +34,15 @@ interface MetadataOptions {
   noIndex?: boolean;
 }
 
-function normalizePath(path: string) {
+function normalizePath(
+  path: string
+) {
   const trimmedPath = path.trim();
 
-  if (!trimmedPath || trimmedPath === "/") {
+  if (
+    !trimmedPath ||
+    trimmedPath === "/"
+  ) {
     return "";
   }
 
@@ -44,7 +51,9 @@ function normalizePath(path: string) {
     : `/${trimmedPath}`;
 }
 
-export function createAbsoluteUrl(path = "") {
+export function createAbsoluteUrl(
+  path = ""
+) {
   if (
     path.startsWith("https://") ||
     path.startsWith("http://")
@@ -52,7 +61,9 @@ export function createAbsoluteUrl(path = "") {
     return path;
   }
 
-  return `${SEO.siteUrl}${normalizePath(path)}`;
+  return `${SEO.siteUrl}${normalizePath(
+    path
+  )}`;
 }
 
 function createLanguageAlternates(
@@ -61,22 +72,29 @@ function createLanguageAlternates(
   const normalizedPath =
     normalizePath(alternatePath);
 
-  const languages: Record<string, string> = {};
+  const languages: Record<
+    string,
+    string
+  > = {};
 
   for (const locale of locales) {
-    languages[locale] = createAbsoluteUrl(
-      `/${locale}${normalizedPath}`
-    );
+    languages[locale] =
+      createAbsoluteUrl(
+        `/${locale}${normalizedPath}`
+      );
   }
 
-  languages["x-default"] = createAbsoluteUrl(
-    `/${defaultLocale}${normalizedPath}`
-  );
+  languages["x-default"] =
+    createAbsoluteUrl(
+      `/${defaultLocale}${normalizedPath}`
+    );
 
   return languages;
 }
 
-function getOpenGraphLocale(locale?: string) {
+function getOpenGraphLocale(
+  locale?: string
+) {
   if (
     locale &&
     locale in SEO.localeMap
@@ -93,7 +111,9 @@ function getAlternateOpenGraphLocales(
   locale?: string
 ) {
   return locales
-    .filter((item) => item !== locale)
+    .filter(
+      (item) => item !== locale
+    )
     .map(
       (item) =>
         SEO.localeMap[
@@ -113,7 +133,10 @@ export function generatePageMetadata({
   noIndex = false,
 }: MetadataOptions = {}): Metadata {
   const pageTitle = title
-    ? SEO.titleTemplate.replace("%s", title)
+    ? SEO.titleTemplate.replace(
+        "%s",
+        title
+      )
     : SEO.defaultTitle;
 
   const canonicalUrl =
@@ -121,10 +144,6 @@ export function generatePageMetadata({
 
   const imageUrl =
     createAbsoluteUrl(image);
-
-  const robotsValue = noIndex
-    ? "noindex, nofollow"
-    : "index, follow";
 
   return {
     title: pageTitle,
@@ -144,23 +163,50 @@ export function generatePageMetadata({
         : {}),
     },
 
-    robots: robotsValue,
+    robots: noIndex
+      ? {
+          index: false,
+          follow: false,
+          nocache: true,
+          googleBot: {
+            index: false,
+            follow: false,
+            noimageindex: true,
+          },
+        }
+      : {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: false,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+            "max-video-preview": -1,
+          },
+        },
 
     openGraph: {
       title: pageTitle,
       description,
       url: canonicalUrl,
       siteName: SEO.siteName,
-      locale: getOpenGraphLocale(locale),
+      locale:
+        getOpenGraphLocale(locale),
       alternateLocale:
-        getAlternateOpenGraphLocales(locale),
+        getAlternateOpenGraphLocales(
+          locale
+        ),
       type,
       images: [
         {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: title ?? SEO.siteName,
+          alt:
+            title ??
+            SEO.siteName,
         },
       ],
     },
@@ -177,7 +223,8 @@ export function generatePageMetadata({
 /**
  * 旧版兼容函数。
  *
- * 当前页面优先直接使用 generatePageMetadata。
+ * 新页面优先直接使用
+ * generatePageMetadata。
  */
 export function generateProductMetadata(
   product: Product
@@ -186,14 +233,19 @@ export function generateProductMetadata(
     `/products/${product.categorySlug}/${product.slug}`;
 
   return generatePageMetadata({
-    title: `${product.name} Supplier`,
+    title:
+      `${product.name} Supplier`,
     description:
       `${product.description} SanHe supports global buyers with ` +
       "planting base management, factory processing, cold chain warehousing, " +
       "OEM and private label services.",
-    path: `/${defaultLocale}${productPath}`,
-    alternatePath: productPath,
-    image: product.image,
-    locale: defaultLocale,
+    path:
+      `/${defaultLocale}${productPath}`,
+    alternatePath:
+      productPath,
+    image:
+      product.image,
+    locale:
+      defaultLocale,
   });
 }

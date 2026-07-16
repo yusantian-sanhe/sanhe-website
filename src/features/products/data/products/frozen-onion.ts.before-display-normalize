@@ -1,0 +1,117 @@
+import type { Product } from "../../types";
+
+export const frozenOnion: Product = {
+  slug: "frozen-onion",
+  categorySlug: "frozen-foods",
+
+  category: "Frozen Foods",
+  name: "Frozen Onion",
+
+  description:
+    "Frozen onion supplied in convenient food-service and industrial formats.",
+
+  details:
+    "SanHe provides diced and sliced frozen onion with customized specifications, packing and cold-chain logistics.",
+
+  image: "/images/products/frozen-onion/main.jpg",
+  images: [
+    "/images/products/frozen-onion/main.jpg",
+  ],
+
+  specifications: [
+    "Diced or sliced formats",
+    "Customized cuts available",
+    "Frozen storage",
+    "Suitable for food processing",
+  ],
+
+  packaging:
+    "Bag, carton or customized export packaging",
+
+  packagingOptions: [
+    "Standard Export Packaging",
+    "Customized Packaging",
+    "Private Label",
+  ],
+
+  moq:
+    "Negotiable according to product and packing specification",
+
+  supplyAbility:
+    "Stable supply supported by coordinated production, processing and storage",
+
+  loadingCapacity:
+    "According to packaging specification and container type",
+
+  advantages: [
+    {
+      title: "Reliable Product Supply",
+      description:
+        "Coordinated sourcing, production and inventory planning for international buyers.",
+    },
+    {
+      title: "Controlled Processing",
+      description:
+        "Product handling and processing are coordinated according to buyer and market requirements.",
+    },
+    {
+      title: "Cold Chain Coordination",
+      description:
+        "Storage and logistics support are arranged according to product specifications.",
+    },
+    {
+      title: "Full Product Traceability",
+      description:
+        "Product and processing records support quality management and buyer requirements.",
+    },
+    {
+      title: "Customized Packaging",
+      description:
+        "OEM, private-label and market-specific packaging options are available.",
+    },
+    {
+      title: "Global Export Support",
+      description:
+        "Professional documentation, shipment and buyer-service coordination.",
+    },
+  ],
+
+  supplyCapabilities: [
+    "Planting & Sourcing Coordination",
+    "Factory Direct Processing",
+    "Cold Chain Warehousing",
+    "Full Product Traceability",
+    "OEM & Private Label",
+    "Mixed Container Service",
+  ],
+
+  applications: [
+    "Importers",
+    "Wholesalers",
+    "Supermarkets",
+    "Food Manufacturers",
+    "Food Service Companies",
+    "Distributors",
+  ],
+
+  additionalDetails: {
+    origin: "China",
+    varieties: [
+      "Diced Onion",
+      "Sliced Onion",
+    ],
+    season:
+      "Year-round frozen supply",
+    storage:
+      "Frozen storage at required temperature",
+    sizes: [
+      "Customized cut sizes",
+    ],
+    processingOptions: [
+      "Peeling",
+      "Cutting",
+      "Rapid Freezing",
+      "Customized Packing",
+    ],
+  },
+};

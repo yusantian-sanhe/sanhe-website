@@ -5,7 +5,7 @@ export const productCategories: ProductCategory[] = [
     slug: "fresh-vegetables",
     name: "Fresh Vegetables",
     description:
-      "Fresh ginger, garlic, onion, potato, carrot, taro, yam, bell pepper and other fresh vegetables.",
+      "Fresh ginger, garlic, onion, potato, carrot, taro and other export-ready fresh vegetables.",
   },
   {
     slug: "fresh-fruits",
@@ -17,12 +17,12 @@ export const productCategories: ProductCategory[] = [
     slug: "frozen-foods",
     name: "Frozen Foods",
     description:
-      "Frozen ginger products, garlic products, onion, vegetables, fruits and food ingredients.",
+      "Frozen ginger, garlic, onion, green onion, mixed vegetables and fruits for industrial and food-service buyers.",
   },
   {
     slug: "prepared-foods",
     name: "Prepared Foods",
     description:
-      "Ready-to-cook products, prepared vegetable products and customized prepared foods.",
+      "Ready-to-use pastes, minced products, vegetable mixes, dumpling filling and customized prepared foods.",
   },
 ];
