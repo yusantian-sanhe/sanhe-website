@@ -189,323 +189,323 @@
       },
       "blueberry": {
         "slug": "blueberry",
-        "name": "توت أزرق",
-        "description": "توت أزرق طازج مع فرز دقيق ودعم سلسلة التبريد.",
-        "details": "تنسق SanHe الاختيار والتعبئة في علب صغيرة والتحكم في درجة الحرارة ومناولة التصدير لبرامج التوت الأزرق.",
+        "name": "Blueberry",
+        "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support.",
+        "details": "SanHe coordinates selection, punnet packing, temperature control and export handling for blueberry programs.",
         "specifications": [
-          "حبات طازجة وممتلئة",
-          "تعبئة في علب صغيرة متاحة",
-          "مناولة ضمن سلسلة التبريد",
-          "خيارات جاهزة للبيع بالتجزئة"
+          "Fresh and plump berries",
+          "Punnet packing available",
+          "Cold-chain handling",
+          "Retail-ready options"
         ],
-        "packaging": "علب صغيرة أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "حاوية واحدة",
-        "supplyAbility": "إمداد موسمي",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Punnet, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "dumpling-filling": {
         "slug": "dumpling-filling",
-        "name": "حشوة الزلابية",
-        "description": "حشوة زلابية مجهزة لمصنعي الأغذية ومشغلي خدمات الطعام وبرامج العلامات الخاصة.",
-        "details": "تدعم SanHe حشوات الزلابية النباتية المخصصة وتعديل الوصفات وحجم الجزيئات والتعبئة وتنسيق التصدير.",
+        "name": "Dumpling Filling",
+        "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs.",
+        "details": "SanHe supports customized vegetable-based dumpling filling, recipe adjustment, particle size, portioning, packing and export coordination.",
         "specifications": [
-          "تركيبات نباتية",
-          "وصفات مخصصة",
-          "حجم جزيئات مضبوط",
-          "العلامة الخاصة متاحة"
+          "Vegetable-based formulations",
+          "Customized recipes",
+          "Controlled particle size",
+          "Private label available"
         ],
-        "packaging": "أكياس أو عبوات مرنة أو عبوات كبيرة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "fresh-carrot": {
         "slug": "fresh-carrot",
-        "name": "جزر طازج",
-        "description": "جزر طازج مختار لأسواق الجملة والتجزئة وصناعة الأغذية الدولية.",
-        "details": "تنسق SanHe التوريد والغسل والفرز والتعبئة وسلسلة التبريد لتوفير جزر طازج جاهز للتصدير.",
+        "name": "Fresh Carrot",
+        "description": "Fresh carrots selected for international wholesale, retail and food-processing markets.",
+        "details": "SanHe coordinates sourcing, washing, grading, packing and cold-chain handling for export-ready fresh carrots.",
         "specifications": [
-          "جذور طازجة وصلبة",
-          "خيارات مغسولة ومفرزة",
-          "أحجام متعددة متاحة",
-          "تعبئة جاهزة للتصدير"
+          "Fresh and firm roots",
+          "Washed and graded options",
+          "Multiple sizes available",
+          "Export-ready packing"
         ],
-        "packaging": "صناديق كرتونية أو أكياس أو عبوات مخصصة",
-        "moq": "حاوية واحدة",
-        "supplyAbility": "إمداد موسمي مستقر",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Carton, bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "fresh-taro": {
         "slug": "fresh-taro",
-        "name": "قلقاس طازج",
-        "description": "قلقاس طازج للمستوردين وتجار الجملة ومصنعي الأغذية.",
-        "details": "توفر SanHe قلقاسًا مختارًا بعناية مع الفرز والتعبئة وتنسيق الشحن وفق متطلبات سوق الوجهة.",
+        "name": "Fresh Taro",
+        "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers.",
+        "details": "SanHe provides carefully selected taro with grading, packing and shipment coordination according to destination-market requirements.",
         "specifications": [
-          "مظهر طبيعي",
-          "قوام متماسك",
-          "درجات متعددة متاحة",
-          "تعبئة جاهزة للتصدير"
+          "Natural appearance",
+          "Firm texture",
+          "Multiple grades available",
+          "Export-ready packing"
         ],
-        "packaging": "صناديق كرتونية أو أكياس شبكية أو عبوات مخصصة",
-        "moq": "حاوية واحدة",
-        "supplyAbility": "إمداد موسمي مستقر",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Carton, mesh bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-fruits": {
         "slug": "frozen-fruits",
-        "name": "فواكه مجمدة",
-        "description": "فواكه مجمدة لمصنعي الأغذية والمخابز والمشروبات وخدمات الطعام.",
-        "details": "تنسق SanHe اختيار الفواكه والتجميد السريع والتعبئة وخدمات سلسلة التبريد للتصدير.",
+        "name": "Frozen Fruits",
+        "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers.",
+        "details": "SanHe coordinates fruit selection, rapid freezing, packing and export cold-chain service.",
         "specifications": [
-          "خيارات متعددة من الفواكه",
-          "كاملة أو شرائح أو مكعبات",
-          "تجميد سريع",
-          "تعبئة مخصصة"
+          "Multiple fruit options",
+          "Whole, sliced or diced formats",
+          "Rapid freezing",
+          "Customized packing"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-garlic": {
         "slug": "frozen-garlic",
-        "name": "ثوم مجمد",
-        "description": "ثوم مجمد للاستخدام في التصنيع الغذائي وخدمات الطعام.",
-        "details": "توفر SanHe الثوم المجمد على شكل مكعبات أو مفروم أو وفق مواصفات مخصصة، مع معالجة خاضعة للرقابة ومناولة ضمن سلسلة التبريد.",
+        "name": "Frozen Garlic",
+        "description": "Frozen garlic prepared for industrial food processing and food-service applications.",
+        "details": "SanHe supplies frozen garlic in diced, minced or customized formats with controlled processing and cold-chain handling.",
         "specifications": [
-          "مكعبات أو ثوم مفروم",
-          "معالجة مخصصة متاحة",
-          "تخزين مجمد",
-          "مناسب للتصنيع الغذائي"
+          "Diced or minced formats",
+          "Customized processing available",
+          "Frozen storage",
+          "Food-service and industrial use"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-ginger": {
         "slug": "frozen-ginger",
-        "name": "زنجبيل مجمد",
-        "description": "منتجات زنجبيل مجمدة لمصنعي الأغذية والموزعين ومشغلي خدمات الطعام.",
-        "details": "توفر SanHe الزنجبيل المجمد على شكل شرائح أو مكعبات أو عيدان أو وفق مواصفات مخصصة، مع التخزين المجمد ودعم التصدير.",
+        "name": "Frozen Ginger",
+        "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers.",
+        "details": "SanHe supplies frozen ginger in diced, sliced, shredded or customized formats with controlled processing, frozen storage and export support.",
         "specifications": [
-          "شرائح أو مكعبات أو عيدان",
-          "أحجام تقطيع مخصصة",
-          "تخزين مجمد",
-          "دعم مستندات التصدير"
+          "Diced, sliced or shredded formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Export documentation support"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-green-onion": {
         "slug": "frozen-green-onion",
-        "name": "بصل أخضر مجمد",
-        "description": "بصل أخضر مفروم ومجمد لخدمات الطعام وتطبيقات التصنيع.",
-        "details": "توفر SanHe البصل الأخضر المجمد مع تقطيع خاضع للرقابة وتجميد سريع وتعبئة وتنسيق سلسلة التبريد.",
+        "name": "Frozen Green Onion",
+        "description": "Frozen chopped green onion for food-service and manufacturing applications.",
+        "details": "SanHe supplies frozen green onion with controlled cutting, rapid freezing, packing and cold-chain coordination.",
         "specifications": [
-          "شكل مفروم",
-          "أحجام تقطيع مخصصة",
-          "تجميد سريع",
-          "تخزين مجمد"
+          "Chopped format",
+          "Customized cut sizes",
+          "Rapid freezing",
+          "Frozen storage"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-mixed-vegetables": {
         "slug": "frozen-mixed-vegetables",
-        "name": "خضروات مشكلة مجمدة",
-        "description": "خضروات مشكلة مجمدة لمصنعي الأغذية ومحلات السوبرماركت والموزعين.",
-        "details": "توفر SanHe خلطات خضروات وأحجام تقطيع وأشكال تعبئة وخدمات سلسلة تبريد مخصصة.",
+        "name": "Frozen Mixed Vegetables",
+        "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors.",
+        "details": "SanHe supplies customized vegetable combinations, cut sizes, packing formats and cold-chain logistics.",
         "specifications": [
-          "خلطات خضروات متعددة",
-          "تقطيع مخصص متاح",
-          "تخزين مجمد",
-          "مناسب للتصنيع الغذائي"
+          "Multiple vegetable combinations",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-onion": {
         "slug": "frozen-onion",
-        "name": "بصل مجمد",
-        "description": "بصل مجمد بأشكال مناسبة لخدمات الطعام والاستخدام الصناعي.",
-        "details": "توفر SanHe البصل المجمد على شكل مكعبات أو شرائح مع مواصفات وتعبئة وخدمات سلسلة تبريد مخصصة.",
+        "name": "Frozen Onion",
+        "description": "Frozen onion supplied in convenient food-service and industrial formats.",
+        "details": "SanHe provides diced and sliced frozen onion with customized specifications, packing and cold-chain logistics.",
         "specifications": [
-          "مكعبات أو شرائح",
-          "أحجام تقطيع مخصصة",
-          "تخزين مجمد",
-          "مناسب للتصنيع الغذائي"
+          "Diced or sliced formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
         ],
-        "packaging": "أكياس أو صناديق كرتونية أو عبوات مخصصة",
-        "moq": "قابل للتفاوض حسب نوع المنتج",
-        "supplyAbility": "إمداد مستقر من المنتجات المجمدة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "garlic-paste": {
         "slug": "garlic-paste",
-        "name": "معجون الثوم",
-        "description": "معجون ثوم جاهز للاستخدام لمصنعي الأغذية ومشغلي خدمات الطعام وعملاء العلامات الخاصة.",
-        "details": "تدعم SanHe إنتاج معجون الثوم حسب الطلب من حيث القوام والتركيبة والتعبئة وخدمة العلامة الخاصة.",
+        "name": "Garlic Paste",
+        "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers.",
+        "details": "SanHe supports customized garlic paste production, texture, formulation, packing, private label and export coordination.",
         "specifications": [
-          "قوام ناعم أو خشن",
-          "تركيبة مخصصة",
-          "العلامة الخاصة متاحة",
-          "جاهز للاستخدام"
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "مرطبانات أو أكياس أو عبوات كبيرة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "ginger-paste": {
         "slug": "ginger-paste",
-        "name": "معجون الزنجبيل",
-        "description": "معجون زنجبيل جاهز للاستخدام للتطبيقات الصناعية والتجزئة وخدمات الطعام.",
-        "details": "توفر SanHe معجون الزنجبيل بقوام وتركيبة وتعبئة وخيارات علامة خاصة مخصصة.",
+        "name": "Ginger Paste",
+        "description": "Ready-to-use ginger paste for industrial, retail and food-service applications.",
+        "details": "SanHe supplies ginger paste with customized texture, formulation, packing, private label and export documentation support.",
         "specifications": [
-          "قوام ناعم أو خشن",
-          "تركيبة مخصصة",
-          "العلامة الخاصة متاحة",
-          "جاهز للاستخدام"
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "مرطبانات أو أكياس أو عبوات كبيرة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "grape": {
         "slug": "grape",
-        "name": "عنب",
-        "description": "عنب طازج مجهز لأسواق الجملة والتجزئة الدولية.",
-        "details": "تدعم SanHe تصدير العنب من خلال اختيار الأصناف والمناولة الدقيقة وتنسيق سلسلة التبريد والتعبئة المخصصة.",
+        "name": "Grape",
+        "description": "Fresh grapes prepared for international wholesale, retail and food-service markets.",
+        "details": "SanHe supports grape export with variety selection, careful handling, cold-chain coordination and customized packing.",
         "specifications": [
-          "خيارات عنب أخضر وأحمر وداكن",
-          "حبات طازجة ومتماسكة",
-          "مناولة ضمن سلسلة التبريد",
-          "تعبئة للجملة والتجزئة"
+          "Green, red and dark grape options",
+          "Fresh and firm berries",
+          "Cold-chain handling",
+          "Retail and wholesale packing"
         ],
-        "packaging": "صناديق كرتونية أو علب صغيرة أو عبوات مخصصة",
-        "moq": "حاوية واحدة",
-        "supplyAbility": "إمداد موسمي",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Carton, punnet or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "minced-garlic": {
         "slug": "minced-garlic",
-        "name": "ثوم مفروم",
-        "description": "ثوم مفروم لمشغلي خدمات الطعام والمصنعين وعملاء التجزئة.",
-        "details": "تدعم SanHe تخصيص حجم الجزيئات والتركيبة والتعبئة والإنتاج تحت علامة خاصة.",
+        "name": "Minced Garlic",
+        "description": "Minced garlic prepared for food-service, manufacturing and retail buyers.",
+        "details": "SanHe supports customized particle size, formulation, packing and private-label production.",
         "specifications": [
-          "أحجام جزيئات متعددة",
-          "تركيبة مخصصة",
-          "العلامة الخاصة متاحة",
-          "جاهز للاستخدام"
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "مرطبانات أو أكياس أو عبوات كبيرة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "minced-ginger": {
         "slug": "minced-ginger",
-        "name": "زنجبيل مفروم",
-        "description": "زنجبيل مفروم للتصنيع الغذائي الصناعي وخدمات الطعام.",
-        "details": "توفر SanHe الزنجبيل المفروم بأحجام جزيئات وتركيبات وتعبئة وخيارات علامة خاصة مخصصة.",
+        "name": "Minced Ginger",
+        "description": "Minced ginger prepared for industrial food processing and food-service use.",
+        "details": "SanHe supplies minced ginger with customized particle size, formulation, packing and private-label options.",
         "specifications": [
-          "أحجام جزيئات متعددة",
-          "تركيبة مخصصة",
-          "العلامة الخاصة متاحة",
-          "جاهز للاستخدام"
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "مرطبانات أو أكياس أو عبوات كبيرة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "mixed-vegetables": {
         "slug": "mixed-vegetables",
-        "name": "خضروات مشكلة",
-        "description": "خضروات مشكلة مجهزة للاستخدام المريح في خدمات الطعام والتجزئة.",
-        "details": "تدعم SanHe خلطات خضروات وأحجام تقطيع وخيارات تتبيل وأشكال تعبئة مخصصة.",
+        "name": "Mixed Vegetables",
+        "description": "Prepared mixed vegetables for convenient food-service and retail applications.",
+        "details": "SanHe supports customized vegetable combinations, cut sizes, seasoning options and packing formats.",
         "specifications": [
-          "خلطات خضروات مخصصة",
-          "أحجام تقطيع متعددة",
-          "خيارات تتبيل متاحة",
-          "العلامة الخاصة متاحة"
+          "Customized vegetable combinations",
+          "Multiple cut sizes",
+          "Seasoning options available",
+          "Private label available"
         ],
-        "packaging": "أكياس أو صوانٍ أو عبوات مرنة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "peach": {
         "slug": "peach",
-        "name": "خوخ",
-        "description": "خوخ طازج مختار لبرامج التصدير الموسمية.",
-        "details": "تنسق SanHe اختيار الخوخ وتصنيفه والتعبئة الواقية وسلسلة التبريد وتخطيط الشحن.",
+        "name": "Peach",
+        "description": "Fresh peaches selected for seasonal export programs and international fruit buyers.",
+        "details": "SanHe coordinates peach selection, grading, protective packing, cold-chain handling and shipment planning.",
         "specifications": [
-          "أصناف موسمية متاحة",
-          "تصنيف حسب الحجم",
-          "تعبئة واقية للتصدير",
-          "دعم سلسلة التبريد"
+          "Seasonal varieties available",
+          "Size grading available",
+          "Protective export packing",
+          "Cold-chain support"
         ],
-        "packaging": "صناديق كرتونية واقية أو عبوات مخصصة",
-        "moq": "حاوية واحدة",
-        "supplyAbility": "إمداد موسمي",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Protective carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "seasoned-vegetable-mix": {
         "slug": "seasoned-vegetable-mix",
-        "name": "خليط خضروات متبل",
-        "description": "خليط خضروات متبل لبرامج التجزئة وخدمات الطعام والعلامات الخاصة.",
-        "details": "تدعم SanHe خلطات خضروات ونكهات تتبيل وأحجام حصص وتعبئة جاهزة للتصدير حسب الطلب.",
+        "name": "Seasoned Vegetable Mix",
+        "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs.",
+        "details": "SanHe supports customized vegetables, seasoning profiles, portion sizes and export-ready packing.",
         "specifications": [
-          "نكهات تتبيل مخصصة",
-          "خلطات خضروات متعددة",
-          "جاهز للاستخدام",
-          "العلامة الخاصة متاحة"
+          "Customized seasoning profiles",
+          "Multiple vegetable combinations",
+          "Ready-to-use format",
+          "Private label available"
         ],
-        "packaging": "أكياس أو عبوات مرنة أو صوانٍ أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, pouch, tray or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "soup-vegetable-mix": {
         "slug": "soup-vegetable-mix",
-        "name": "خليط خضروات للشوربة",
-        "description": "خليط خضروات مجهز للشوربات واليخنات والوجبات السريعة التحضير.",
-        "details": "توفر SanHe خلطات خضروات للشوربة وأحجام تقطيع وتقسيم حصص وتعبئة تحت علامة خاصة.",
+        "name": "Soup Vegetable Mix",
+        "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications.",
+        "details": "SanHe supplies customized soup vegetable combinations, cut sizes, portioning and private-label packing.",
         "specifications": [
-          "جاهز للطهي",
-          "خلطات مخصصة",
-          "أحجام تقطيع متعددة",
-          "العلامة الخاصة متاحة"
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Multiple cut sizes",
+          "Private label available"
         ],
-        "packaging": "أكياس أو صوانٍ أو عبوات مرنة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "stir-fry-vegetable-mix": {
         "slug": "stir-fry-vegetable-mix",
-        "name": "خليط خضروات للقلي السريع",
-        "description": "خليط خضروات عملي للقلي السريع لبرامج التجزئة وخدمات الطعام والعلامات الخاصة.",
-        "details": "توفر SanHe خلطات خضروات وأحجام حصص وخيارات تتبيل وتعبئة مخصصة.",
+        "name": "Stir-fry Vegetable Mix",
+        "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs.",
+        "details": "SanHe provides customized vegetable combinations, portion sizes, seasoning options and packing.",
         "specifications": [
-          "جاهز للطهي",
-          "خلطات مخصصة",
-          "تتبيل اختياري",
-          "العلامة الخاصة متاحة"
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Optional seasoning",
+          "Private label available"
         ],
-        "packaging": "أكياس أو صوانٍ أو عبوات مرنة أو تعبئة مخصصة",
-        "moq": "قابل للتفاوض حسب المواصفات",
-        "supplyAbility": "قدرة إنتاج مخصصة",
-        "loadingCapacity": "وفقًا لمواصفات التعبئة ونوع الحاوية"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       }
     },
     "detailSections": {
@@ -644,84 +644,84 @@
             "description": "منتجات خضروات مُحضّرة وحلول مخصصة جاهزة للطهي."
           },
           "blueberry": {
-            "name": "توت أزرق",
-            "description": "توت أزرق طازج مع فرز دقيق ودعم سلسلة التبريد."
+            "name": "Blueberry",
+            "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support."
           },
           "dumpling-filling": {
-            "name": "حشوة الزلابية",
-            "description": "حشوة زلابية مجهزة لمصنعي الأغذية ومشغلي خدمات الطعام وبرامج العلامات الخاصة."
+            "name": "Dumpling Filling",
+            "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs."
           },
           "fresh-carrot": {
-            "name": "جزر طازج",
-            "description": "جزر طازج مختار لأسواق الجملة والتجزئة وصناعة الأغذية الدولية."
+            "name": "Fresh Carrot",
+            "description": "Fresh carrots selected for international wholesale, retail and food-processing markets."
           },
           "fresh-taro": {
-            "name": "قلقاس طازج",
-            "description": "قلقاس طازج للمستوردين وتجار الجملة ومصنعي الأغذية."
+            "name": "Fresh Taro",
+            "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers."
           },
           "frozen-fruits": {
-            "name": "فواكه مجمدة",
-            "description": "فواكه مجمدة لمصنعي الأغذية والمخابز والمشروبات وخدمات الطعام."
+            "name": "Frozen Fruits",
+            "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers."
           },
           "frozen-garlic": {
-            "name": "ثوم مجمد",
-            "description": "ثوم مجمد للاستخدام في التصنيع الغذائي وخدمات الطعام."
+            "name": "Frozen Garlic",
+            "description": "Frozen garlic prepared for industrial food processing and food-service applications."
           },
           "frozen-ginger": {
-            "name": "زنجبيل مجمد",
-            "description": "منتجات زنجبيل مجمدة لمصنعي الأغذية والموزعين ومشغلي خدمات الطعام."
+            "name": "Frozen Ginger",
+            "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers."
           },
           "frozen-green-onion": {
-            "name": "بصل أخضر مجمد",
-            "description": "بصل أخضر مفروم ومجمد لخدمات الطعام وتطبيقات التصنيع."
+            "name": "Frozen Green Onion",
+            "description": "Frozen chopped green onion for food-service and manufacturing applications."
           },
           "frozen-mixed-vegetables": {
-            "name": "خضروات مشكلة مجمدة",
-            "description": "خضروات مشكلة مجمدة لمصنعي الأغذية ومحلات السوبرماركت والموزعين."
+            "name": "Frozen Mixed Vegetables",
+            "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors."
           },
           "frozen-onion": {
-            "name": "بصل مجمد",
-            "description": "بصل مجمد بأشكال مناسبة لخدمات الطعام والاستخدام الصناعي."
+            "name": "Frozen Onion",
+            "description": "Frozen onion supplied in convenient food-service and industrial formats."
           },
           "garlic-paste": {
-            "name": "معجون الثوم",
-            "description": "معجون ثوم جاهز للاستخدام لمصنعي الأغذية ومشغلي خدمات الطعام وعملاء العلامات الخاصة."
+            "name": "Garlic Paste",
+            "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers."
           },
           "ginger-paste": {
-            "name": "معجون الزنجبيل",
-            "description": "معجون زنجبيل جاهز للاستخدام للتطبيقات الصناعية والتجزئة وخدمات الطعام."
+            "name": "Ginger Paste",
+            "description": "Ready-to-use ginger paste for industrial, retail and food-service applications."
           },
           "grape": {
-            "name": "عنب",
-            "description": "عنب طازج مجهز لأسواق الجملة والتجزئة الدولية."
+            "name": "Grape",
+            "description": "Fresh grapes prepared for international wholesale, retail and food-service markets."
           },
           "minced-garlic": {
-            "name": "ثوم مفروم",
-            "description": "ثوم مفروم لمشغلي خدمات الطعام والمصنعين وعملاء التجزئة."
+            "name": "Minced Garlic",
+            "description": "Minced garlic prepared for food-service, manufacturing and retail buyers."
           },
           "minced-ginger": {
-            "name": "زنجبيل مفروم",
-            "description": "زنجبيل مفروم للتصنيع الغذائي الصناعي وخدمات الطعام."
+            "name": "Minced Ginger",
+            "description": "Minced ginger prepared for industrial food processing and food-service use."
           },
           "mixed-vegetables": {
-            "name": "خضروات مشكلة",
-            "description": "خضروات مشكلة مجهزة للاستخدام المريح في خدمات الطعام والتجزئة."
+            "name": "Mixed Vegetables",
+            "description": "Prepared mixed vegetables for convenient food-service and retail applications."
           },
           "peach": {
-            "name": "خوخ",
-            "description": "خوخ طازج مختار لبرامج التصدير الموسمية."
+            "name": "Peach",
+            "description": "Fresh peaches selected for seasonal export programs and international fruit buyers."
           },
           "seasoned-vegetable-mix": {
-            "name": "خليط خضروات متبل",
-            "description": "خليط خضروات متبل لبرامج التجزئة وخدمات الطعام والعلامات الخاصة."
+            "name": "Seasoned Vegetable Mix",
+            "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs."
           },
           "soup-vegetable-mix": {
-            "name": "خليط خضروات للشوربة",
-            "description": "خليط خضروات مجهز للشوربات واليخنات والوجبات السريعة التحضير."
+            "name": "Soup Vegetable Mix",
+            "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications."
           },
           "stir-fry-vegetable-mix": {
-            "name": "خليط خضروات للقلي السريع",
-            "description": "خليط خضروات عملي للقلي السريع لبرامج التجزئة وخدمات الطعام والعلامات الخاصة."
+            "name": "Stir-fry Vegetable Mix",
+            "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs."
           }
         }
       },

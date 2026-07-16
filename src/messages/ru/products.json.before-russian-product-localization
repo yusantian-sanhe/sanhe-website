@@ -189,323 +189,323 @@
       },
       "blueberry": {
         "slug": "blueberry",
-        "name": "Голубика",
-        "description": "Свежая голубика с тщательной сортировкой и поддержкой холодовой цепи.",
-        "details": "SanHe координирует отбор, фасовку в лотки, температурный контроль и экспортную обработку голубики.",
+        "name": "Blueberry",
+        "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support.",
+        "details": "SanHe coordinates selection, punnet packing, temperature control and export handling for blueberry programs.",
         "specifications": [
-          "Свежие и крупные ягоды",
-          "Фасовка в лотки",
-          "Поддержка холодовой цепи",
-          "Розничные варианты упаковки"
+          "Fresh and plump berries",
+          "Punnet packing available",
+          "Cold-chain handling",
+          "Retail-ready options"
         ],
-        "packaging": "Лотки, картонные коробки или индивидуальная упаковка",
-        "moq": "Один контейнер",
-        "supplyAbility": "Сезонные поставки",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Punnet, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "dumpling-filling": {
         "slug": "dumpling-filling",
-        "name": "Начинка для пельменей",
-        "description": "Подготовленная начинка для производителей, общественного питания и частных марок.",
-        "details": "SanHe поддерживает индивидуальные овощные начинки, корректировку рецептуры, размер частиц, упаковку и экспортную координацию.",
+        "name": "Dumpling Filling",
+        "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs.",
+        "details": "SanHe supports customized vegetable-based dumpling filling, recipe adjustment, particle size, portioning, packing and export coordination.",
         "specifications": [
-          "Овощные рецептуры",
-          "Индивидуальные рецепты",
-          "Контролируемый размер частиц",
-          "Возможна частная марка"
+          "Vegetable-based formulations",
+          "Customized recipes",
+          "Controlled particle size",
+          "Private label available"
         ],
-        "packaging": "Пакеты, мягкая упаковка, ведра или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "fresh-carrot": {
         "slug": "fresh-carrot",
-        "name": "Свежая морковь",
-        "description": "Свежая морковь для международной оптовой и розничной торговли, а также пищевой промышленности.",
-        "details": "SanHe координирует закупку, мойку, сортировку, упаковку и холодовую логистику свежей моркови для экспорта.",
+        "name": "Fresh Carrot",
+        "description": "Fresh carrots selected for international wholesale, retail and food-processing markets.",
+        "details": "SanHe coordinates sourcing, washing, grading, packing and cold-chain handling for export-ready fresh carrots.",
         "specifications": [
-          "Свежие и плотные корнеплоды",
-          "Варианты с мойкой и сортировкой",
-          "Доступны разные размеры",
-          "Экспортная упаковка"
+          "Fresh and firm roots",
+          "Washed and graded options",
+          "Multiple sizes available",
+          "Export-ready packing"
         ],
-        "packaging": "Картонные коробки, мешки или индивидуальная упаковка",
-        "moq": "Один контейнер",
-        "supplyAbility": "Стабильные сезонные поставки",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Carton, bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "fresh-taro": {
         "slug": "fresh-taro",
-        "name": "Свежий таро",
-        "description": "Свежий таро для импортеров, оптовиков и производителей пищевой продукции.",
-        "details": "SanHe поставляет тщательно отобранный таро с сортировкой, упаковкой и координацией отгрузки в соответствии с требованиями рынка назначения.",
+        "name": "Fresh Taro",
+        "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers.",
+        "details": "SanHe provides carefully selected taro with grading, packing and shipment coordination according to destination-market requirements.",
         "specifications": [
-          "Натуральный внешний вид",
-          "Плотная текстура",
-          "Доступны разные сорта и калибры",
-          "Экспортная упаковка"
+          "Natural appearance",
+          "Firm texture",
+          "Multiple grades available",
+          "Export-ready packing"
         ],
-        "packaging": "Картонные коробки, сетчатые мешки или индивидуальная упаковка",
-        "moq": "Один контейнер",
-        "supplyAbility": "Стабильные сезонные поставки",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Carton, mesh bag or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-fruits": {
         "slug": "frozen-fruits",
-        "name": "Замороженные фрукты",
-        "description": "Замороженные фрукты для пищевой промышленности, выпечки, напитков и общественного питания.",
-        "details": "SanHe координирует отбор фруктов, быстрое замораживание, упаковку и экспортную холодовую логистику.",
+        "name": "Frozen Fruits",
+        "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers.",
+        "details": "SanHe coordinates fruit selection, rapid freezing, packing and export cold-chain service.",
         "specifications": [
-          "Различные виды фруктов",
-          "Целые, нарезанные или кубиками",
-          "Быстрое замораживание",
-          "Индивидуальная упаковка"
+          "Multiple fruit options",
+          "Whole, sliced or diced formats",
+          "Rapid freezing",
+          "Customized packing"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-garlic": {
         "slug": "frozen-garlic",
-        "name": "Замороженный чеснок",
-        "description": "Замороженный чеснок для промышленной переработки и предприятий общественного питания.",
-        "details": "SanHe поставляет замороженный чеснок кубиками, измельченный и в других форматах с контролируемой переработкой и холодовой логистикой.",
+        "name": "Frozen Garlic",
+        "description": "Frozen garlic prepared for industrial food processing and food-service applications.",
+        "details": "SanHe supplies frozen garlic in diced, minced or customized formats with controlled processing and cold-chain handling.",
         "specifications": [
-          "Кубики или измельченный формат",
-          "Индивидуальная переработка",
-          "Холодное хранение",
-          "Для пищевой промышленности"
+          "Diced or minced formats",
+          "Customized processing available",
+          "Frozen storage",
+          "Food-service and industrial use"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-ginger": {
         "slug": "frozen-ginger",
-        "name": "Замороженный имбирь",
-        "description": "Замороженный имбирь для производителей продуктов питания, дистрибьюторов и предприятий общественного питания.",
-        "details": "SanHe поставляет замороженный имбирь ломтиками, кубиками, соломкой и в других форматах с холодным хранением и экспортной поддержкой.",
+        "name": "Frozen Ginger",
+        "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers.",
+        "details": "SanHe supplies frozen ginger in diced, sliced, shredded or customized formats with controlled processing, frozen storage and export support.",
         "specifications": [
-          "Ломтики, кубики или соломка",
-          "Индивидуальные размеры нарезки",
-          "Холодное хранение",
-          "Поддержка экспортной документации"
+          "Diced, sliced or shredded formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Export documentation support"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-green-onion": {
         "slug": "frozen-green-onion",
-        "name": "Замороженный зеленый лук",
-        "description": "Замороженный нарезанный зеленый лук для общественного питания и пищевого производства.",
-        "details": "SanHe обеспечивает контролируемую нарезку, быстрое замораживание, упаковку и холодовую логистику зеленого лука.",
+        "name": "Frozen Green Onion",
+        "description": "Frozen chopped green onion for food-service and manufacturing applications.",
+        "details": "SanHe supplies frozen green onion with controlled cutting, rapid freezing, packing and cold-chain coordination.",
         "specifications": [
-          "Нарезанный формат",
-          "Индивидуальные размеры нарезки",
-          "Быстрое замораживание",
-          "Холодное хранение"
+          "Chopped format",
+          "Customized cut sizes",
+          "Rapid freezing",
+          "Frozen storage"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-mixed-vegetables": {
         "slug": "frozen-mixed-vegetables",
-        "name": "Замороженная овощная смесь",
-        "description": "Замороженные овощные смеси для производителей продуктов питания, супермаркетов и дистрибьюторов.",
-        "details": "SanHe поставляет индивидуальные сочетания овощей, размеры нарезки, варианты упаковки и холодовую логистику.",
+        "name": "Frozen Mixed Vegetables",
+        "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors.",
+        "details": "SanHe supplies customized vegetable combinations, cut sizes, packing formats and cold-chain logistics.",
         "specifications": [
-          "Различные сочетания овощей",
-          "Индивидуальная нарезка",
-          "Холодное хранение",
-          "Подходит для пищевой переработки"
+          "Multiple vegetable combinations",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "frozen-onion": {
         "slug": "frozen-onion",
-        "name": "Замороженный лук",
-        "description": "Замороженный лук в удобных форматах для общественного питания и промышленного использования.",
-        "details": "SanHe поставляет замороженный лук кубиками и ломтиками с индивидуальными спецификациями, упаковкой и холодовой логистикой.",
+        "name": "Frozen Onion",
+        "description": "Frozen onion supplied in convenient food-service and industrial formats.",
+        "details": "SanHe provides diced and sliced frozen onion with customized specifications, packing and cold-chain logistics.",
         "specifications": [
-          "Кубики или ломтики",
-          "Индивидуальные размеры нарезки",
-          "Холодное хранение",
-          "Подходит для пищевой переработки"
+          "Diced or sliced formats",
+          "Customized cuts available",
+          "Frozen storage",
+          "Suitable for food processing"
         ],
-        "packaging": "Пакеты, картонные коробки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от продукта",
-        "supplyAbility": "Стабильные поставки замороженной продукции",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "garlic-paste": {
         "slug": "garlic-paste",
-        "name": "Чесночная паста",
-        "description": "Готовая к использованию чесночная паста для производителей, общественного питания и частных марок.",
-        "details": "SanHe поддерживает индивидуальное производство чесночной пасты, настройку текстуры, рецептуры, упаковки и частной марки.",
+        "name": "Garlic Paste",
+        "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers.",
+        "details": "SanHe supports customized garlic paste production, texture, formulation, packing, private label and export coordination.",
         "specifications": [
-          "Гладкая или грубая текстура",
-          "Индивидуальная рецептура",
-          "Возможна частная марка",
-          "Готовый к использованию формат"
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "Банки, пакеты, ведра или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "ginger-paste": {
         "slug": "ginger-paste",
-        "name": "Имбирная паста",
-        "description": "Готовая к использованию имбирная паста для промышленности, розницы и общественного питания.",
-        "details": "SanHe поставляет имбирную пасту с индивидуальной текстурой, рецептурой, упаковкой и вариантами частной марки.",
+        "name": "Ginger Paste",
+        "description": "Ready-to-use ginger paste for industrial, retail and food-service applications.",
+        "details": "SanHe supplies ginger paste with customized texture, formulation, packing, private label and export documentation support.",
         "specifications": [
-          "Гладкая или грубая текстура",
-          "Индивидуальная рецептура",
-          "Возможна частная марка",
-          "Готовый к использованию формат"
+          "Smooth or coarse texture",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "Банки, пакеты, ведра или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "grape": {
         "slug": "grape",
-        "name": "Виноград",
-        "description": "Свежий виноград для международных оптовых и розничных рынков.",
-        "details": "SanHe поддерживает экспорт винограда, включая подбор сортов, бережную обработку, холодовую логистику и индивидуальную упаковку.",
+        "name": "Grape",
+        "description": "Fresh grapes prepared for international wholesale, retail and food-service markets.",
+        "details": "SanHe supports grape export with variety selection, careful handling, cold-chain coordination and customized packing.",
         "specifications": [
-          "Зеленые, красные и темные сорта",
-          "Свежие и плотные ягоды",
-          "Поддержка холодовой цепи",
-          "Розничная и оптовая упаковка"
+          "Green, red and dark grape options",
+          "Fresh and firm berries",
+          "Cold-chain handling",
+          "Retail and wholesale packing"
         ],
-        "packaging": "Картонные коробки, лотки или индивидуальная упаковка",
-        "moq": "Один контейнер",
-        "supplyAbility": "Сезонные поставки",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Carton, punnet or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "minced-garlic": {
         "slug": "minced-garlic",
-        "name": "Измельченный чеснок",
-        "description": "Измельченный чеснок для общественного питания, производства и розничных покупателей.",
-        "details": "SanHe поддерживает индивидуальный размер частиц, рецептуру, упаковку и производство под частной маркой.",
+        "name": "Minced Garlic",
+        "description": "Minced garlic prepared for food-service, manufacturing and retail buyers.",
+        "details": "SanHe supports customized particle size, formulation, packing and private-label production.",
         "specifications": [
-          "Разные размеры частиц",
-          "Индивидуальная рецептура",
-          "Возможна частная марка",
-          "Готовый к использованию формат"
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "Банки, пакеты, ведра или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "minced-ginger": {
         "slug": "minced-ginger",
-        "name": "Измельченный имбирь",
-        "description": "Измельченный имбирь для промышленной переработки и общественного питания.",
-        "details": "SanHe поставляет измельченный имбирь с индивидуальным размером частиц, рецептурой, упаковкой и частной маркой.",
+        "name": "Minced Ginger",
+        "description": "Minced ginger prepared for industrial food processing and food-service use.",
+        "details": "SanHe supplies minced ginger with customized particle size, formulation, packing and private-label options.",
         "specifications": [
-          "Разные размеры частиц",
-          "Индивидуальная рецептура",
-          "Возможна частная марка",
-          "Готовый к использованию формат"
+          "Multiple particle sizes",
+          "Customized formulation",
+          "Private label available",
+          "Ready-to-use format"
         ],
-        "packaging": "Банки, пакеты, ведра или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Jar, pouch, tub or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "mixed-vegetables": {
         "slug": "mixed-vegetables",
-        "name": "Овощная смесь",
-        "description": "Подготовленная овощная смесь для удобного использования в общественном питании и рознице.",
-        "details": "SanHe поддерживает индивидуальные сочетания овощей, размеры нарезки, варианты приправ и упаковки.",
+        "name": "Mixed Vegetables",
+        "description": "Prepared mixed vegetables for convenient food-service and retail applications.",
+        "details": "SanHe supports customized vegetable combinations, cut sizes, seasoning options and packing formats.",
         "specifications": [
-          "Индивидуальные сочетания овощей",
-          "Разные размеры нарезки",
-          "Доступны варианты приправ",
-          "Возможна частная марка"
+          "Customized vegetable combinations",
+          "Multiple cut sizes",
+          "Seasoning options available",
+          "Private label available"
         ],
-        "packaging": "Пакеты, лотки, мягкая упаковка или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "peach": {
         "slug": "peach",
-        "name": "Персик",
-        "description": "Свежие персики для сезонных экспортных программ.",
-        "details": "SanHe координинирует отбор, калибровку, защитную упаковку, холодовую обработку и планирование отгрузки персиков.",
+        "name": "Peach",
+        "description": "Fresh peaches selected for seasonal export programs and international fruit buyers.",
+        "details": "SanHe coordinates peach selection, grading, protective packing, cold-chain handling and shipment planning.",
         "specifications": [
-          "Доступны сезонные сорта",
-          "Калибровка по размеру",
-          "Защитная экспортная упаковка",
-          "Поддержка холодовой цепи"
+          "Seasonal varieties available",
+          "Size grading available",
+          "Protective export packing",
+          "Cold-chain support"
         ],
-        "packaging": "Защитные картонные коробки или индивидуальная упаковка",
-        "moq": "Один контейнер",
-        "supplyAbility": "Сезонные поставки",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Protective carton or customized export packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "seasoned-vegetable-mix": {
         "slug": "seasoned-vegetable-mix",
-        "name": "Приправленная овощная смесь",
-        "description": "Приправленная овощная смесь для розницы, общественного питания и частных марок.",
-        "details": "SanHe поддерживает индивидуальный состав овощей, вкусовые профили, размеры порций и экспортную упаковку.",
+        "name": "Seasoned Vegetable Mix",
+        "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs.",
+        "details": "SanHe supports customized vegetables, seasoning profiles, portion sizes and export-ready packing.",
         "specifications": [
-          "Индивидуальные вкусовые профили",
-          "Различные сочетания овощей",
-          "Готовый к использованию формат",
-          "Возможна частная марка"
+          "Customized seasoning profiles",
+          "Multiple vegetable combinations",
+          "Ready-to-use format",
+          "Private label available"
         ],
-        "packaging": "Пакеты, мягкая упаковка, лотки или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, pouch, tray or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "soup-vegetable-mix": {
         "slug": "soup-vegetable-mix",
-        "name": "Овощная смесь для супа",
-        "description": "Подготовленная овощная смесь для супов, рагу и удобных блюд.",
-        "details": "SanHe поставляет индивидуальные сочетания овощей для супа, размеры нарезки, порционирование и упаковку под частной маркой.",
+        "name": "Soup Vegetable Mix",
+        "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications.",
+        "details": "SanHe supplies customized soup vegetable combinations, cut sizes, portioning and private-label packing.",
         "specifications": [
-          "Готовый к приготовлению формат",
-          "Индивидуальные сочетания",
-          "Разные размеры нарезки",
-          "Возможна частная марка"
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Multiple cut sizes",
+          "Private label available"
         ],
-        "packaging": "Пакеты, лотки, мягкая упаковка или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       },
       "stir-fry-vegetable-mix": {
         "slug": "stir-fry-vegetable-mix",
-        "name": "Овощная смесь для жарки",
-        "description": "Удобная овощная смесь для жарки для розницы, общественного питания и частных марок.",
-        "details": "SanHe предлагает индивидуальные сочетания овощей, размеры порций, варианты приправ и упаковки.",
+        "name": "Stir-fry Vegetable Mix",
+        "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs.",
+        "details": "SanHe provides customized vegetable combinations, portion sizes, seasoning options and packing.",
         "specifications": [
-          "Готовый к приготовлению формат",
-          "Индивидуальные сочетания",
-          "Приправы по запросу",
-          "Возможна частная марка"
+          "Ready-to-cook format",
+          "Customized combinations",
+          "Optional seasoning",
+          "Private label available"
         ],
-        "packaging": "Пакеты, лотки, мягкая упаковка или индивидуальная упаковка",
-        "moq": "По согласованию в зависимости от спецификации",
-        "supplyAbility": "Индивидуальные производственные мощности",
-        "loadingCapacity": "В зависимости от типа упаковки и контейнера"
+        "packaging": "Bag, tray, pouch or customized packaging",
+        "moq": "Negotiable according to product and packing specification",
+        "supplyAbility": "Stable supply supported by coordinated production, processing and storage",
+        "loadingCapacity": "According to packaging specification and container type"
       }
     },
     "detailSections": {
@@ -644,84 +644,84 @@
             "description": "Подготовленные овощные продукты и индивидуальные решения для быстрого приготовления."
           },
           "blueberry": {
-            "name": "Голубика",
-            "description": "Свежая голубика с тщательной сортировкой и поддержкой холодовой цепи."
+            "name": "Blueberry",
+            "description": "Fresh blueberries supplied with careful grading, retail packing and cold-chain support."
           },
           "dumpling-filling": {
-            "name": "Начинка для пельменей",
-            "description": "Подготовленная начинка для производителей, общественного питания и частных марок."
+            "name": "Dumpling Filling",
+            "description": "Prepared dumpling filling for food manufacturers, food-service buyers and private-label programs."
           },
           "fresh-carrot": {
-            "name": "Свежая морковь",
-            "description": "Свежая морковь для международной оптовой и розничной торговли, а также пищевой промышленности."
+            "name": "Fresh Carrot",
+            "description": "Fresh carrots selected for international wholesale, retail and food-processing markets."
           },
           "fresh-taro": {
-            "name": "Свежий таро",
-            "description": "Свежий таро для импортеров, оптовиков и производителей пищевой продукции."
+            "name": "Fresh Taro",
+            "description": "Fresh taro supplied for importers, wholesalers, supermarkets and food manufacturers."
           },
           "frozen-fruits": {
-            "name": "Замороженные фрукты",
-            "description": "Замороженные фрукты для пищевой промышленности, выпечки, напитков и общественного питания."
+            "name": "Frozen Fruits",
+            "description": "Frozen fruits supplied for food processing, bakery, beverage and food-service buyers."
           },
           "frozen-garlic": {
-            "name": "Замороженный чеснок",
-            "description": "Замороженный чеснок для промышленной переработки и предприятий общественного питания."
+            "name": "Frozen Garlic",
+            "description": "Frozen garlic prepared for industrial food processing and food-service applications."
           },
           "frozen-ginger": {
-            "name": "Замороженный имбирь",
-            "description": "Замороженный имбирь для производителей продуктов питания, дистрибьюторов и предприятий общественного питания."
+            "name": "Frozen Ginger",
+            "description": "Frozen ginger products for food manufacturers, distributors and food-service buyers."
           },
           "frozen-green-onion": {
-            "name": "Замороженный зеленый лук",
-            "description": "Замороженный нарезанный зеленый лук для общественного питания и пищевого производства."
+            "name": "Frozen Green Onion",
+            "description": "Frozen chopped green onion for food-service and manufacturing applications."
           },
           "frozen-mixed-vegetables": {
-            "name": "Замороженная овощная смесь",
-            "description": "Замороженные овощные смеси для производителей продуктов питания, супермаркетов и дистрибьюторов."
+            "name": "Frozen Mixed Vegetables",
+            "description": "Frozen mixed vegetables prepared for food manufacturers, supermarkets and distributors."
           },
           "frozen-onion": {
-            "name": "Замороженный лук",
-            "description": "Замороженный лук в удобных форматах для общественного питания и промышленного использования."
+            "name": "Frozen Onion",
+            "description": "Frozen onion supplied in convenient food-service and industrial formats."
           },
           "garlic-paste": {
-            "name": "Чесночная паста",
-            "description": "Готовая к использованию чесночная паста для производителей, общественного питания и частных марок."
+            "name": "Garlic Paste",
+            "description": "Ready-to-use garlic paste for food manufacturers, food-service operators and private-label buyers."
           },
           "ginger-paste": {
-            "name": "Имбирная паста",
-            "description": "Готовая к использованию имбирная паста для промышленности, розницы и общественного питания."
+            "name": "Ginger Paste",
+            "description": "Ready-to-use ginger paste for industrial, retail and food-service applications."
           },
           "grape": {
-            "name": "Виноград",
-            "description": "Свежий виноград для международных оптовых и розничных рынков."
+            "name": "Grape",
+            "description": "Fresh grapes prepared for international wholesale, retail and food-service markets."
           },
           "minced-garlic": {
-            "name": "Измельченный чеснок",
-            "description": "Измельченный чеснок для общественного питания, производства и розничных покупателей."
+            "name": "Minced Garlic",
+            "description": "Minced garlic prepared for food-service, manufacturing and retail buyers."
           },
           "minced-ginger": {
-            "name": "Измельченный имбирь",
-            "description": "Измельченный имбирь для промышленной переработки и общественного питания."
+            "name": "Minced Ginger",
+            "description": "Minced ginger prepared for industrial food processing and food-service use."
           },
           "mixed-vegetables": {
-            "name": "Овощная смесь",
-            "description": "Подготовленная овощная смесь для удобного использования в общественном питании и рознице."
+            "name": "Mixed Vegetables",
+            "description": "Prepared mixed vegetables for convenient food-service and retail applications."
           },
           "peach": {
-            "name": "Персик",
-            "description": "Свежие персики для сезонных экспортных программ."
+            "name": "Peach",
+            "description": "Fresh peaches selected for seasonal export programs and international fruit buyers."
           },
           "seasoned-vegetable-mix": {
-            "name": "Приправленная овощная смесь",
-            "description": "Приправленная овощная смесь для розницы, общественного питания и частных марок."
+            "name": "Seasoned Vegetable Mix",
+            "description": "Seasoned vegetable mix prepared for retail, food-service and customized private-label programs."
           },
           "soup-vegetable-mix": {
-            "name": "Овощная смесь для супа",
-            "description": "Подготовленная овощная смесь для супов, рагу и удобных блюд."
+            "name": "Soup Vegetable Mix",
+            "description": "Prepared vegetable mix designed for soups, stews and convenient meal applications."
           },
           "stir-fry-vegetable-mix": {
-            "name": "Овощная смесь для жарки",
-            "description": "Удобная овощная смесь для жарки для розницы, общественного питания и частных марок."
+            "name": "Stir-fry Vegetable Mix",
+            "description": "Convenient stir-fry vegetable mix for retail, food-service and private-label programs."
           }
         }
       },

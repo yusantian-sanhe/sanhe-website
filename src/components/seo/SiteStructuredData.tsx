@@ -54,7 +54,7 @@ export function SiteStructuredData() {
 
         inLanguage: [
           "en",
-          "zh",
+          "zh-CN",
           "ru",
           "ar",
           "es",
