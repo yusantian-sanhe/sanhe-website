@@ -1,6 +1,6 @@
 # SanHe Product Localization Audit
 
-Generated: 2026-07-16T23:32:14.973Z
+Generated: 2026-07-16T23:49:06.901Z
 
 | Locale | Issues | Affected Products |
 |---|---:|---:|
