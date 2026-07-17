@@ -1,18 +1,15 @@
 import type { MetadataRoute } from "next";
 import { SEO } from "@/constants/seo";
 
-export default function manifest():
-  MetadataRoute.Manifest {
+export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/en",
 
-    name:
-      "SanHe Agricultural Food Supplier",
+    name: "SanHe Agricultural Food Supplier",
 
     short_name: "SanHe",
 
-    description:
-      SEO.defaultDescription,
+    description: SEO.defaultDescription,
 
     start_url: "/en",
 
@@ -32,16 +29,22 @@ export default function manifest():
 
     icons: [
       {
-        src: "/logo-icon.png",
+        src: "/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+        purpose: "any",
+      },
+      {
+        src: "/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/apple-touch-icon.png",
-        sizes: "180x180",
+        src: "/android-chrome-512x512.png",
+        sizes: "512x512",
         type: "image/png",
-        purpose: "any",
+        purpose: "maskable",
       },
     ],
   };
